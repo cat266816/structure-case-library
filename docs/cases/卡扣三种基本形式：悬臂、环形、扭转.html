@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>卡扣三种基本形式：悬臂、环形、扭转 · 结构设计案例库</title>
+  <meta name="description" content="卡扣按受力方式分三类：悬臂（最常用，可设计成可拆或永久）、环形（靠环向应变，如笔帽、瓶盖）、扭转（靠扭转变形）；是整理其他卡扣案例时的基础参照。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/02.html">连接与紧固</a><span class="sep">/</span><span>卡扣三种基本形式：悬臂、环形、扭转</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>卡扣三种基本形式：悬臂、环形、扭转</h1>
+      <p class="lede">卡扣按受力方式分三类：悬臂（最常用，可设计成可拆或永久）、环形（靠环向应变，如笔帽、瓶盖）、扭转（靠扭转变形）；是整理其他卡扣案例时的基础参照。</p>
+      <div class="meta-row"><span class="chip chip-02">连接与紧固</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/snap-fit-cantilever.png" alt="snap-fit-cantilever.png"></figure>
+<p><em>Wikimedia Commons：悬臂卡扣示意</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>（原理类案例，以配合关系代替堆叠）</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>A</td><td>带凸起边缘的卡钩件</td><td>塑料</td><td>来源未给出</td><td>插入时弹性变形</td><td>Design</td></tr><tr><td>B</td><td>卡入区（扣位）</td><td>塑料</td><td>来源未给出</td><td>卡钩回弹后锁住</td><td>Design</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;卡钩件(凸起边缘)&quot;]
+  N1[&quot;弹性变形&quot;]
+  N2[&quot;卡入扣位&quot;]
+  N3[&quot;回弹锁定&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>卡钩（悬臂/环/扭转臂）</td><td>—</td><td>产生弹性变形并锁定</td><td>塑料</td><td>Design</td></tr><tr><td>止挡 (stopper)</td><td>可选</td><td>防止过度变形导致断裂</td><td>—</td><td>Cantilever 段</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>两件对位</li><li>推入，卡钩弹性变形越过凸起</li><li>卡钩回弹进入扣位完成锁定</li></ol>
+<blockquote><p>来自词条的通用描述。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：悬臂：卡钩弯曲变形；环形：外件周长扩张（环向应变）；扭转：卡扣边缘绕轴扭转后释放（Wikipedia）。</li><li><strong>运动关系</strong>：装配时的弹性变形；可拆式悬臂卡扣通常带拨杆或销用于解锁。</li><li><strong>失效风险</strong>：设计时需确定装配时应力位置，否则装配时会断；注塑冷却收缩会造成配合误差；环形卡扣多次使用会产生永久变形而松动（Wikipedia）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>允许应变/挠度公式</td><td>词条只说工程上有挠度、扭矩等计算公式，未给数值</td><td>Design 段</td></tr><tr><td>推荐延伸阅读</td><td>Bayer《Snap-fit joints for plastics: A design guide》、Bonenberger《The First Snap-fit Handbook》</td><td>参考文献</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>装配快、没有散件，可替代螺丝</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>需要更精确的工程计算和模具，成本可能更高</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>新增卡扣案例时先归类到悬臂/环形/扭转</li><li>可拆卡扣加止挡防过度变形</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/苹果%20AirTag%20旋转后盖与内部卡扣.html">苹果 AirTag 旋转后盖与内部卡扣</a></li><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li><li><a href="../cases/活动铰链（Living%20Hinge）：一体成型的柔性铰链.html">活动铰链（Living Hinge）：一体成型的柔性铰链</a></li><li>分类索引：<a href="../categories/02.html">连接与紧固</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://en.wikipedia.org/wiki/Snap-fit" target="_blank" rel="noopener noreferrer">Snap-fit - Wikipedia</a>（持续更新的百科词条，Wikipedia 编者）</li><li>图片来自 Wikimedia Commons（随 Wikipedia 词条展示），遵循原图许可。</li><li>核实：2026-11-13 打开词条核对三种类型定义、悬臂卡扣的可拆/永久说明及生产风险。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/02.html">02-连接与紧固</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>卡扣</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>电池盖</li><li>笔帽</li><li>瓶盖</li><li>通用塑料件</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd>塑料（柔性且有弹性）</dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>注塑</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>Wikipedia</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://en.wikipedia.org/wiki/Snap-fit" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Snap-fit</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">卡扣</span><span class="chip">snap-fit</span><span class="chip">基础原理</span><span class="chip">注塑</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/苹果%20AirTag%20旋转后盖与内部卡扣.html">苹果 AirTag 旋转后盖与内部卡扣</a></li><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li><li><a href="../cases/活动铰链（Living%20Hinge）：一体成型的柔性铰链.html">活动铰链（Living Hinge）：一体成型的柔性铰链</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>钣金折弯件设计规则：最小弯曲半径与预留切口 · 结构设计案例库</title>
+  <meta name="description" content="钣金折弯的大部分缺陷（外侧开裂、回弹、孔变形、角部起皱、单边偏移）都能在设计阶段用几条比例规则避免：B 站专栏《钣金折弯件的结构设计原则》给出最小弯曲半径表（冷轧/镀锌板 R ≥ 2t、黄铜 R ≥ 1t）、直边高度 h ≥ R + 2t、孔边距 L ≥ 2t、侧弯切槽 K ≥ 2t 等 14 条规则。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/07.html">材料与工艺</a><span class="sep">/</span><span>钣金折弯件设计规则：最小弯曲半径与预留切口</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>钣金折弯件设计规则：最小弯曲半径与预留切口</h1>
+      <p class="lede">钣金折弯的大部分缺陷（外侧开裂、回弹、孔变形、角部起皱、单边偏移）都能在设计阶段用几条比例规则避免：B 站专栏《钣金折弯件的结构设计原则》给出最小弯曲半径表（冷轧/镀锌板 R ≥ 2t、黄铜 R ≥ 1t）、直边高度 h ≥ R + 2t、孔边距 L ≥ 2t、侧弯切槽 K ≥ 2t 等 14 条规则。</p>
+      <div class="meta-row"><span class="chip chip-07">材料与工艺</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/sheet-metal-min-bend-radius.png" alt="sheet-metal-min-bend-radius.png"></figure>
+<p><em>图源：B 站专栏 cv10590863（潇洒教育，图带「资料网」水印）；4.1-3 表 最小弯曲半径（铝合金板一栏数值被水印遮挡，无法核实）</em></p>
+<figure><img src="../images/sheet-metal-min-flange.png" alt="sheet-metal-min-flange.png"></figure>
+<p><em>图源：同上；4.1-5 图 弯曲直边高度 h、半径 R、板厚 t</em></p>
+<figure><img src="../images/sheet-metal-bend-relief.png" alt="sheet-metal-bend-relief.png"></figure>
+<p><em>图源：同上；4.1-10a 图 室外机侧板上端圆角处的预留切口（图注 ≥ 2t、60°，B 与盖板厚度 t 相等）</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>沿折弯截面，从内圆角到直边</strong>（单件钣金的几何关系）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>特征</th><th>材料</th><th>尺寸规则</th><th>作用</th><th>依据</th></tr></thead><tbody><tr><td>G1</td><td>弯曲内半径 R</td><td>板材</td><td>冷轧/电镀锌/镀锌板 R ≥ 2t；黄铜板 R ≥ 1t；铝合金板见原表</td><td>防外表面开裂，又不因 R 过大而回弹失准</td><td>第 1 条、4.1-3 表</td></tr><tr><td>G2</td><td>弯曲直边高度 h</td><td>—</td><td>h ≥ R + 2t</td><td>保证足够弯矩，形状准确</td><td>第 2 条</td></tr><tr><td>G3</td><td>弯曲边上的孔</td><td>—</td><td>孔边到弯曲半径 R 中心距离 L ≥ 2t；另一处写孔边距（至底根部）A ≥ 4</td><td>防止孔变形</td><td>第 3、14 条</td></tr><tr><td>G4</td><td>侧面（梯形）弯曲的预留切槽</td><td>—</td><td>槽宽 K ≥ 2t，槽深 L ≥ t + R + K/2，或根部改阶梯形</td><td>防裂纹或畸形</td><td>第 6 条</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart LR
+  T[&quot;板厚 t&quot;] --&gt; R[&quot;内半径 R（冷轧≥2t，黄铜≥1t）&quot;]
+  R --&gt; H[&quot;直边高 h ≥ R+2t&quot;]
+  R --&gt; L[&quot;孔边距 L ≥ 2t&quot;]
+  R --&gt; K[&quot;侧弯切槽 K≥2t，深≥t+R+K/2&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>特征</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>工艺定位孔</td><td>按需</td><td>U 形件两边不等长时防偏移；防一边向内收缩</td><td>同板材</td><td>第 5、11 条</td></tr><tr><td>预留切口/切槽</td><td>按需</td><td>防角部挤料起皱、直角两侧褶皱、回弹、冲孔后折弯开裂</td><td>同板材</td><td>第 6–10 条</td></tr><tr><td>让开阶梯线的弯曲线或切口</td><td>按需</td><td>凸部弯曲防根部开裂</td><td>同板材</td><td>第 13 条</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>单件成形，无装配；加工顺序上，来源提到冲孔后再折弯时要预留防裂切口（第 10 条）。</p>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：折弯时外层受拉、内层受压；R 过小外表面开裂，R 过大回弹大（第 1 条）。</li><li><strong>运动关系</strong>：U 形件两边不等长时，折弯时会向一边移位（第 5 条）。</li><li><strong>失效风险</strong>：外侧裂纹、孔变形、残余圆弧（a &lt; R 时，第 4 条）、角部起皱、单边收缩。补充来源指出：硬铝等脆性材料或硬态板材折弯易外圆角开裂；提高刚度不能靠换高强度同类材料，要改形状或换弹性模量更高的材料。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>最小弯曲半径</td><td>冷轧板、电镀锌板、镀锌板 R ≥ 2t；黄铜板 R ≥ 1t；铝合金板数值被水印遮挡</td><td>4.1-3 表</td></tr><tr><td>直边高度</td><td>h ≥ R + 2t</td><td>第 2 条</td></tr><tr><td>孔到弯曲中心</td><td>L ≥ 2t</td><td>第 3 条</td></tr><tr><td>残余圆弧</td><td>a ≥ R</td><td>第 4 条</td></tr><tr><td>U 形件</td><td>两边最好等长，否则加工艺定位孔</td><td>第 5 条</td></tr><tr><td>侧弯切槽</td><td>K ≥ 2t，L ≥ t + R + K/2</td><td>第 6 条</td></tr><tr><td>孔边距（至底根部）</td><td>A ≥ 4（单位按原文，未写明）</td><td>第 14 条</td></tr><tr><td>选材原则（补充）</td><td>减少材料品种和板厚规格；需折弯的件要求足够塑性、较低屈服极限；硬铝 2A06 不能折弯</td><td>补充来源 1.1.1、1.1.2.2、1.1.3.2</td></tr><tr><td>最小翻边、K 因子、展开计算</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>规则全部以板厚 t 的倍数给出，可直接写进设计检查表</li><li>每条规则都对应一种具体缺陷，便于排查</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>文章为规则汇编，未给出实测或出处；图片疑为转载</li><li>铝合金等材料数据不完整（被水印遮挡）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>钣金检查清单：R、h ≥ R + 2t、孔距 ≥ 2t、a ≥ R、侧弯切槽、U 形件对称</li><li>角部、凸部、冲孔后折弯处默认加工艺切口</li><li>硬态/脆性材料要放大弯曲半径或换状态，不要硬折</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/特斯拉%20Giga%20Press%20一体化压铸车身件.html">特斯拉 Giga Press 一体化压铸车身件</a></li><li><a href="../cases/Mac%20Pro%202019%20旋转把手外壳锁与免工具模块锁.html">Mac Pro 2019 旋转把手外壳锁与免工具模块锁</a></li><li>分类索引：<a href="../categories/07.html">材料与工艺</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.bilibili.com/read/cv10590863" target="_blank" rel="noopener noreferrer">钣金折弯件的结构设计原则</a>（B 站专栏，2021-04-02，潇洒教育）</li><li>补充来源：<a href="https://www.bilibili.com/read/cv16802986" target="_blank" rel="noopener noreferrer">钣金结构设计工艺手册1.1</a>（B 站专栏，2022-05-26，可口可乐要加冰ice）</li><li>核实：2026-11-13 打开两篇专栏原文核对 14 条规则与 4.1-3 表；表中铝合金一栏被图片水印遮挡，未录入数值。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/07.html">07-材料与工艺</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>钣金</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>钣金机箱/侧板</li><li>空调室外机侧板</li><li>支架</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>冷轧板</li><li>电镀锌板</li><li>镀锌板</li><li>黄铜板</li><li>铝合金板</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>钣金冲压</li><li>折弯</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>B站</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.bilibili.com/read/cv10590863" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/read/cv10590863</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.bilibili.com/read/cv16802986" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/read/cv16802986</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（B 站专栏原文；配图带「资料网」水印，疑为整理转载，原始出处未注明）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">钣金</span><span class="chip">折弯</span><span class="chip">弯曲半径</span><span class="chip">工艺切口</span><span class="chip">DFM</span><span class="chip">中文来源</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/特斯拉%20Giga%20Press%20一体化压铸车身件.html">特斯拉 Giga Press 一体化压铸车身件</a></li><li><a href="../cases/Mac%20Pro%202019%20旋转把手外壳锁与免工具模块锁.html">Mac Pro 2019 旋转把手外壳锁与免工具模块锁</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例） · 结构设计案例库</title>
+  <meta name="description" content="初代 Surface Laptop 没有可见螺丝：键盘面覆一层胶粘的 Alcantara 织物，下面的金属屏蔽板与塑料件之间看似卡扣、实为超声波点焊——只能破坏性打开，0/10。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/02.html">连接与紧固</a><span class="sep">/</span><span>微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</h1>
+      <p class="lede">初代 Surface Laptop 没有可见螺丝：键盘面覆一层胶粘的 Alcantara 织物，下面的金属屏蔽板与塑料件之间看似卡扣、实为超声波点焊——只能破坏性打开，0/10。</p>
+      <div class="meta-row"><span class="chip chip-02">连接与紧固</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip badge-neg">反面案例</span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/surface-laptop-welds.jpg" alt="surface-laptop-welds.jpg"></figure>
+<p><em>iFixit：织物下的金属屏蔽板与塑料点焊</em></p>
+<figure><img src="../images/surface-laptop-alcantara.jpg" alt="surface-laptop-alcantara.jpg"></figure>
+<p><em>iFixit：撬起 Alcantara 覆面</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从 C 面（键盘面）向下</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>Alcantara 织物覆面</td><td>Alcantara</td><td>来源未给出</td><td>胶粘（撬时以为是卡扣，Step 5 证实为点焊）</td><td>Step 4-5</td></tr><tr><td>L2</td><td>金属屏蔽板</td><td>金属</td><td>来源未给出</td><td>下方胶粘 + 塑料件超声波点焊</td><td>Step 5</td></tr><tr><td>L3</td><td>键盘板</td><td>—</td><td>来源未给出</td><td>长排线连接，连接器压在主板卡扣屏蔽罩下</td><td>Step 6</td></tr><tr><td>L4</td><td>主板 / 散热 / 电池</td><td>—</td><td>电池 45.2 Wh</td><td>—</td><td>Step 13</td></tr><tr><td>底面</td><td>橡胶脚垫</td><td>橡胶</td><td>来源未给出</td><td>下面是金属脚而非螺丝</td><td>Step 4</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;Alcantara(胶粘)&quot;]
+  N1[&quot;金属屏蔽板(超声点焊+胶)&quot;]
+  N2[&quot;键盘板&quot;]
+  N3[&quot;主板/散热/电池&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>Alcantara 覆面</td><td>1</td><td>外观、触感</td><td>织物</td><td>Step 4</td></tr><tr><td>超声波焊点</td><td>多处（数量来源未给出）</td><td>固定屏蔽板与塑料件</td><td>塑料</td><td>Step 5</td></tr><tr><td>电池</td><td>1</td><td>45.2 Wh</td><td>锂电</td><td>Step 13</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>(按拆解顺序反推) 装电池、主板、散热</li><li>键盘板接排线</li><li>屏蔽板与塑料件超声波点焊、胶粘</li><li>粘 Alcantara 覆面</li></ol>
+<blockquote><p>来源只给出（破坏性）拆解顺序，以上为反推。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：来源未讨论受力。</li><li><strong>运动关系</strong>：无相对运动（永久连接）。</li><li><strong>失效风险</strong>：打开过程会破坏焊点与织物，无法复原；电池更换困难且危险（结论）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>可维修评分</td><td>0/10</td><td>Step 15</td></tr><tr><td>电池</td><td>45.2 Wh</td><td>Step 13</td></tr><tr><td>焊点数量/尺寸</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>外观无螺丝、整体感强</li><li>织物覆面带来独特触感</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>永久连接，无法非破坏性维修</li><li>电池/接口更换代价极高</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>超声波点焊适合「永不打开」的部件；需要维修的面不要用</li><li>外观覆面（织物、皮革）与可拆结构冲突时，考虑做成可拆的饰板</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li>分类索引：<a href="../categories/02.html">连接与紧固</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/Microsoft+Surface+Laptop+Teardown/92915" target="_blank" rel="noopener noreferrer">Microsoft Surface Laptop Teardown</a>（2017-06-16，Evan Noronha / iFixit）</li><li>核实：2026-11-13 通过 iFixit API 读取 15 步原文，核对 Alcantara、超声波点焊、电池与评分。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/02.html">02-连接与紧固</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>超声波焊接/热熔</li><li>胶粘</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>笔记本电脑</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>Alcantara 织物</li><li>塑料</li><li>金属屏蔽板</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>超声波点焊</li><li>胶粘</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/Microsoft+Surface+Laptop+Teardown/92915" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Microsoft+Surface+Laptop+Teardown/92915</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">超声波焊接</span><span class="chip">胶粘</span><span class="chip">织物覆面</span><span class="chip">不可维修</span><span class="chip">反面案例</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

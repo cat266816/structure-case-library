@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fairphone 5 卡扣后盖与免胶可换电池 · 结构设计案例库</title>
+  <meta name="description" content="Fairphone 5 的后盖只靠一圈卡扣扣在机身上，用指甲从右下角缺口撬开即可取下；电池不粘胶，抠起底边拉片就能拿出；屏幕用 8 颗 3.9 mm 螺丝 + 一个压接连接器固定——在保持 IP55 的同时做到 iFixit 10/10 可维修分。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/06.html">拆解与可维修</a><span class="sep">/</span><span>Fairphone 5 卡扣后盖与免胶可换电池</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>Fairphone 5 卡扣后盖与免胶可换电池</h1>
+      <p class="lede">Fairphone 5 的后盖只靠一圈卡扣扣在机身上，用指甲从右下角缺口撬开即可取下；电池不粘胶，抠起底边拉片就能拿出；屏幕用 8 颗 3.9 mm 螺丝 + 一个压接连接器固定——在保持 IP55 的同时做到 iFixit 10/10 可维修分。</p>
+      <div class="meta-row"><span class="chip chip-06">拆解与可维修</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <aside class="callout callout-note"><div class="callout-title">与已收录/同轮案例的区别</div><p><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a> 是笔记本的模块化；本篇是<strong>手机</strong>这种高度紧凑、要防水的产品如何用「卡扣后盖 + 无胶电池 + 螺丝屏幕」实现徒手换电池；与 <a href="../cases/苹果%20iPhone%2016%20电解脱粘电池胶.html">苹果 iPhone 16 电解脱粘电池胶</a> 形成「改良胶」与「不用胶」两条路线的对照。</p></aside>
+<h2>配图</h2>
+<figure><img src="../images/fairphone5-back-cover-clips.jpg" alt="fairphone5-back-cover-clips.jpg"></figure>
+<p><em>图源：iFixit Fairphone 5 Battery Replacement Step 3；沿周边掀起后盖，松开一圈卡扣</em></p>
+<figure><img src="../images/fairphone5-battery-tab.jpg" alt="fairphone5-battery-tab.jpg"></figure>
+<p><em>图源：同上 Step 4；用指甲抠起电池底边拉片取出电池</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从背面到正面</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>后盖（右下角有撬口缺口）</td><td>来源未给出</td><td>来源未给出</td><td>周边一圈卡扣</td><td>电池指南 Step 2–3</td></tr><tr><td>L2</td><td>电池（底边带拉片）</td><td>锂电池</td><td>来源未给出</td><td>上缘插入框架凹槽后压入；无胶</td><td>电池指南 Step 4</td></tr><tr><td>L3</td><td>机身框架</td><td>来源未给出</td><td>来源未给出</td><td>—</td><td>屏幕指南 Step 5–6</td></tr><tr><td>L4</td><td>屏幕总成</td><td>—</td><td>—</td><td>8 颗 3.9 mm 十字螺丝 + 压接连接器</td><td>屏幕指南 Step 5–7</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  C[&quot;后盖（周边卡扣，右下角撬口）&quot;] --&gt; B[&quot;电池（拉片，无胶，上缘插槽）&quot;]
+  B --&gt; F[&quot;框架&quot;]
+  F --&gt; D[&quot;屏幕（8×3.9mm 螺丝 + 压接连接器）&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>后盖卡扣</td><td>周边一圈（数量来源未给出）</td><td>固定后盖</td><td>来源未给出</td><td>电池指南 Step 3</td></tr><tr><td>电池拉片</td><td>1</td><td>取电池的抓手</td><td>来源未给出</td><td>电池指南 Step 4</td></tr><tr><td>屏幕螺丝</td><td>8（长 3.9 mm，十字）</td><td>固定屏幕</td><td>来源未给出</td><td>屏幕指南 Step 5</td></tr><tr><td>屏幕压接连接器</td><td>1</td><td>屏幕电连接</td><td>—</td><td>屏幕指南 Step 7</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>电池上缘先滑进框架内的凹槽，再把电池压入到位。</li><li>后盖对准机身，沿周边按压直到所有卡扣扣回。</li><li>（换屏时）屏幕压接连接器先对准一侧按下至「咔」声，再按另一侧，不要按中间；然后上 8 颗螺丝。</li></ol>
+<blockquote><p>依据：电池指南 Step 3–4 的装配提示；屏幕指南 Step 7。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：后盖靠卡扣保持；电池由框架凹槽约束（来源未说明有无其他固定）；屏幕由 8 颗螺丝压紧在框架上。</li><li><strong>运动关系</strong>：静态；拆卸时后盖从右下角开始逐段脱扣。</li><li><strong>失效风险</strong>：压接连接器错位时按压会弄弯针脚造成永久损坏（屏幕指南 Step 7）。卡扣反复开合寿命、防水密封方式来源未给出。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>撬口</td><td>后盖右下角缺口，指甲或撬棒即可</td><td>电池指南 Step 2</td></tr><tr><td>后盖固定</td><td>周边卡扣，无螺丝无胶</td><td>电池指南 Step 3</td></tr><tr><td>电池固定</td><td>无胶，上缘入槽 + 拉片取出</td><td>电池指南 Step 4</td></tr><tr><td>屏幕</td><td>8 颗 3.9 mm 螺丝</td><td>屏幕指南 Step 5</td></tr><tr><td>防护等级</td><td>IP55（iFixit 新闻）</td><td>补充来源 iFixit 新闻</td></tr><tr><td>可维修评分</td><td>10/10</td><td>iFixit 设备页</td></tr><tr><td>卡扣尺寸、密封件形式</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>换电池徒手完成，3 步即可</li><li>无胶电池避免了拉胶条断裂、溶剂、加热等维修风险</li><li>卡扣后盖开合方向明确（固定起撬点）</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>卡扣后盖限制了防水等级（来源只给 IP55，未与胶粘机型比较）</li><li>后盖卡扣反复开合可能磨损（推断，来源未给寿命数据）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>为卡扣后盖设计唯一的起撬缺口，指引用户从正确位置开始脱扣</li><li>电池「一端插槽 + 另一端拉片」的免胶定位方式，适合需要用户自换的电池</li><li>压接连接器在维修指南里写明按压顺序，防止针脚损坏</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/苹果%20iPhone%2016%20电解脱粘电池胶.html">苹果 iPhone 16 电解脱粘电池胶</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/塑料外壳止口与扣位：间隙参数与三个翻车案例.html">塑料外壳止口与扣位：间隙参数与三个翻车案例</a></li><li>分类索引：<a href="../categories/06.html">拆解与可维修</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Guide/Fairphone+5+Battery+Replacement/168819" target="_blank" rel="noopener noreferrer">Fairphone 5 Battery Replacement</a>（iFixit 指南，Alex Diaz-Kokaisl，发布于 2023-12-22）</li><li>补充来源：<a href="https://www.ifixit.com/Guide/Fairphone+5+Screen+Replacement/168828" target="_blank" rel="noopener noreferrer">Fairphone 5 Screen Replacement</a>；<a href="https://www.ifixit.com/Device/Fairphone_5" target="_blank" rel="noopener noreferrer">Fairphone 5 设备页</a>（10/10 评分）；<a href="https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16" target="_blank" rel="noopener noreferrer">We Hot-Wired the iPhone 16</a>（提到 Fairphone 在 IP55 下保留可换电池）</li><li>核实：2026-11-13 通过 iFixit API 读取两份指南全部步骤与设备页评分段落。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/06.html">06-拆解与可维修</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>可维修设计</li><li>模块化设计</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>智能手机</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd>未注明</dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Guide/Fairphone+5+Battery+Replacement/168819" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Guide/Fairphone+5+Battery+Replacement/168819</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.ifixit.com/Guide/Fairphone+5+Screen+Replacement/168828" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Guide/Fairphone+5+Screen+Replacement/168828</a></li><li><a class="source-link" href="https://www.ifixit.com/Device/Fairphone_5" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Device/Fairphone_5</a></li><li><a class="source-link" href="https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>部分核实（拆装步骤已核实；卡扣数量、密封结构细节来源未给出；IP55 来自 iFixit 新闻一句话）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">卡扣</span><span class="chip">可换电池</span><span class="chip">免胶</span><span class="chip">模块化</span><span class="chip">可维修</span><span class="chip">手机</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/苹果%20iPhone%2016%20电解脱粘电池胶.html">苹果 iPhone 16 电解脱粘电池胶</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/塑料外壳止口与扣位：间隙参数与三个翻车案例.html">塑料外壳止口与扣位：间隙参数与三个翻车案例</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

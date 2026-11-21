@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三星 Galaxy Fold 一代铰链与屏幕支撑结构 · 结构设计案例库</title>
+  <meta name="description" content="初代 Galaxy Fold 用「4 个弹簧卡扣 + 上下 2 个可横向浮动的铰链 + 中间 1 个齿轮同步铰链」实现开合，屏幕只在外缘粘接、中间留空让屏幕随折叠浮动。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/03.html">转轴与铰链</a><span class="sep">/</span><span>三星 Galaxy Fold 一代铰链与屏幕支撑结构</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>三星 Galaxy Fold 一代铰链与屏幕支撑结构</h1>
+      <p class="lede">初代 Galaxy Fold 用「4 个弹簧卡扣 + 上下 2 个可横向浮动的铰链 + 中间 1 个齿轮同步铰链」实现开合，屏幕只在外缘粘接、中间留空让屏幕随折叠浮动。</p>
+      <div class="meta-row"><span class="chip chip-03">转轴与铰链</span>
+<span class="chip chip-diff-高级">高级</span>
+<span class="stars">★★★★★<span class="off"></span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/galaxy-fold-hinge.jpg" alt="galaxy-fold-hinge.jpg"></figure>
+<p><em>iFixit：铰链总成（弹簧卡扣、上下铰链、中间齿轮铰链）</em></p>
+<figure><img src="../images/galaxy-fold-hinge2.jpg" alt="galaxy-fold-hinge2.jpg"></figure>
+<p><em>iFixit：两根排线跨过铰链连接两半机身</em></p>
+<figure><img src="../images/galaxy-fold-display-armor.jpg" alt="galaxy-fold-display-armor.jpg"></figure>
+<p><em>iFixit：屏幕背面的金属支撑层</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从折叠屏正面向内</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>高分子保护层 (Advanced Polymer Protective Layer)</td><td>高分子膜</td><td>来源未给出</td><td>与屏幕一体，延伸到边框下方</td><td>Step 18</td></tr><tr><td>L2</td><td>柔性 OLED</td><td>塑料基板 OLED</td><td>来源未给出</td><td>仅外缘粘接 + 新增黑色胶条</td><td>Step 17</td></tr><tr><td>L3</td><td>带缺口的金属加强层（像锁子甲）</td><td>金属</td><td>来源未给出</td><td>粘在屏幕背面</td><td>Step 18</td></tr><tr><td>L4</td><td>金属支撑板</td><td>金属</td><td>来源未给出</td><td>边缘粘在机身框架上，中间脊部无胶</td><td>Step 18</td></tr><tr><td>L5</td><td>铰链胶带</td><td>胶带</td><td>来源未给出</td><td>覆盖铰链内侧</td><td>Step 19</td></tr><tr><td>L6</td><td>铰链总成</td><td>来源未给出</td><td>来源未给出</td><td>固定在中轴脊上</td><td>Step 20</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;高分子保护层&quot;]
+  N1[&quot;柔性 OLED&quot;]
+  N2[&quot;金属加强层&quot;]
+  N3[&quot;金属支撑板(仅边缘粘接)&quot;]
+  N4[&quot;铰链胶带&quot;]
+  N5[&quot;铰链总成&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3 --&gt; N4 --&gt; N5
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>弹簧卡扣</td><td>4</td><td>把屏幕锁定在展开状态</td><td>来源未给出</td><td>Step 20</td></tr><tr><td>上下铰链（圆形滑动铰链）</td><td>2</td><td>允许少量横向游动以吸收扭转</td><td>来源未给出</td><td>Step 20-21</td></tr><tr><td>中间齿轮铰链</td><td>1</td><td>均分开合力，保证两半同步打开</td><td>来源未给出</td><td>Step 20</td></tr><tr><td>跨铰链排线</td><td>2</td><td>连接两半机身；两端在弯折前固定</td><td>来源未给出</td><td>Step 20</td></tr><tr><td>T 形保护盖 + 柔性垫片</td><td>2 处（折痕两端）</td><td>挡住折痕两端的缝隙防异物</td><td>塑料/柔性材料</td><td>Step 16</td></tr><tr><td>内屏塑料边框</td><td>1</td><td>遮住屏幕边缘（约 2 mm）</td><td>塑料</td><td>Step 16</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>(按拆解顺序反推) 铰链总成固定在中轴脊上，贴铰链胶带</li><li>两根排线穿过铰链，两端在弯折前固定</li><li>屏幕（含金属加强层和支撑板）放入，仅外缘粘接</li><li>装折痕两端 T 形保护盖与垫片，再粘上塑料边框</li><li>装两侧主板、电池，最后粘上外屏和后盖</li></ol>
+<blockquote><p>来源只给出拆解顺序，以上为按拆解顺序反推；iFixit 称三星习惯「从正面开始组装，最后装后盖」。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：开合力经中间齿轮铰链分配到两半机身，使两侧同步；上下铰链的横向游隙吸收扭转力（原文）。展开后由 4 个弹簧卡扣锁定。</li><li><strong>运动关系</strong>：两半机身绕脊部旋转；屏幕不是完全压平，合上时像活页夹而非书本，只在外缘接触（Step 4）；屏幕中间不粘胶，允许折叠时浮动。</li><li><strong>失效风险</strong>：屏幕与金属背板之间夹入任何异物都会成为致命压点；铰链脊两侧仍有能插进撬片的缝隙，会进灰（Step 3、19）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>屏幕边框覆盖宽度</td><td>约 2 mm（「barely cover two millimeters」）</td><td>Step 16</td></tr><tr><td>折叠寿命</td><td>三星称折叠超过 200,000 次（厂商数据）</td><td>Step 21</td></tr><tr><td>整机重量</td><td>276 g</td><td>Step 1</td></tr><tr><td>两块电池尺寸</td><td>42.2×76.8×3.8 mm；42.6×64.3×4.8 mm</td><td>Step 8</td></tr><tr><td>铰链尺寸/齿轮模数</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>齿轮同步 + 弹簧锁定，开合手感稳定（iFixit 认为设计扎实）</li><li>屏幕中间不粘，降低折叠应力</li><li>排线跨铰链的固定方式考虑了弯折寿命，排线可单独更换</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>屏幕非常脆弱，维修评分 2/10</li><li>防尘只靠胶带和端盖，脊部缝隙仍会进灰</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>多段铰链分工：同步（齿轮）、锁定（弹簧卡扣）、容差（浮动铰链）分开做</li><li>柔性件跨转轴：两端先固定、中段留自由弯曲长度</li><li>大柔性面板只粘外缘，中间允许相对滑移</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/三星%20Galaxy%20Z%20Flip%20铰链与尼龙防尘刷.html">三星 Galaxy Z Flip 铰链与尼龙防尘刷</a></li><li><a href="../cases/微软%20Surface%20Duo%20360°%20双铰链.html">微软 Surface Duo 360° 双铰链</a></li><li><a href="../cases/三星%20Galaxy%20Z%20Fold3%20折叠屏防水结构.html">三星 Galaxy Z Fold3 折叠屏防水结构</a></li><li>分类索引：<a href="../categories/03.html">转轴与铰链</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/Samsung+Galaxy+Fold+Teardown/122600" target="_blank" rel="noopener noreferrer">Samsung Galaxy Fold Teardown</a>（2019-04-24（页面首发；后更新为零售版拆解），Taylor Dixon / iFixit）</li><li>核实：2026-11-13 通过 iFixit 公开 API 读取全部 23 步原文，核对铰链数量、功能、屏幕粘接方式与尺寸数据。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/03.html">03-转轴与铰链</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>折叠屏铰链</li><li>齿轮同步机构</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>折叠屏手机</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>金属支撑板</li><li>塑料边框</li><li>柔性 OLED（塑料基板）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>高级</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★★<span class="off"></span></span> 5/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/Samsung+Galaxy+Fold+Teardown/122600" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Samsung+Galaxy+Fold+Teardown/122600</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">折叠屏</span><span class="chip">铰链</span><span class="chip">齿轮同步</span><span class="chip">防尘</span><span class="chip">拆解</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/三星%20Galaxy%20Z%20Flip%20铰链与尼龙防尘刷.html">三星 Galaxy Z Flip 铰链与尼龙防尘刷</a></li><li><a href="../cases/微软%20Surface%20Duo%20360°%20双铰链.html">微软 Surface Duo 360° 双铰链</a></li><li><a href="../cases/三星%20Galaxy%20Z%20Fold3%20折叠屏防水结构.html">三星 Galaxy Z Fold3 折叠屏防水结构</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

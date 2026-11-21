@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>微软 Surface Duo 360° 双铰链 · 结构设计案例库</title>
+  <meta name="description" content="Surface Duo 不用柔性屏，而用两块独立屏 + 两个齿轮铰链（各用 3 颗螺丝固定在稳定杆上）实现 360° 翻折，排线从铰链壳体内穿过以防被夹，结构比折叠屏铰链简单得多。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/03.html">转轴与铰链</a><span class="sep">/</span><span>微软 Surface Duo 360° 双铰链</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>微软 Surface Duo 360° 双铰链</h1>
+      <p class="lede">Surface Duo 不用柔性屏，而用两块独立屏 + 两个齿轮铰链（各用 3 颗螺丝固定在稳定杆上）实现 360° 翻折，排线从铰链壳体内穿过以防被夹，结构比折叠屏铰链简单得多。</p>
+      <div class="meta-row"><span class="chip chip-03">转轴与铰链</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/surface-duo-hinge.jpg" alt="surface-duo-hinge.jpg"></figure>
+<p><em>iFixit：齿轮铰链与稳定杆</em></p>
+<figure><img src="../images/surface-duo-spine.jpg" alt="surface-duo-spine.jpg"></figure>
+<p><em>iFixit：拆下中轴脊后的两侧框架</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从屏幕面向背面（单侧机身）</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>屏幕盖板玻璃 + AMOLED</td><td>玻璃 / OLED</td><td>展开整机厚 4.9 mm</td><td>胶粘</td><td>Step 2、5</td></tr><tr><td>L2</td><td>主板 / 电池</td><td>—</td><td>来源未给出</td><td>电池粘在后盖上</td><td>Step 4</td></tr><tr><td>L3</td><td>石墨烯散热片 + 胶条</td><td>石墨烯</td><td>来源未给出</td><td>粘接</td><td>Step 4</td></tr><tr><td>L4</td><td>后盖玻璃</td><td>玻璃</td><td>来源未给出</td><td>胶粘</td><td>Step 4</td></tr><tr><td>中轴</td><td>稳定杆 + 齿轮铰链 ×2 + 中轴脊</td><td>金属（框架）</td><td>来源未给出</td><td>每个铰链 3 颗螺丝；脊部大量 Torx 小螺丝</td><td>Step 11-12</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;屏幕玻璃+AMOLED&quot;]
+  N1[&quot;主板/电池&quot;]
+  N2[&quot;石墨烯散热片&quot;]
+  N3[&quot;后盖玻璃&quot;]
+  N4[&quot;↔ 稳定杆+齿轮铰链+中轴脊&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3 --&gt; N4
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>齿轮铰链</td><td>2</td><td>360° 翻折</td><td>来源未给出</td><td>Step 12</td></tr><tr><td>稳定杆 / 两侧框架</td><td>2</td><td>提供结构与抗扭刚度，让两半均匀打开，并作为内部件安装点</td><td>来源未给出</td><td>Step 11</td></tr><tr><td>多股互连线缆</td><td>2</td><td>连接两半，穿过铰链</td><td>多股线（非扁平排线）</td><td>Step 6</td></tr><tr><td>电池</td><td>2</td><td>10.37 Wh + 2.89 Wh</td><td>锂电</td><td>Step 7</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>(按拆解顺序反推) 两个齿轮铰链各用 3 颗螺丝固定到两侧稳定杆</li><li>装中轴脊（大量 Torx 螺丝）</li><li>互连线缆从铰链壳体内穿到另一侧</li><li>装主板、电池、屏幕与后盖（均胶粘）</li></ol>
+<blockquote><p>来源只给出拆解顺序，以上为按拆解顺序反推。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：开合扭矩由两个齿轮铰链传到两侧稳定杆/框架；框架提供抗扭刚度，使两半「均匀打开」（Step 11）。</li><li><strong>运动关系</strong>：两半绕中轴 0–360° 翻转；线缆进入铰链壳体，避免在翻折时被夹（Step 12）。iFixit 将其类比为缩小版的 360° 笔记本铰链。</li><li><strong>失效风险</strong>：来源未提到铰链失效；可维修性问题集中在大量胶、三角螺丝、电池连接器压在主板下（Step 7、14）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>展开厚度</td><td>4.9 mm</td><td>Step 2</td></tr><tr><td>折叠厚度</td><td>9.8 mm（初代 Galaxy Fold 为 17 mm）</td><td>Step 2</td></tr><tr><td>铰链固定</td><td>每个铰链 3 颗螺丝</td><td>Step 12</td></tr><tr><td>铰链扭矩</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>避开柔性屏折痕问题，铰链结构简单</li><li>线缆走铰链壳体内部，受保护</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>双屏中间有缝</li><li>整机胶粘严重，可维修性 2/10</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>360° 双轴铰链 + 线缆穿壳体是成熟的笔记本方案，可迁移到小型设备</li><li>两侧框架同时承担刚度和安装点，减少零件</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/三星%20Galaxy%20Fold%20一代铰链与屏幕支撑结构.html">三星 Galaxy Fold 一代铰链与屏幕支撑结构</a></li><li><a href="../cases/三星%20Galaxy%20Z%20Flip%20铰链与尼龙防尘刷.html">三星 Galaxy Z Flip 铰链与尼龙防尘刷</a></li><li>分类索引：<a href="../categories/03.html">转轴与铰链</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/Microsoft+Surface+Duo+Teardown/136576" target="_blank" rel="noopener noreferrer">Microsoft Surface Duo Teardown</a>（2020-09-11，Taylor Dixon / iFixit）</li><li>核实：2026-11-13 通过 iFixit API 读取 14 步原文，核对铰链数量、螺丝数量、厚度与线缆描述。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/03.html">03-转轴与铰链</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>360°转轴</li><li>线缆穿铰链</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>双屏手机</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>玻璃</li><li>金属框架（稳定杆）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/Microsoft+Surface+Duo+Teardown/136576" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Microsoft+Surface+Duo+Teardown/136576</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">铰链</span><span class="chip">360°</span><span class="chip">线缆走线</span><span class="chip">双屏</span><span class="chip">拆解</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/三星%20Galaxy%20Fold%20一代铰链与屏幕支撑结构.html">三星 Galaxy Fold 一代铰链与屏幕支撑结构</a></li><li><a href="../cases/三星%20Galaxy%20Z%20Flip%20铰链与尼龙防尘刷.html">三星 Galaxy Z Flip 铰链与尼龙防尘刷</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

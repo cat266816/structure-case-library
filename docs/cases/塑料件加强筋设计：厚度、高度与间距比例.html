@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>塑料件加强筋设计：厚度、高度与间距比例 · 结构设计案例库</title>
+  <meta name="description" content="注塑件要提高刚度，应该「矮而多」地加筋而不是加高：B 站专栏《塑料产品结构设计基础知识——加强筋的设计》给出筋厚 0.4–0.6 t（t 为壁厚）、筋高 ≤ 3 t、筋间距 ≥ 4 t、斜度 &gt; 1.5° 等比例规则，并分别讲了箱体转角、螺丝柱和支撑面的加强筋做法。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/01.html">壳体与外观件</a><span class="sep">/</span><span>塑料件加强筋设计：厚度、高度与间距比例</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>塑料件加强筋设计：厚度、高度与间距比例</h1>
+      <p class="lede">注塑件要提高刚度，应该「矮而多」地加筋而不是加高：B 站专栏《塑料产品结构设计基础知识——加强筋的设计》给出筋厚 0.4–0.6 t（t 为壁厚）、筋高 ≤ 3 t、筋间距 ≥ 4 t、斜度 &gt; 1.5° 等比例规则，并分别讲了箱体转角、螺丝柱和支撑面的加强筋做法。</p>
+      <div class="meta-row"><span class="chip chip-01">壳体与外观件</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/rib-design-dimensions.jpg" alt="rib-design-dimensions.jpg"></figure>
+<p><em>图源：B 站专栏 cv14903048（UG产品设计教学）；加强筋尺寸 A/B/C/D 标注示意</em></p>
+<figure><img src="../images/rib-design-ratio.jpg" alt="rib-design-ratio.jpg"></figure>
+<p><em>图源：同上（图片带「知乎」水印）；另一张比例图：e = 0.6–0.7a、f ≥ 2a（a 为壁厚），与正文 A = 0.4–0.6 t 的取值不同</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从外观面向内</strong>（单层壁 + 内侧加强筋）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件/特征</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1（外观面）</td><td>主壁</td><td>塑料</td><td>壁厚 t（来源未给具体值）</td><td>一体注塑</td><td>第 3 节</td></tr><tr><td>L2</td><td>加强筋根部</td><td>同上</td><td>大端厚 A = 0.4–0.6 t，一般取 50%</td><td>一体</td><td>第 3 节</td></tr><tr><td>L3</td><td>加强筋本体</td><td>同上</td><td>高 B ≤ 3 t；相邻筋距 C ≥ 4 t；斜度 &gt; 1.5°</td><td>一体</td><td>第 1、3 节</td></tr><tr><td>L4（支撑面处）</td><td>筋顶</td><td>同上</td><td>低于支撑面至少 0.5 mm</td><td>一体</td><td>第 6 节</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  W[&quot;主壁 t（外观面）&quot;] --&gt; R[&quot;筋根 A=0.4~0.6t（防缩水凹陷）&quot;]
+  R --&gt; H[&quot;筋高 B≤3t，斜度&gt;1.5°&quot;]
+  H --&gt; S[&quot;相邻筋间距 C≥4t&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>特征</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>长条形/圆形网格加强筋</td><td>按需</td><td>提高刚度、减少扭歪、利于充填</td><td>同壳体</td><td>第 2 节</td></tr><tr><td>转角/侧壁加强筋</td><td>按需</td><td>箱体转角和侧壁加强</td><td>同壳体</td><td>第 2 节</td></tr><tr><td>螺丝柱加强筋</td><td>按需</td><td>螺丝柱过高或受力时加强</td><td>同壳体</td><td>第 4、5 节</td></tr><tr><td>支撑面加强筋</td><td>按需</td><td>支撑面加强且保持支撑面平齐</td><td>同壳体</td><td>第 6 节</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>一体注塑结构，无装配步骤。</p>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：弯曲载荷由主壁 + 筋组成的 T 形截面承担，筋把壁的截面惯性矩提高（推断：来源只说提高强度和刚度）。</li><li><strong>运动关系</strong>：无相对运动。</li><li><strong>失效风险</strong>：筋过厚 → 与主壁连接处缩水凹陷；筋过高 → 筋部受力破坏、自身刚性下降；斜度不足 → 顶伤；多条筋排列不当 → 收缩不均（来源第 1 节）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>筋厚</td><td>小于被加强壁厚；大端厚 A = 0.4–0.6 t，一般 50%</td><td>第 1、3 节</td></tr><tr><td>筋高</td><td>B ≤ 3 t；要提高刚度应「增加筋数目而不是高度」</td><td>第 1、2、3 节</td></tr><tr><td>筋间距</td><td>C ≥ 4 t</td><td>第 3 节</td></tr><tr><td>筋到零件表面距离</td><td>D ≥ 1.00 mm</td><td>第 3 节</td></tr><tr><td>脱模斜度</td><td>&gt; 1.5°</td><td>第 1 节</td></tr><tr><td>排布</td><td>多条筋错开排列减少收缩不均；一般做斜骨避免困气</td><td>第 1 节</td></tr><tr><td>螺丝柱筋</td><td>顶面宽 ≥ 0.50 mm；底宽 = 螺丝柱高度 × 0.20–0.50；离柱顶面 ≥ 1.00 mm</td><td>第 5 节</td></tr><tr><td>支撑面筋</td><td>低于支撑面至少 0.5 mm</td><td>第 6 节</td></tr><tr><td>材料/具体壁厚</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<blockquote><p>同一篇文章正文写 A = 0.4–0.6 t，而一张配图写 e = 0.6–0.7a，说明网络上流传的经验值本身不统一；用前应结合材料缩水特性和外观要求判断。</p></blockquote>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>不增加壁厚即可提高刚度，避免厚壁缩水、延长周期</li><li>规则全部是比例，换壁厚直接套用</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>筋根仍可能在外观面产生缩痕，高光面需更保守</li><li>多筋增加模具加工和排气难度（推断）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>加强筋检查四件套：A ≤ 0.6 t、B ≤ 3 t、C ≥ 4 t、斜度 &gt; 1.5°</li><li>螺丝柱高或受力时用三角筋连到侧壁/底面，底宽按柱高 0.2–0.5 倍</li><li>支撑面上的筋要比支撑面低 0.5 mm 以上，保证放置平稳</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/塑料外壳止口与扣位：间隙参数与三个翻车案例.html">塑料外壳止口与扣位：间隙参数与三个翻车案例</a></li><li><a href="../cases/注塑倒扣脱模：强脱、斜顶还是滑块.html">注塑倒扣脱模：强脱、斜顶还是滑块</a></li><li><a href="../cases/双色注塑：硬胶先射、软胶后射的结构拆件规则.html">双色注塑：硬胶先射、软胶后射的结构拆件规则</a></li><li>分类索引：<a href="../categories/01.html">壳体与外观件</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.bilibili.com/read/cv14903048" target="_blank" rel="noopener noreferrer">塑料产品结构设计基础知识——加强筋的设计</a>（B 站专栏，2022-01-19，UG产品设计教学）</li><li>核实：2026-11-13 打开专栏原文核对全部尺寸规则；配图下载自专栏，部分图带「知乎」水印，原始出处未注明。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/01.html">01-壳体与外观件</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>壁厚与加强筋</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>注塑外壳</li><li>箱体/盒体</li><li>螺丝柱</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd>塑料（未注明牌号）</dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>注塑</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>B站</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.bilibili.com/read/cv14903048" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/read/cv14903048</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（B 站专栏原文；配图带「知乎」水印，疑为整理转载）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">加强筋</span><span class="chip">壁厚</span><span class="chip">缩水</span><span class="chip">螺丝柱</span><span class="chip">DFM</span><span class="chip">中文来源</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/塑料外壳止口与扣位：间隙参数与三个翻车案例.html">塑料外壳止口与扣位：间隙参数与三个翻车案例</a></li><li><a href="../cases/注塑倒扣脱模：强脱、斜顶还是滑块.html">注塑倒扣脱模：强脱、斜顶还是滑块</a></li><li><a href="../cases/双色注塑：硬胶先射、软胶后射的结构拆件规则.html">双色注塑：硬胶先射、软胶后射的结构拆件规则</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

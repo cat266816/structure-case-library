@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>苹果 AirPods Pro 全胶粘封装（反面案例） · 结构设计案例库</title>
+  <meta name="description" content="AirPods Pro 耳机体内用一圈耐酒精的白色橡胶状胶把纽扣电池「包」起来，电池再用焊接线连接；杆部只能用超声波切割才能打开——0/10 的可维修分，是微型化与可维修冲突的典型。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/06.html">拆解与可维修</a><span class="sep">/</span><span>苹果 AirPods Pro 全胶粘封装（反面案例）</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>苹果 AirPods Pro 全胶粘封装（反面案例）</h1>
+      <p class="lede">AirPods Pro 耳机体内用一圈耐酒精的白色橡胶状胶把纽扣电池「包」起来，电池再用焊接线连接；杆部只能用超声波切割才能打开——0/10 的可维修分，是微型化与可维修冲突的典型。</p>
+      <div class="meta-row"><span class="chip chip-06">拆解与可维修</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip badge-neg">反面案例</span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/airpods-pro-glue.jpg" alt="airpods-pro-glue.jpg"></figure>
+<p><em>iFixit：耳机内部的胶与纽扣电池</em></p>
+<figure><img src="../images/airpods-pro-case.jpg" alt="airpods-pro-case.jpg"></figure>
+<p><em>iFixit：用台钳撬开充电盒</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>耳机：从耳侧到杆部</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>可拆硅胶耳塞</td><td>硅胶</td><td>来源未给出</td><td>卡扣式，咔哒一声装上</td><td>Step 6</td></tr><tr><td>L2</td><td>外壳（含网罩）</td><td>塑料</td><td>来源未给出</td><td>胶粘</td><td>Step 4、7</td></tr><tr><td>L3</td><td>纽扣电池</td><td>—</td><td>来源未给出</td><td>被白色橡胶状胶包围，焊线连接</td><td>Step 7-8</td></tr><tr><td>L4</td><td>透明塑料支架 + 扬声器单元 + 内向麦克风</td><td>—</td><td>来源未给出</td><td>支架固定单元</td><td>Step 9</td></tr><tr><td>L5</td><td>排线（留余量）+ ZIF 小连接器</td><td>—</td><td>来源未给出</td><td>可拆连接</td><td>Step 7</td></tr><tr><td>L6</td><td>SiP（H1 等）+ 同轴连接器</td><td>—</td><td>来源未给出</td><td>—</td><td>Step 10</td></tr><tr><td>L7</td><td>杆部：麦克风、天线、疑似力传感器</td><td>—</td><td>来源未给出</td><td>整体封装，需超声切割</td><td>Step 11-12</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;硅胶耳塞(卡扣)&quot;]
+  N1[&quot;外壳+网罩&quot;]
+  N2[&quot;纽扣电池(胶包围+焊线)&quot;]
+  N3[&quot;支架+扬声器+内麦&quot;]
+  N4[&quot;排线+ZIF&quot;]
+  N5[&quot;SiP&quot;]
+  N6[&quot;杆部封装&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3 --&gt; N4 --&gt; N5 --&gt; N6
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>耳塞</td><td>2</td><td>密封耳道，可换</td><td>硅胶</td><td>Step 6</td></tr><tr><td>纽扣电池</td><td>每耳 1</td><td>供电</td><td>—</td><td>Step 7</td></tr><tr><td>充电盒电池</td><td>2 芯，合计 1.98 Wh</td><td>供电</td><td>—</td><td>Step 15</td></tr><tr><td>胶粘剂</td><td>—</td><td>固定/封装</td><td>白色、橡胶状、耐酒精</td><td>Step 8</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>(按拆解顺序反推) 杆部组件整体封装</li><li>SiP、排线（带余量）与 ZIF 连接</li><li>扬声器单元由透明支架固定</li><li>纽扣电池焊线连接后灌/涂胶</li><li>合壳胶粘，装耳塞</li></ol>
+<blockquote><p>来源只给出（破坏性）拆解顺序，以上为反推。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：来源未讨论受力。</li><li><strong>运动关系</strong>：无相对运动；耳塞为可拆卡扣件。</li><li><strong>失效风险</strong>：电池会老化但无法更换；苹果表示 AirPods Pro 不可维修、只能更换（Step 16）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>单耳重量</td><td>5.4 g</td><td>Step 1</td></tr><tr><td>充电盒重量</td><td>45.6 g</td><td>Step 1</td></tr><tr><td>充电盒电池</td><td>1.98 Wh（2 芯）</td><td>Step 15</td></tr><tr><td>防水</td><td>IPX4</td><td>Step 1</td></tr><tr><td>可维修评分</td><td>0/10</td><td>Step 17</td></tr><tr><td>胶层厚度</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>极致紧凑，IPX4</li><li>耳塞卡扣可换；排线留余量 + ZIF 连接，内部局部有可拆考虑</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>电池胶包+焊接，不可换</li><li>杆部无非破坏性入口</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>对照学习：微型化产品至少给电池留可拆连接（如压接/连接器）</li><li>耳塞这类易耗件用卡扣可换，值得保留</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/GoPro%20Hero4%20Session%20免外壳防水机身.html">GoPro Hero4 Session 免外壳防水机身</a></li><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li>分类索引：<a href="../categories/06.html">拆解与可维修</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/AirPods+Pro+Teardown/127551" target="_blank" rel="noopener noreferrer">AirPods Pro Teardown</a>（2019-10-31，Jeff Suovanen / iFixit）</li><li>核实：2026-11-13 通过 iFixit API 读取 17 步原文，核对胶粘、电池、重量与评分。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/06.html">06-拆解与可维修</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>反面案例</li><li>胶粘封装</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>真无线耳机</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>塑料外壳</li><li>白色橡胶状胶粘剂（耐酒精）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>胶粘</li><li>来源未注明</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/AirPods+Pro+Teardown/127551" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/AirPods+Pro+Teardown/127551</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">胶粘</span><span class="chip">不可维修</span><span class="chip">微型化</span><span class="chip">耳机</span><span class="chip">反面案例</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/GoPro%20Hero4%20Session%20免外壳防水机身.html">GoPro Hero4 Session 免外壳防水机身</a></li><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

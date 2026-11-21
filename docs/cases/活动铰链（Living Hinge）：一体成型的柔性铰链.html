@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>活动铰链（Living Hinge）：一体成型的柔性铰链 · 结构设计案例库</title>
+  <meta name="description" content="用和两侧刚性件相同的材料做一段「变薄」的区域当铰链，一次注塑同时成型三部分；PP/PE 抗疲劳最好，常见于瓶盖、Tic Tac 盒盖和一次性包装。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/03.html">转轴与铰链</a><span class="sep">/</span><span>活动铰链（Living Hinge）：一体成型的柔性铰链</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>活动铰链（Living Hinge）：一体成型的柔性铰链</h1>
+      <p class="lede">用和两侧刚性件相同的材料做一段「变薄」的区域当铰链，一次注塑同时成型三部分；PP/PE 抗疲劳最好，常见于瓶盖、Tic Tac 盒盖和一次性包装。</p>
+      <div class="meta-row"><span class="chip chip-03">转轴与铰链</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/living-hinge-soy-sauce-cap.jpg" alt="living-hinge-soy-sauce-cap.jpg"></figure>
+<p><em>Wikimedia Commons：带活动铰链的酱油瓶盖</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>（原理类案例，沿铰链方向）</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>A</td><td>刚性件 1（如盖子）</td><td>PP/PE/ABS</td><td>来源未给出</td><td>与铰链一体</td><td>Description</td></tr><tr><td>B</td><td>变薄的铰链段</td><td>同材料</td><td>「thinned or cut」，厚度来源未给出</td><td>一体成型</td><td>Description</td></tr><tr><td>C</td><td>刚性件 2（如瓶身盖座）</td><td>同材料</td><td>来源未给出</td><td>与铰链一体</td><td>Description</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;刚性件1&quot;]
+  N1[&quot;变薄铰链段&quot;]
+  N2[&quot;刚性件2&quot;]
+  N0 --&gt; N1 --&gt; N2
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>整体注塑件</td><td>1</td><td>三部分一次成型</td><td>PP/PE（最佳）、ABS</td><td>Plastic 段</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>一次注塑（或热成型）同时成型刚性件与铰链，无需装配</li></ol>
+<blockquote><p>木质版本：用激光切割在板材上切出锯缝图案形成大半径铰链。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：弯曲集中在变薄段，摩擦极小、磨损很少（Wikipedia）。</li><li><strong>运动关系</strong>：绕变薄段弯折开合。</li><li><strong>失效风险</strong>：设计和制造正确才能在零件寿命内保持功能；材料选择影响疲劳寿命（PP/PE 最好）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>推荐材料</td><td>PE、PP（抗疲劳最佳），ABS 也常用</td><td>Plastic 段</td></tr><tr><td>铰链厚度/长度</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>零装配、成本低、易回收</li><li>摩擦极小，几乎无磨损</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>对材料和设计要求高，材料选错容易疲劳断裂</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>包装、盖子类零件优先考虑活动铰链省掉销轴</li><li>激光切割木板可用锯缝图案做大半径柔性铰链</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li><a href="../cases/三星%20Galaxy%20Fold%20一代铰链与屏幕支撑结构.html">三星 Galaxy Fold 一代铰链与屏幕支撑结构</a></li><li>分类索引：<a href="../categories/03.html">转轴与铰链</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://en.wikipedia.org/wiki/Living_hinge" target="_blank" rel="noopener noreferrer">Living hinge - Wikipedia</a>（持续更新的百科词条，Wikipedia 编者）</li><li>图片来自 Wikimedia Commons（随 Wikipedia 词条展示），遵循原图许可。</li><li>核实：2026-11-13 打开词条核对定义、材料、工艺与木质变体。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/03.html">03-转轴与铰链</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>活动铰链/柔性铰链</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>瓶盖</li><li>Tic Tac 糖盒</li><li>药盒</li><li>激光切割木盒</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>PP</li><li>PE</li><li>ABS</li><li>胶合板</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>注塑</li><li>热成型</li><li>激光切割</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>Wikipedia</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://en.wikipedia.org/wiki/Living_hinge" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Living_hinge</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">活动铰链</span><span class="chip">柔性铰链</span><span class="chip">一体成型</span><span class="chip">注塑</span><span class="chip">基础原理</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li><a href="../cases/三星%20Galaxy%20Fold%20一代铰链与屏幕支撑结构.html">三星 Galaxy Fold 一代铰链与屏幕支撑结构</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

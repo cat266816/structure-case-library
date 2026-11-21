@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D 打印件热熔铜螺母：孔径与拉拔力实测 · 结构设计案例库</title>
+  <meta name="description" content="CNC Kitchen 把近 50 颗 M3 热熔铜螺母熔进 3.6–4.6 mm 不同孔径的 PLA 试样并逐个拉出：小孔时拉拔力约 1400 N，孔径变大先缓降后「断崖」；打印孔普遍比 CAD 小约 0.25 mm，所以 CAD 画 4.2 mm 是甜点——能预放、背面不起毛刺、强度仍约为最大值的 90%。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/02.html">连接与紧固</a><span class="sep">/</span><span>3D 打印件热熔铜螺母：孔径与拉拔力实测</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>3D 打印件热熔铜螺母：孔径与拉拔力实测</h1>
+      <p class="lede">CNC Kitchen 把近 50 颗 M3 热熔铜螺母熔进 3.6–4.6 mm 不同孔径的 PLA 试样并逐个拉出：小孔时拉拔力约 1400 N，孔径变大先缓降后「断崖」；打印孔普遍比 CAD 小约 0.25 mm，所以 CAD 画 4.2 mm 是甜点——能预放、背面不起毛刺、强度仍约为最大值的 90%。</p>
+      <div class="meta-row"><span class="chip chip-02">连接与紧固</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★★★<span class="off"></span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/heat-set-insert-section.jpg" alt="heat-set-insert-section.jpg"></figure>
+<p><em>图源：CNC Kitchen 博客；剖开的试样：塑料挤入并锁住滚花，而不是粘在黄铜上</em></p>
+<figure><img src="../images/heat-set-insert-pullout-chart.jpg" alt="heat-set-insert-pullout-chart.jpg"></figure>
+<p><em>图源：同上；M3×5.7 嵌件拉拔力–孔径曲线（打印孔 vs 钻孔）</em></p>
+<figure><img src="../images/heat-set-insert-knurl.jpg" alt="heat-set-insert-knurl.jpg"></figure>
+<p><em>图源：同上；滚花段略带锥度（绿线），下方为无滚花的导向端</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>沿螺母轴线从上（安装面）到下（孔底）</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件/区域</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>嵌件上段：反向交错滚花，略带锥度</td><td>无铅黄铜</td><td>M3 嵌件滚花外径 4.6 mm</td><td>熔融塑料流入滚花后机械锁合</td><td>博客「What makes a heat-set insert hold」</td></tr><tr><td>L2</td><td>孔壁塑料（熔化后包裹滚花）</td><td>PLA</td><td>孔径决定可用塑料量</td><td>热熔</td><td>博客正文</td></tr><tr><td>L3</td><td>嵌件下段：导向端（pilot end）</td><td>黄铜</td><td>来源未给出</td><td>用于熔入前预放到孔里</td><td>博客正文</td></tr><tr><td>L4</td><td>孔底 / 背面</td><td>PLA</td><td>盲孔比嵌件长约 1 mm</td><td>—</td><td>补充来源 Tips &amp; Tricks</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  A[&quot;烙铁 240°C + 专用烙铁头&quot;] --&gt; B[&quot;滚花段（反向交错、略锥）&quot;]
+  B --&gt; C[&quot;熔融 PLA 挤入滚花 → 机械锁合&quot;]
+  B --&gt; D[&quot;导向端：预放入孔&quot;]
+  D --&gt; E[&quot;孔底：孔太小会把塑料推成毛刺&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>M3 热熔嵌件（M3×5.7）</td><td>试验近 50 颗</td><td>提供金属螺纹</td><td>无铅黄铜</td><td>博客正文、图表标题</td></tr><tr><td>PLA 试样</td><td>每个孔径 3 件，打印孔和钻孔各一套</td><td>被测基体</td><td>Polymaker PolySonic PLA</td><td>博客正文</td></tr><tr><td>USB 烙铁 + 专用头</td><td>1</td><td>加热植入，设 240 °C</td><td>—</td><td>博客正文</td></tr><tr><td>嵌件校正器（insert straightener）</td><td>1</td><td>保证垂直、与表面齐平</td><td>铝</td><td>博客正文</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>按材料与打印机实际缩孔量设计孔径（M3 打印孔 CAD 取 4.2 mm；钻孔取标称 4.0 mm）。</li><li>把嵌件导向端预放入孔中（孔合适时有轻微阻力能立住）。</li><li>烙铁 240 °C 带专用头加热嵌件，轻压熔入；用校正器压平保证垂直齐平。</li><li>检查孔背面：若有毛刺被推出，说明孔偏小，增大一档。</li></ol>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：螺钉拉力 → 嵌件 → 滚花与塑料的机械咬合 → 塑料基体。6000 fps 高速视频显示塑料并不粘在黄铜上，而是锁在滚花里；拔出时嵌件因斜向滚花还会略微转动。</li><li><strong>运动关系</strong>：安装后静态；滚花反向切削兼顾拉拔与抗扭。</li><li><strong>失效风险</strong>：孔过大时滚花只部分咬合，拉拔力急剧下降（钻孔试样在 4.1–4.2 mm 之间大幅下降，大到几乎能用手拔出）；孔过小时无法预放，并在背面推出毛刺，可能挡住螺钉穿出。试样壁数与填充不足时塑料先坏。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>打印孔缩小量</td><td>作者 CORE One L + PolySonic PLA 实测约小 0.25 mm</td><td>博客 TL;DR</td></tr><tr><td>试验范围</td><td>孔径 3.6–4.6 mm（4.6 mm 为滚花外径），每径 3 件</td><td>博客正文</td></tr><tr><td>最大拉拔力</td><td>小孔时约 1400 N（约 150 kg）</td><td>博客 TL;DR</td></tr><tr><td>打印孔甜点</td><td>CAD 4.2 mm：可预放、无毛刺、强度约为最大值的 90%</td><td>博客 TL;DR</td></tr><tr><td>钻孔</td><td>大幅下降发生在 4.1–4.2 mm；标称 4.0 mm 合理</td><td>博客 TL;DR</td></tr><tr><td>通用规则</td><td>孔做到嵌件「刚好能带点阻力预放」；小规格嵌件 CAD 加 0.2–0.3 mm</td><td>博客结论</td></tr><tr><td>植入温度</td><td>240 °C（PLA）</td><td>博客正文</td></tr><tr><td>盲孔深度</td><td>比嵌件长约 1 mm；通孔不必比嵌件长；孔应为直孔、一般不需倒角，并保证最小壁厚</td><td>补充来源 Tips &amp; Tricks</td></tr><tr><td>其他材料/规格</td><td>来源未给出（作者认为其他规格趋势相似，但未测）</td><td>博客结论</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>给塑料件提供可反复拆装的金属螺纹</li><li>植入工具简单（烙铁），可预放后批量熔入</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>结果依赖打印机与材料的缩孔量，需要校准件</li><li>孔径公差窗口很窄（0.1 mm 级就从「强」变「弱」）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>设计热熔嵌件孔时以「实际孔径」为准，CAD 值 = 标称值 + 本机缩孔量</li><li>先打印孔径校准块（作者为每种嵌件规格做了含水平/竖直/斜向孔的校准件）</li><li>把「能预放」作为现场判据：既保证装配效率，又落在强度合格区间</li><li>注塑件的热熔/超声埋植嵌件也是「塑料锁入滚花」原理，孔径与滚花外径的关系同样关键（推断）</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li><a href="../cases/塑料件加强筋设计：厚度、高度与间距比例.html">塑料件加强筋设计：厚度、高度与间距比例</a>（螺丝柱加强筋）</li><li>分类索引：<a href="../categories/02.html">连接与紧固</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.cnckitchen.com/blog/are-our-heat-set-insert-datasheets-wrong" target="_blank" rel="noopener noreferrer">Are Our Heat-Set Insert Datasheets Wrong?</a>（CNC Kitchen 博客，2026-03-28，Stefan Hermann）</li><li>补充来源：<a href="https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts" target="_blank" rel="noopener noreferrer">Tips &amp; Tricks for Heat-Set Inserts used in 3D printing</a>（CNC Kitchen）</li><li>核实：2026-11-13 打开主来源全文，核对试验条件、拉拔力、孔径结论；打开补充来源核对盲孔/通孔/壁厚/倒角规则。CNC Kitchen 本身销售嵌件，属厂商自测。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/02.html">02-连接与紧固</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>螺纹与嵌件</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>3D 打印功能件</li><li>打印机/治具结构件</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>无铅黄铜嵌件</li><li>PLA（Polymaker PolySonic）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>FDM 3D 打印</li><li>热熔植入</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★★<span class="off"></span></span> 5/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>厂商技术文章</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.cnckitchen.com/blog/are-our-heat-set-insert-datasheets-wrong" target="_blank" rel="noopener noreferrer">https://www.cnckitchen.com/blog/are-our-heat-set-insert-datasheets-wrong</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts" target="_blank" rel="noopener noreferrer">https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（作者自建拉伸试验，单一材料与打印机，作者提示只看趋势）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">热熔螺母</span><span class="chip">嵌件</span><span class="chip">3D打印</span><span class="chip">拉拔力</span><span class="chip">孔径</span><span class="chip">实测</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li><a href="../cases/塑料件加强筋设计：厚度、高度与间距比例.html">塑料件加强筋设计：厚度、高度与间距比例</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

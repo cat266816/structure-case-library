@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>注塑倒扣脱模：强脱、斜顶还是滑块 · 结构设计案例库</title>
+  <meta name="description" content="卡扣等倒扣结构决定了模具要不要加侧向机构：深圳维亚达科技给出三步判断——先用悬臂梁应变公式 ε = 1.5·t·y / l² 判断能否强脱，再按倒扣在外侧（滑块）还是内侧（斜顶）选机构，最后按全生命周期（模具增量 + 周期 + 维护）比成本，并给出各材料强脱应变表和滑块/斜顶关键参数。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/07.html">材料与工艺</a><span class="sep">/</span><span>注塑倒扣脱模：强脱、斜顶还是滑块</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>注塑倒扣脱模：强脱、斜顶还是滑块</h1>
+      <p class="lede">卡扣等倒扣结构决定了模具要不要加侧向机构：深圳维亚达科技给出三步判断——先用悬臂梁应变公式 ε = 1.5·t·y / l² 判断能否强脱，再按倒扣在外侧（滑块）还是内侧（斜顶）选机构，最后按全生命周期（模具增量 + 周期 + 维护）比成本，并给出各材料强脱应变表和滑块/斜顶关键参数。</p>
+      <div class="meta-row"><span class="chip chip-07">材料与工艺</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <aside class="callout callout-note"><div class="callout-title">与已收录案例的区别</div><p><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a> 讲产品侧的卡扣形式；本篇讲<strong>同一个卡扣在模具侧怎么出模</strong>以及它对成本的影响，是卡扣设计的工艺约束面。</p></aside>
+<h2>配图</h2>
+<p>来源文章无结构示意图（页面图片均为厂商产品照），本篇不配图。</p>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从产品到模具</strong>（倒扣部位的出模关系）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件/机构</th><th>材料</th><th>关键尺寸</th><th>动作</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>产品倒扣（悬臂卡扣 / 环形倒扣）</td><td>塑料</td><td>悬臂长 l、根厚 t、倒扣深 y；环形直径 D、单边倒扣 δ</td><td>强脱时自身弹性变形</td><td>第一节</td></tr><tr><td>L2a</td><td>强脱：倒扣处镶件</td><td>718H 或 S136，氮化</td><td>型面 Ra0.2 以下；入口 30°–45° 导入斜面、R0.5 以上圆角</td><td>顶出时硬挤过倒扣</td><td>第一、四节</td></tr><tr><td>L2b</td><td>斜顶（内侧倒扣）</td><td>来源未给出</td><td>角度通常 3°–12°</td><td>顶出时斜向让位，水平位移 ≈ 顶出行程 × tanα</td><td>第二节</td></tr><tr><td>L2c</td><td>滑块抽芯（外侧倒扣）</td><td>来源未给出</td><td>斜导柱 15°–22°；楔紧角比斜导柱大 2°–3°</td><td>开模时横向抽芯，再顶出</td><td>第二节</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  Q{&quot;ε=1.5·t·y/l² ≤ 允许应变？&quot;} --&gt;|是| A[&quot;强脱：无侧向机构&quot;]
+  Q --&gt;|否| W{&quot;倒扣位置&quot;}
+  W --&gt;|内侧| B[&quot;斜顶：水平位移≈顶出行程×tanα&quot;]
+  W --&gt;|外侧/行程&gt;10mm| C[&quot;滑块：抽芯行程=倒扣深+2~3mm&quot;]
+  Q --&gt;|能改产品| D[&quot;加长悬臂/减薄根部/开让位槽/拆成独立件&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件/机构</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>倒扣镶件</td><td>按倒扣数</td><td>强脱型面，可换</td><td>718H 或 S136，氮化</td><td>第四节</td></tr><tr><td>斜顶杆</td><td>按内侧倒扣数</td><td>内侧倒扣让位</td><td>来源未给出</td><td>第二节</td></tr><tr><td>滑块 + 斜导柱/油缸 + 楔紧块 + 耐磨板</td><td>按外侧倒扣数</td><td>外侧抽芯并承受侧向力</td><td>来源未给出</td><td>第二、三节</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>模具动作顺序（来源描述）：</p>
+<ol><li>合模：楔紧块先锁紧滑块（楔紧角大于斜导柱角）。</li><li>注塑、冷却。</li><li>开模：斜导柱或油缸先把滑块横向抽开；滑块与顶针要有先后顺序，避免顶针撞滑块。</li><li>顶出：斜顶边顶出边斜向让位；强脱件在顶出时变形越过倒扣。</li></ol>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：注塑时型腔压力作用在滑块上形成侧向力 F = p × A（例：40 MPa × 1500 mm² ≈ 60 kN），由楔紧块承担；强脱时倒扣根部承受弯曲应变。</li><li><strong>运动关系</strong>：滑块横向抽芯（行程自由、力大）；斜顶斜向顶出（结构简单、占空间小，行程受注塑机顶出行程限制）。</li><li><strong>失效风险</strong>：强脱应变超限 → 顶白、拉伤、保持力下降；斜顶截面小、散热差，长时间生产易咬死；滑块面磨损、飞边、卡滞，分型线夹线。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>强脱判据（悬臂）</td><td>ε = 1.5·t·y / l²</td><td>第一节</td></tr><tr><td>算例</td><td>PP：l = 12、t = 1.5、按 3% → y ≈ 1.9 mm；PC：l = 8、t = 2.0、按 2% → y ≈ 0.43 mm</td><td>第一节</td></tr><tr><td>强脱判据（环形）</td><td>ε ≈ δ / D；D = 40 mm 的 PP 件按 4% → 单边约 1.6 mm 内</td><td>第一节</td></tr><tr><td>单次装配参考应变 / 强脱建议值</td><td>PP/PE 5–7% / 3–5%；PA6、PA66 4% / 2–3%；POM 3% / 2%；ABS 2–2.5% / 1.5%；PC 2% / 1–1.5%；PS 1.5% / 不建议强脱</td><td>第一节表</td></tr><tr><td>安全系数</td><td>实际取表值的 0.5–0.7 倍；30% 玻纤牌号取值减半</td><td>第一节</td></tr><tr><td>型面</td><td>Ra1.6 几百模即拉伤；Ra0.2 以下 + 30°–45° 导入斜面 + R0.5 以上圆角</td><td>第一节</td></tr><tr><td>滑块</td><td>抽芯行程 = 倒扣深度 + 2–3 mm；斜导柱 15°–22°（&gt; 25° 磨损加快）；楔紧角大 2°–3°</td><td>第二节</td></tr><tr><td>斜顶</td><td>角度 3°–12°；例：顶出 40 mm、8° → 水平位移约 5.6 mm</td><td>第二节</td></tr><tr><td>选型界限</td><td>让位需求超过 10 mm 一般选滑块</td><td>常见问题</td></tr><tr><td>周期成本</td><td>两侧油缸各 0.6 s → 每模多 1.2 s，20 s 周期产能降约 6%；10 万模多约 33 小时机时</td><td>第三节</td></tr><tr><td>验证</td><td>首件：3 种顶出速度 × 2 种模温各 20 模；功能：10 件测插拔/保持力，插拔 5 次看衰减，公差 ±0.05 mm；量产：5000–10000 模，每 1000 模查镶件磨损</td><td>第五节</td></tr><tr><td>顶白先调工艺</td><td>模温提高 10–15 ℃、延长冷却、降顶出速度各打一组</td><td>常见问题</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>把「卡扣能不能做、要多少模具钱」变成可算的问题</li><li>给出改产品而不加机构的路径（加长悬臂、减薄根部、开让位槽、拆件）</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>应变表为通用资料值，具体牌号仍需查 TDS（来源也如此建议）</li><li>厂商文章带推广性质，成本数字（如 80 元/小时）仅作量级参考</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>画卡扣时同步算 ε = 1.5·t·y / l²，超标就先改悬臂长度/根厚，而不是直接上滑块</li><li>内侧倒扣优先斜顶，外侧倒扣用滑块；让位 &gt; 10 mm 用滑块</li><li>强脱件把倒扣做成可换镶件，型面抛到 Ra0.2 以下</li><li>评估模具方案时把周期增加折算到全生命周期</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li><a href="../cases/塑料外壳止口与扣位：间隙参数与三个翻车案例.html">塑料外壳止口与扣位：间隙参数与三个翻车案例</a></li><li><a href="../cases/双色注塑：硬胶先射、软胶后射的结构拆件规则.html">双色注塑：硬胶先射、软胶后射的结构拆件规则</a></li><li>分类索引：<a href="../categories/07.html">材料与工艺</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://weiyadakeji.com/xwdt/changjianwenti/1414.html" target="_blank" rel="noopener noreferrer">倒扣脱模怎么选：滑块、斜顶还是强脱</a>（深圳市维亚达科技有限公司官网，2026-11-06）</li><li>核实：2026-11-13 打开原文核对公式、两个算例（复算一致）、应变表、滑块/斜顶参数、成本与验证步骤。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/07.html">07-材料与工艺</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>注塑</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>带卡扣/倒扣的注塑件</li><li>瓶盖</li><li>塑料外壳</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>PP/PE</li><li>PA6/PA66</li><li>POM</li><li>ABS</li><li>PC</li><li>PS</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>注塑</li><li>模具设计</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>厂商技术文章</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://weiyadakeji.com/xwdt/changjianwenti/1414.html" target="_blank" rel="noopener noreferrer">https://weiyadakeji.com/xwdt/changjianwenti/1414.html</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（模具厂商文章，数值为厂商经验/资料值，未附实测报告）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">倒扣</span><span class="chip">强脱</span><span class="chip">斜顶</span><span class="chip">滑块</span><span class="chip">卡扣</span><span class="chip">DFM</span><span class="chip">中文来源</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li><a href="../cases/塑料外壳止口与扣位：间隙参数与三个翻车案例.html">塑料外壳止口与扣位：间隙参数与三个翻车案例</a></li><li><a href="../cases/双色注塑：硬胶先射、软胶后射的结构拆件规则.html">双色注塑：硬胶先射、软胶后射的结构拆件规则</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

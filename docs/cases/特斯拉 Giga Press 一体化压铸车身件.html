@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>特斯拉 Giga Press 一体化压铸车身件 · 结构设计案例库</title>
+  <meta name="description" content="特斯拉用锁模力 55,000–61,000 kN 的 Idra Giga Press，把 Model Y 后车身（及后来的前车身）做成一次高压压铸成型的一体化铸件：80 kg 铝液以 10 m/s 射入真空模腔，周期约 80–90 秒；铸件再经淬火、修边、X 光查气孔、CNC 加工——这是「零件合并」思路在压铸工艺上的极端案例。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/07.html">材料与工艺</a><span class="sep">/</span><span>特斯拉 Giga Press 一体化压铸车身件</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>特斯拉 Giga Press 一体化压铸车身件</h1>
+      <p class="lede">特斯拉用锁模力 55,000–61,000 kN 的 Idra Giga Press，把 Model Y 后车身（及后来的前车身）做成一次高压压铸成型的一体化铸件：80 kg 铝液以 10 m/s 射入真空模腔，周期约 80–90 秒；铸件再经淬火、修边、X 光查气孔、CNC 加工——这是「零件合并」思路在压铸工艺上的极端案例。</p>
+      <div class="meta-row"><span class="chip chip-07">材料与工艺</span>
+<span class="chip chip-diff-高级">高级</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/giga-casting-tesla-frame.jpg" alt="giga-casting-tesla-frame.jpg"></figure>
+<p><em>图源：Wikimedia Commons「Part of the Tesla frame.jpg」（Votpuske，CC BY 4.0）；一体化压铸的特斯拉车架部件</em></p>
+<figure><img src="../images/giga-press-diagram.png" alt="giga-press-diagram.png"></figure>
+<p><em>图源：Wikimedia Commons「20200924-giga-press-fremont-die-casting-machine-2-traced-diagram-open.svg」（Paul Sladen，CC BY 3.0）；Fremont 2 号压铸机开模状态示意</em></p>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>按工艺流程</strong>（从熔炼到成品；这是工艺链而非零件层叠）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>环节/设备</th><th>材料</th><th>关键参数</th><th>作用</th><th>依据</th></tr></thead><tbody><tr><td>P1</td><td>熔化炉（StrikoMelter）</td><td>铝锭 + 回炉料</td><td>850 °C，天然气</td><td>熔化，机械去除氧化铝渣</td><td>Operation 段</td></tr><tr><td>P2</td><td>保温炉</td><td>铝液</td><td>750–850 °C，400 kW 电加热，氮气覆盖；氩气旋转除气 + SiC 过滤（&gt; 25 μm）</td><td>防氧化、除杂、减气孔</td><td>Operation 段</td></tr><tr><td>P3</td><td>模具准备</td><td>大豆油脱模剂</td><td>每半模喷 35 mL；抽真空至 50 mbar（4000 L 真空罐）</td><td>脱模、减卷气</td><td>Operation、Components 段</td></tr><tr><td>P4</td><td>压射</td><td>铝液</td><td>每次 80 kg，750 °C，10 m/s；另加 8 mL 润滑</td><td>充型</td><td>概述、Operation 段</td></tr><tr><td>P5</td><td>取件 + 淬火</td><td>铸件</td><td>400 °C 取出 → 淬火到 50 °C</td><td>冷却定形</td><td>Operation 段</td></tr><tr><td>P6</td><td>后处理</td><td>铸件</td><td>机械修边 → X 光查气孔 → 激光/等离子修边 → 钻孔攻丝 → 激光扫描 CMM → 装紧固件</td><td>尺寸与质量</td><td>Operation、Components 段</td></tr></tbody></table></div>
+<p>剖面示意（模具结构）：</p>
+<pre class="mermaid">
+flowchart LR
+  F[&quot;固定主模（底部进料）&quot;] --- M[&quot;活动主模&quot;]
+  S1[&quot;侧向楔紧模1&quot;] --&gt;|合模时插入/取件时退出| C[&quot;型腔：Model Y 后车身&quot;]
+  S2[&quot;侧向楔紧模2&quot;] --&gt; C
+  F --&gt; C
+  M --&gt; C
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件/设备</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>主模（竖直布置）</td><td>2</td><td>主型面，固定侧底部进料</td><td>来源未给出</td><td>Die structure 段</td></tr><tr><td>侧向楔紧模</td><td>2（前车身可能还有第 5 块在下方）</td><td>侧向型面，注射时插入、取件时退出</td><td>来源未给出</td><td>Die structure 段</td></tr><tr><td>Giga Press 压铸机</td><td>1</td><td>锁模与压射</td><td>—</td><td>概述</td></tr><tr><td>真空系统（Fondarex 4000 L 罐）</td><td>1</td><td>型腔抽真空</td><td>—</td><td>Components 段</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>工艺顺序（来源描述）：</p>
+<ol><li>机器人喷脱模油 → 合模 → 抽真空 50 mbar。</li><li>定量铝液压射入型腔。</li><li>开模，400 °C 取件，放入淬火槽冷却至 50 °C。</li><li>机械修边（余料回炉）→ X 光检测内部 → 激光修边 → 钻孔攻丝 → 计算机测量。</li><li>模具冷却到 185 °C 并由机器人清理，1–2 分钟后开始下一循环。</li></ol>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：压射时型腔压力由 55,000–61,000 kN 锁模力平衡；侧向型面由侧向楔紧模承担。</li><li><strong>运动关系</strong>：主模开合；两块侧模在注射前插入、取件前退出。</li><li><strong>失效风险</strong>（来源提到）：气孔（因此做真空、除气、过滤和 X 光检测）；2021-03-11 Fremont 一台压铸机发生火灾，起因是铝液点燃液压油；模具迭代昂贵（一套大型金属模具约 150 万美元，常需多轮修改）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>锁模力</td><td>55,000–61,000 kN（Model Y 机型）；后有 9,000 吨力机用于 Cybertruck 后部</td><td>概述、History</td></tr><tr><td>设备重量</td><td>410–430 吨</td><td>概述</td></tr><tr><td>单次铝量 / 速度</td><td>80 kg / 10 m/s</td><td>概述</td></tr><tr><td>周期 / 产能</td><td>约 80–90 s；初期 40–45 件/小时，约 1000 件/天</td><td>概述</td></tr><tr><td>合金</td><td>约 Al 89.5% + Si 8.5% + 微量元素，属 AA 386（Sandy Munro 2021 分析）</td><td>Metal alloy 段</td></tr><tr><td>模具成本</td><td>一套大型金属模具约 150 万美元；用砂型 3D 打印做铸件原型以降低迭代成本</td><td>2.0 段</td></tr><tr><td>壁厚、拔模角、筋位设计</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>零件合并：车身大件一次铸出（来源引用特斯拉高管说法，目标是「像做玩具车那样造整车」；合并前的零件数来源未给出）</li><li>废料闭环回收（余料直接回炉）</li><li>节拍稳定：约 1000 件/天</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>设备与模具投资巨大，模具改一次代价高</li><li>需要严格的气孔控制与 100% X 光检测</li><li>铸件损坏后维修性差（推断，来源未讨论）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>零件合并时同步考虑工艺链：熔炼—真空—检测—二次加工都要配套</li><li>大型件模具用「主模 + 侧向楔紧模」处理侧向特征，与注塑件的滑块同理</li><li>昂贵模具迭代前，用快速工艺（砂型 3D 打印）做原型验证</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/注塑倒扣脱模：强脱、斜顶还是滑块.html">注塑倒扣脱模：强脱、斜顶还是滑块</a>（侧向抽芯的同类思路）</li><li><a href="../cases/钣金折弯件设计规则：最小弯曲半径与预留切口.html">钣金折弯件设计规则：最小弯曲半径与预留切口</a>（车身的另一种主流工艺）</li><li>分类索引：<a href="../categories/07.html">材料与工艺</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://en.wikipedia.org/wiki/Giga_Press" target="_blank" rel="noopener noreferrer">Giga Press – Wikipedia</a>（英文维基百科，读取时最新修订 2026-10-11）</li><li>核实：2026-11-13 通过 Wikipedia API 读取全文，核对锁模力、工艺参数、模具结构、合金、历史事件；配图取自词条引用的 Wikimedia Commons 文件并核对作者与许可。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/07.html">07-材料与工艺</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>压铸/CNC</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>电动车车身（Model Y 后/前车身、Cybertruck）</li><li>5G 基站屏蔽罩</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd>铝硅合金（约 Al 89.5% / Si 8.5%，属 AA 386 类）</dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>高压压铸</li><li>真空压铸</li><li>CNC 机加工</li><li>激光/等离子修边</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>高级</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>Wikipedia</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://en.wikipedia.org/wiki/Giga_Press" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Giga_Press</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（Wikipedia 词条，2026-10-11 修订版；合金成分来自 Sandy Munro 2021 年分析的转述）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">压铸</span><span class="chip">一体化压铸</span><span class="chip">零件合并</span><span class="chip">汽车</span><span class="chip">工艺约束</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/注塑倒扣脱模：强脱、斜顶还是滑块.html">注塑倒扣脱模：强脱、斜顶还是滑块</a></li><li><a href="../cases/钣金折弯件设计规则：最小弯曲半径与预留切口.html">钣金折弯件设计规则：最小弯曲半径与预留切口</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

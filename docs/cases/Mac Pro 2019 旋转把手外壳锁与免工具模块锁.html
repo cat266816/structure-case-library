@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mac Pro 2019 旋转把手外壳锁与免工具模块锁 · 结构设计案例库</title>
+  <meta name="description" content="2019 款 Mac Pro 顶部第三个把手是外罩的锁：旋转把手后直接向上拔，整个外罩滑出，没有螺丝和胶；外罩一拿掉，电源键下的 pogo pin 与外罩上的触点断开，整机断电（安全互锁）。机内再用「一个拨杆锁住全部 PCIe 卡」「拉杆带两组滚轮推出 MPX 模块」等免工具锁扣，iFixit 给出 9/10 可维修分。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/04.html">机构与运动</a><span class="sep">/</span><span>Mac Pro 2019 旋转把手外壳锁与免工具模块锁</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>Mac Pro 2019 旋转把手外壳锁与免工具模块锁</h1>
+      <p class="lede">2019 款 Mac Pro 顶部第三个把手是外罩的锁：旋转把手后直接向上拔，整个外罩滑出，没有螺丝和胶；外罩一拿掉，电源键下的 pogo pin 与外罩上的触点断开，整机断电（安全互锁）。机内再用「一个拨杆锁住全部 PCIe 卡」「拉杆带两组滚轮推出 MPX 模块」等免工具锁扣，iFixit 给出 9/10 可维修分。</p>
+      <div class="meta-row"><span class="chip chip-04">机构与运动</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <aside class="callout callout-note"><div class="callout-title">与已收录案例的区别</div><p><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a> 靠侧板滑出 + 卡扣；本篇是<strong>旋转锁 + 整罩竖直拔出 + 电气互锁</strong>，以及一个拨杆同时锁多张板卡的「联动锁轨」，属于锁扣与快拆机构。</p></aside>
+<h2>配图</h2>
+<figure><img src="../images/macpro-2019-twist-handle.jpg" alt="macpro-2019-twist-handle.jpg"></figure>
+<p><em>图源：iFixit Mac Pro 2019 Teardown Step 4；旋转顶部把手（把手上有指示圆点）</em></p>
+<figure><img src="../images/macpro-2019-lock-mechanism.jpg" alt="macpro-2019-lock-mechanism.jpg"></figure>
+<p><em>图源：同上 Step 5；外罩取下后看到的顶部锁机构</em></p>
+<figure><img src="../images/macpro-2019-pogo-pins.jpg" alt="macpro-2019-pogo-pins.jpg"></figure>
+<p><em>图源：同上 Step 5；电源键下的 pogo pin，对应外罩上的触点</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从外到内</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>外罩（含「刨丝器」孔面）</td><td>来源未写明具体零件材料（外观提到不锈钢与精铣铝板）</td><td>来源未给出</td><td>由顶部旋转锁锁定，竖直滑出；无螺丝无胶</td><td>Step 2、4、5</td></tr><tr><td>L2</td><td>顶部旋转把手 + 锁机构</td><td>来源未写明</td><td>旋转角度来源未给出</td><td>旋转解锁</td><td>Step 2、4、5</td></tr><tr><td>L3</td><td>pogo pin（电源键下）↔ 外罩触点</td><td>—</td><td>来源未给出</td><td>弹簧针压接</td><td>Step 5</td></tr><tr><td>L4</td><td>空间框架 + 4 个脚（每个 1 颗 M5×0.8 螺丝，螺丝在框架内为防丢）</td><td>来源未给出</td><td>螺丝露出底部铝板约 4–4.5 mm，长度估计 15–20 mm</td><td>螺丝</td><td>Step 7</td></tr><tr><td>L5</td><td>I/O 板、显卡模块、电源（同一侧取出）</td><td>—</td><td>—</td><td>手拧十字螺丝 / 一个拨杆锁轨 / 单颗 T8</td><td>Step 8、9</td></tr><tr><td>L6</td><td>三风扇组</td><td>—</td><td>—</td><td>6 颗螺丝，与主板用弹簧触点连接</td><td>Step 12</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  H[&quot;顶部旋转把手&quot;] --&gt;|旋转解锁| L[&quot;顶部锁机构&quot;]
+  L --&gt;|竖直拔出| C[&quot;外罩&quot;]
+  C -.触点断开.-&gt; P[&quot;pogo pin → 整机断电&quot;]
+  F[&quot;空间框架&quot;] --&gt; S[&quot;PCIe 锁轨：一个拨杆带动挂钩&quot;]
+  F --&gt; M[&quot;MPX 模块：拉杆 → 两组滚轮推出&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>顶部旋转把手</td><td>1</td><td>外罩锁 + 提手</td><td>来源未写明</td><td>Step 2、4</td></tr><tr><td>外罩</td><td>1</td><td>外壳</td><td>来源未写明</td><td>Step 4、5</td></tr><tr><td>pogo pin + 外罩触点</td><td>来源未给出</td><td>外罩在位检测/断电互锁</td><td>—</td><td>Step 5</td></tr><tr><td>PCIe 锁定拨杆 + 带小挂钩的锁轨</td><td>1 套</td><td>一次锁住全部 PCIe 卡（机身标「第 2 步」）</td><td>—</td><td>Step 8</td></tr><tr><td>MPX 显卡模块释放拉杆 + 两组滚轮</td><td>1 套/模块</td><td>同时脱开插槽并把模块推离主板</td><td>—</td><td>Step 10</td></tr><tr><td>内存盖拨扣</td><td>来源未给出</td><td>免工具打开内存盖，盖内印有插法示意</td><td>—</td><td>Step 6</td></tr><tr><td>脚螺丝 M5×0.8</td><td>4</td><td>固定脚/轮，螺丝防丢</td><td>—</td><td>Step 7</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>按拆解顺序反推（外罩部分）：</p>
+<ol><li>外罩从上方套入框架。</li><li>旋转顶部把手锁定外罩。</li><li>外罩触点压住 pogo pin，整机才能通电。</li></ol>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：整机提起时载荷走把手 → 空间框架（推断：来源称有两个主把手，第三个在顶部）。外罩只受自重和外部碰撞，靠顶部锁与框架定位。</li><li><strong>运动关系</strong>：把手绕竖直轴旋转解锁 → 外罩沿竖直方向滑出（单自由度）；PCIe 拨杆平移锁轨，挂钩同时卡住所有板卡；MPX 拉杆通过滚轮把「拔出」动作转为两点同步推离。</li><li><strong>失效风险</strong>：来源未给出。外罩可无工具打开，靠 pogo pin 互锁保证开盖断电。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>开盖方式</td><td>旋转 + 上拔，全程徒手，无专有螺丝、无胶</td><td>Step 4、5</td></tr><tr><td>安全互锁</td><td>pogo pin 与外罩触点，外罩离开即断电</td><td>Step 5</td></tr><tr><td>一锁多卡</td><td>单个拨杆驱动带挂钩锁轨锁住所有 PCIe 卡</td><td>Step 8</td></tr><tr><td>模块弹出</td><td>拉杆联动两组滚轮，同时脱开并推出模块</td><td>Step 10</td></tr><tr><td>操作顺序标注</td><td>机内印有步骤编号、内存盖内印插法图</td><td>Step 6、9</td></tr><tr><td>脚螺丝</td><td>M5×0.8，防丢；长度 iFixit 估计 15–20 mm</td><td>Step 7</td></tr><tr><td>可维修评分</td><td>9/10</td><td>Step 18</td></tr><tr><td>锁的内部结构、旋转角度、锁紧力</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>维修/升级入口零工具，开盖动作直观（旋转—上拔）</li><li>开盖自动断电，把「免工具」带来的安全风险用互锁解决</li><li>一个拨杆锁多张卡，减少螺丝数量与操作步骤</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>外罩需要整罩取下，占用上方空间（推断）</li><li>SSD 虽模块化但与 T2 芯片绑定，用户无法自行更换（Step 11）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>免工具外壳 + 电气互锁（pogo pin / 微动开关）是一对：方便打开，就要保证开盖即断电</li><li>多个同类模块用「一根联动锁轨」统一锁定，而不是每个模块一颗螺丝</li><li>大模块拔出用杠杆 + 滚轮同步推离，避免单边受力别坏连接器</li><li>在机内直接标出拆装顺序编号</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/苹果%20AirTag%20旋转后盖与内部卡扣.html">苹果 AirTag 旋转后盖与内部卡扣</a>（同为旋转解锁）</li><li>分类索引：<a href="../categories/04.html">机构与运动</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/Mac+Pro+2019+Teardown/128922" target="_blank" rel="noopener noreferrer">Mac Pro 2019 Teardown</a>（iFixit 官方拆解，Jeff Suovanen，发布于 2019-12-17）</li><li>核实：2026-11-13 通过 iFixit API 读取全部 18 步原文，核对把手、锁、pogo pin、PCIe 锁轨、MPX 拉杆、脚螺丝和评分。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/04.html">04-机构与运动</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd>锁扣与快拆</dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>塔式工作站</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>不锈钢</li><li>铝（来源未对应到具体零件）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>CNC 铣削（来源称 precisely milled aluminum slabs，未指明零件）</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/Mac+Pro+2019+Teardown/128922" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Mac+Pro+2019+Teardown/128922</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（iFixit 官方拆解；锁内部机构细节、旋转角度来源未给出）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">快拆</span><span class="chip">旋转锁</span><span class="chip">安全互锁</span><span class="chip">pogo pin</span><span class="chip">免工具</span><span class="chip">拆解</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/苹果%20AirTag%20旋转后盖与内部卡扣.html">苹果 AirTag 旋转后盖与内部卡扣</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

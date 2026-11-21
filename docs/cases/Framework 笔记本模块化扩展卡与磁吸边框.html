@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Framework 笔记本模块化扩展卡与磁吸边框 · 结构设计案例库</title>
+  <meta name="description" content="Framework 13 用 5 颗防丢 Torx 螺丝开底壳、磁吸键盘组件、磁吸屏幕边框、按键弹出的扩展卡（把 USB-C 转成 HDMI/USB-A 等）和 3 颗防丢螺丝的电池，拿到 iFixit 罕见的 10/10 可维修分。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/06.html">拆解与可维修</a><span class="sep">/</span><span>Framework 笔记本模块化扩展卡与磁吸边框</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>Framework 笔记本模块化扩展卡与磁吸边框</h1>
+      <p class="lede">Framework 13 用 5 颗防丢 Torx 螺丝开底壳、磁吸键盘组件、磁吸屏幕边框、按键弹出的扩展卡（把 USB-C 转成 HDMI/USB-A 等）和 3 颗防丢螺丝的电池，拿到 iFixit 罕见的 10/10 可维修分。</p>
+      <div class="meta-row"><span class="chip chip-06">拆解与可维修</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★★★<span class="off"></span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/framework-laptop-ifixit.jpg" alt="framework-laptop-ifixit.jpg"></figure>
+<p><em>iFixit：Framework Laptop 拆解文章题图</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从 C 面（键盘面）向下</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>键盘组件（含触控板）</td><td>—</td><td>来源未给出</td><td>磁铁固定；键盘本身约 50+ 颗螺丝</td><td>原文</td></tr><tr><td>L2</td><td>内存/SSD/Wi-Fi 卡</td><td>—</td><td>2×8 GB 内存、250 GB SSD（评测机配置）</td><td>插槽</td><td>原文</td></tr><tr><td>L3</td><td>电池</td><td>—</td><td>来源未给出</td><td>3 颗防丢螺丝 + 连接器</td><td>原文</td></tr><tr><td>L4</td><td>主板 + 散热器</td><td>—</td><td>来源未给出</td><td>主板 5 颗螺丝、散热器 3 颗</td><td>原文</td></tr><tr><td>L5</td><td>底壳</td><td>—</td><td>来源未给出</td><td>5 颗防丢 Torx 螺丝</td><td>原文</td></tr><tr><td>侧面</td><td>扩展卡 ×4</td><td>—</td><td>来源未给出</td><td>插入 USB-C 插座，按钮释放</td><td>原文</td></tr><tr><td>屏幕</td><td>磁吸边框</td><td>—</td><td>来源未给出</td><td>磁吸，可直接剥下</td><td>原文</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;键盘组件(磁吸)&quot;]
+  N1[&quot;内存/SSD/Wi-Fi&quot;]
+  N2[&quot;电池(3 颗防丢螺丝)&quot;]
+  N3[&quot;主板+散热器&quot;]
+  N4[&quot;底壳(5 颗防丢 Torx)&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3 --&gt; N4
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>防丢螺丝</td><td>底壳 5 + 电池 3</td><td>拧松不掉落</td><td>—</td><td>原文</td></tr><tr><td>扩展卡</td><td>4</td><td>USB-C 转 HDMI/DP/USB-A/microSD/存储</td><td>—</td><td>原文</td></tr><tr><td>磁吸屏幕边框</td><td>1</td><td>可更换颜色/维修屏幕</td><td>—</td><td>原文</td></tr><tr><td>二合一螺丝刀（带撬棒）</td><td>1（随机附带）</td><td>唯一需要的工具</td><td>—</td><td>原文</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>拧松底壳 5 颗防丢 Torx 螺丝，翻面掀起磁吸键盘组件</li><li>插入内存、SSD、Wi-Fi 卡（接天线）</li><li>装扩展卡到 4 个 USB-C 位</li><li>（维修）电池：断开连接器 + 3 颗防丢螺丝；主板：5 颗螺丝 + 散热器 3 颗</li></ol>
+<blockquote><p>来自 DIY 版组装与拆解描述。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：来源未讨论受力。</li><li><strong>运动关系</strong>：扩展卡直线插拔，按钮解锁；键盘、边框依靠磁力定位。</li><li><strong>失效风险</strong>：唯一被挑剔的点：主板上的 4 个 USB-C 插座是焊接的（原文）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>可维修评分</td><td>10/10</td><td>原文</td></tr><tr><td>底壳螺丝</td><td>5 颗防丢 Torx</td><td>原文</td></tr><tr><td>电池螺丝</td><td>3 颗防丢</td><td>原文</td></tr><tr><td>整机厚度</td><td>「略厚于 HP Envy 14」，具体数值来源未给出</td><td>原文</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>全部主要部件易拆易换，部件贴标签、带二维码直达备件页</li><li>一把随附螺丝刀可完成全部维修</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>USB-C 插座焊接在主板</li><li>电池偏小（原文）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>防丢螺丝 + 磁吸定位，降低用户拆装风险</li><li>高磨损接口用「转接卡」隔离，坏了换卡不换主板</li><li>零件标签 + 二维码，把维修信息做进结构</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a></li><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li><li>分类索引：<a href="../categories/06.html">拆解与可维修</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/News/51614/framework-laptop-teardown-10-10-but-is-it-perfect" target="_blank" rel="noopener noreferrer">Framework Laptop Teardown: 10/10, But is it Perfect?</a>（2021-07-28，Taylor Dixon / iFixit）</li><li>补充来源：<a href="https://www.ifixit.com/Teardown/Framework+Laptop+Teardown/145124" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Framework+Laptop+Teardown/145124</a></li><li>核实：2026-11-13 打开原文，核对螺丝数量、磁吸件、扩展卡、10/10 评分与 USB-C 焊接问题。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/06.html">06-拆解与可维修</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>模块化设计</li><li>可维修设计</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>笔记本电脑</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★★<span class="off"></span></span> 5/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/News/51614/framework-laptop-teardown-10-10-but-is-it-perfect" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/News/51614/framework-laptop-teardown-10-10-but-is-it-perfect</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.ifixit.com/Teardown/Framework+Laptop+Teardown/145124" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Framework+Laptop+Teardown/145124</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">模块化</span><span class="chip">可维修</span><span class="chip">防丢螺丝</span><span class="chip">磁吸</span><span class="chip">10/10</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a></li><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

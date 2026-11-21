@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>浏览案例 · 结构设计案例库</title>
+  <meta name="description" content="产品与机械结构设计案例库：壳体、连接与紧固、转轴铰链、机构与运动、密封防护、拆解与可维修、材料与工艺。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="index.html">首页</a>
+        <a href="browse.html" class="is-active">浏览案例</a>
+        <a href="map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<div class="wrap">
+  <div class="page-head">
+    <h1>浏览案例</h1>
+    <p>按关键词、一级/二级分类和难度筛选。共 111 篇。</p>
+  </div>
+  <div class="filters">
+    <div class="filter-row">
+      <span class="filter-label">搜索</span>
+      <input class="search-input" id="q" type="search" placeholder="标题、概述、标签、材料、工艺…" autocomplete="off">
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">一级分类</span>
+      <button type="button" class="filter-chip" data-filter="cat" data-value="">全部</button><button type="button" class="filter-chip" data-filter="cat" data-value="01">壳体与外观件</button><button type="button" class="filter-chip" data-filter="cat" data-value="02">连接与紧固</button><button type="button" class="filter-chip" data-filter="cat" data-value="03">转轴与铰链</button><button type="button" class="filter-chip" data-filter="cat" data-value="04">机构与运动</button><button type="button" class="filter-chip" data-filter="cat" data-value="05">密封与防护</button><button type="button" class="filter-chip" data-filter="cat" data-value="06">拆解与可维修</button><button type="button" class="filter-chip" data-filter="cat" data-value="07">材料与工艺</button>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">难度</span>
+      <button type="button" class="filter-chip" data-filter="diff" data-value="">全部</button><button type="button" class="filter-chip" data-filter="diff" data-value="入门">入门</button><button type="button" class="filter-chip" data-filter="diff" data-value="进阶">进阶</button><button type="button" class="filter-chip" data-filter="diff" data-value="高级">高级</button>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">二级分类</span>
+      <select class="select-input" id="sub"></select>
+    </div>
+  </div>
+  <p class="result-count" id="result-count"></p>
+  <div class="card-grid" id="case-grid"></div>
+  <div class="empty-state hidden" id="empty-state">没有符合条件的案例。试试减少筛选条件。</div>
+  <p style="height:48px"></p>
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="assets/config.js"></script>
+  
+  <script src="assets/app.js"></script>
+  <script src="assets/data.js"></script>
+</body>
+</html>

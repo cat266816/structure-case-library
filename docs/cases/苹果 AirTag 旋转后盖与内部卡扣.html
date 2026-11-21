@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>苹果 AirTag 旋转后盖与内部卡扣 · 结构设计案例库</title>
+  <meta name="description" content="AirTag 用户换电池只需按住旋转金属后盖即可打开（卡口式），而内部前后两片塑料壳用卡扣连接、PCB 嵌在塑料壳里——外部免工具、内部不打算拆。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/02.html">连接与紧固</a><span class="sep">/</span><span>苹果 AirTag 旋转后盖与内部卡扣</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>苹果 AirTag 旋转后盖与内部卡扣</h1>
+      <p class="lede">AirTag 用户换电池只需按住旋转金属后盖即可打开（卡口式），而内部前后两片塑料壳用卡扣连接、PCB 嵌在塑料壳里——外部免工具、内部不打算拆。</p>
+      <div class="meta-row"><span class="chip chip-02">连接与紧固</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/airtag-twist.jpg" alt="airtag-twist.jpg"></figure>
+<p><em>iFixit：旋下金属后盖露出电池仓</em></p>
+<figure><img src="../images/airtag-clips.jpg" alt="airtag-clips.jpg"></figure>
+<p><em>iFixit：撬开前后塑料壳之间的卡扣</em></p>
+<figure><img src="../images/bayonet-mount.png" alt="bayonet-mount.png"></figure>
+<p><em>Wikimedia Commons：卡口连接示意（Bayonet mount）</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从背面到正面</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>金属后盖</td><td>金属</td><td>来源未给出</td><td>旋转卡口（扭转取下）</td><td>Step 1-2</td></tr><tr><td>L2</td><td>CR2032 纽扣电池</td><td>—</td><td>CR2032（标准规格）</td><td>放在电池仓内</td><td>Step 1</td></tr><tr><td>L3</td><td>后塑料壳</td><td>塑料</td><td>来源未给出</td><td>卡扣与前壳连接</td><td>Step 3</td></tr><tr><td>L4</td><td>PCB + 天线线圈</td><td>—</td><td>来源未给出</td><td>嵌在塑料壳内，4 处连接点</td><td>Step 4</td></tr><tr><td>L5</td><td>前塑料壳</td><td>塑料</td><td>来源未给出</td><td>—</td><td>Step 3-4</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;金属后盖(旋转卡口)&quot;]
+  N1[&quot;CR2032 电池&quot;]
+  N2[&quot;后塑料壳&quot;]
+  N3[&quot;PCB+天线线圈&quot;]
+  N4[&quot;前塑料壳&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3 --&gt; N4
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>金属后盖</td><td>1</td><td>电池仓盖，旋转锁定</td><td>金属</td><td>Step 1</td></tr><tr><td>CR2032</td><td>1</td><td>供电</td><td>—</td><td>Step 1</td></tr><tr><td>塑料壳</td><td>2（前/后）</td><td>卡扣连接</td><td>塑料</td><td>Step 3</td></tr><tr><td>PCB</td><td>1</td><td>U1、nRF52832 等</td><td>—</td><td>Step 5</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>(按拆解顺序反推) PCB 嵌入前壳</li><li>后壳与前壳卡扣扣合</li><li>放入 CR2032</li><li>金属后盖对准后旋转锁定</li></ol>
+<blockquote><p>来源只给出拆解顺序，以上为反推。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：卡口原理（Wikipedia）：凸销沿 L 形槽进入并旋转，靠弹簧把销推入槽末端的小缺口锁定，抗振动、不会错牙。AirTag 内部弹力元件来源未给出。</li><li><strong>运动关系</strong>：后盖绕轴旋转锁定/解锁（用户动作）；内部卡扣为一次装配。</li><li><strong>失效风险</strong>：作者撬 PCB 时必须折断/拆焊 4 个连接点，拆解变为破坏性（Step 4）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>电池</td><td>CR2032</td><td>Step 1</td></tr><tr><td>后盖旋转角度/卡口数量</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>用户维护（换电池）免工具</li><li>卡口比螺纹更快、不会错牙（Wikipedia）</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>内部 PCB 拆解为破坏性</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>「用户维护件」用卡口免工具开启，「非维护件」用卡扣/嵌装，分级设计</li><li>卡口要有弹性元件提供锁定预压</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li><a href="../cases/任天堂%20Switch%20Joy-Con%20滑轨连接.html">任天堂 Switch Joy-Con 滑轨连接</a></li><li>分类索引：<a href="../categories/02.html">连接与紧固</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/Apple+Air+Tag+Teardown/218935" target="_blank" rel="noopener noreferrer">Apple Air Tag Teardown</a>（2026-05-22（API 发布时间），Mr.CircuitBoard（iFixit 社区））</li><li>补充来源：<a href="https://en.wikipedia.org/wiki/Bayonet_mount" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Bayonet_mount</a></li><li>图片来自 Wikimedia Commons（随 Wikipedia 词条展示），遵循原图许可。</li><li>核实：2026-11-13 通过 iFixit API 读取 6 步原文；打开 Wikipedia「Bayonet mount」核对卡口原理。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/02.html">02-连接与紧固</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>旋转卡口(Bayonet)</li><li>卡扣</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>防丢器</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>金属后盖</li><li>塑料壳体</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/Apple+Air+Tag+Teardown/218935" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Apple+Air+Tag+Teardown/218935</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://en.wikipedia.org/wiki/Bayonet_mount" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Bayonet_mount</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（iFixit 社区拆解，作者 Mr.CircuitBoard；卡口原理参考 Wikipedia）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">卡口</span><span class="chip">旋转锁</span><span class="chip">卡扣</span><span class="chip">电池仓</span><span class="chip">免工具</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/卡扣三种基本形式：悬臂、环形、扭转.html">卡扣三种基本形式：悬臂、环形、扭转</a></li><li><a href="../cases/任天堂%20Switch%20Joy-Con%20滑轨连接.html">任天堂 Switch Joy-Con 滑轨连接</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

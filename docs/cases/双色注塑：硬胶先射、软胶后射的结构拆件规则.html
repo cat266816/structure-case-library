@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>双色注塑：硬胶先射、软胶后射的结构拆件规则 · 结构设计案例库</title>
+  <meta name="description" content="双色注塑是两种材料在同一台双色机上分两次成型、只出模一次：B 站专栏《【模具知识】15、双色模与产品结构设计》讲清了为什么必须「第一射硬胶、第二射软胶」、为什么第二射要做在前模、第二色拆件不低于 0.8 mm、以及如何用凹槽/圆孔/火花纹保证两色附着。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/07.html">材料与工艺</a><span class="sep">/</span><span>双色注塑：硬胶先射、软胶后射的结构拆件规则</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>双色注塑：硬胶先射、软胶后射的结构拆件规则</h1>
+      <p class="lede">双色注塑是两种材料在同一台双色机上分两次成型、只出模一次：B 站专栏《【模具知识】15、双色模与产品结构设计》讲清了为什么必须「第一射硬胶、第二射软胶」、为什么第二射要做在前模、第二色拆件不低于 0.8 mm、以及如何用凹槽/圆孔/火花纹保证两色附着。</p>
+      <div class="meta-row"><span class="chip chip-07">材料与工艺</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★<span class="off">☆☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/two-shot-molding-process.jpg" alt="two-shot-molding-process.jpg"></figure>
+<p><em>图源：B 站专栏 cv12125226（还在上学的rek）；双色注塑示意：两套注射系统分别注入两种材料，动模旋转 180° 后进行第二射</em></p>
+<figure><img src="../images/two-shot-molding-part.jpg" alt="two-shot-molding-part.jpg"></figure>
+<p><em>图源：同上；双色注塑件实物（文章中的第一色/第二色对比照之一）</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从基体到表层</strong>（零件截面）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件/区域</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>第一射：硬胶基体</td><td>硬胶（熔融温度一般高于软胶）</td><td>壁厚需保证不缩水，防止二射溢料跑毛边</td><td>第一次注塑</td><td>「模具特点」5、6；「拆件要点」2</td></tr><tr><td>L2</td><td>附着结构：凹槽、圆孔、表面火花纹</td><td>硬胶上成型</td><td>来源未给出</td><td>机械咬合 + 表面附着</td><td>「拆件要点」4</td></tr><tr><td>L3</td><td>第二射：软胶层</td><td>软胶</td><td>不低于 0.8 mm</td><td>第二次注塑，包覆在硬胶上</td><td>「拆件要点」1</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart LR
+  M1[&quot;第一射：硬胶基体（前模A腔）&quot;] --&gt;|动模旋转180°| M2[&quot;第二射：软胶≥0.8mm（前模B腔）&quot;]
+  M1 --- K[&quot;凹槽/圆孔/火花纹 → 附着&quot;]
+  M2 --&gt; O[&quot;只出模一次&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件/模具要素</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>双色注塑机（两料斗、两喷嘴）</td><td>1</td><td>两种材料分别注射</td><td>—</td><td>「双色模具」段</td></tr><tr><td>前模型腔</td><td>2（形状不同）</td><td>第一色、第二色成型</td><td>模具钢（来源未写牌号）</td><td>「模具特点」3</td></tr><tr><td>后模型芯</td><td>2（形状相同）</td><td>承载产品旋转</td><td>—</td><td>「模具特点」3</td></tr><tr><td>热流道</td><td>基本都用</td><td>第二射前不能有水口料</td><td>—</td><td>「模具特点」2</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>成型顺序（来源描述）：</p>
+<ol><li>第一射注塑硬胶部分。</li><li>动模（后模）带着第一射产品旋转 180°（也有不旋转、用机械手抓取放置的做法）。</li><li>第二射在前模另一型腔注塑软胶部分。</li><li>一次出模。</li></ol>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：使用中软胶层的剥离力由两色界面附着 + 凹槽/圆孔的机械咬合承担。</li><li><strong>运动关系</strong>：模具层面——后模绕中心旋转 180° 后前后模必须吻合；产品本身无相对运动。</li><li><strong>失效风险</strong>（来源）：<ul><li>第一射若是软胶，第二射的压力和温度会把软胶压变形，外观不齐；</li><li>二次料熔融温度若不低于一次料，两色交界处会熔胶、边界模糊；</li><li>两种料缩水率不一致会产生断差；</li><li>二射肉厚太薄会缺料、出现熔接痕；</li><li>第二色有部分在后模时，需做前模滑块出倒扣，产生合模线。</li></ul></li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>射序</td><td>第一射硬胶、第二射软胶</td><td>模具特点 5</td></tr><tr><td>熔融温度</td><td>二次料熔融温度原则上低于一次料</td><td>模具特点 6</td></tr><tr><td>缩水率</td><td>取决于第一色材料，第二色取相同缩水率</td><td>模具特点 7</td></tr><tr><td>第二色厚度</td><td>不低于 0.8 mm</td><td>拆件要点 1</td></tr><tr><td>第二色位置</td><td>以分型线为界做在前模</td><td>拆件要点 3；模具特点 3</td></tr><tr><td>附着设计</td><td>第一射上设计凹槽、圆孔、表面火花纹</td><td>拆件要点 4</td></tr><tr><td>模具</td><td>两套模具高度一致；前、后模旋转 180° 后必须吻合</td><td>模具特点 1、4</td></tr><tr><td>包胶对比</td><td>包胶属于二次出模；固态硅胶包胶用压模硫化（在涂过胶水的 PA、ABS、金属上），液态硅胶多用注塑</td><td>「PS」段</td></tr><tr><td>具体材料牌号、附着力数值</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>两种材料一次出模，比两次注塑（包胶/二次料）效率高、质量好（来源称是趋势）</li><li>软胶可直接做握持、密封、缓冲面</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>需要专门的双色注塑机和旋转模具，模具成本高（推断）</li><li>对材料匹配（熔融温度、缩水率）要求严格</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>拆件时先定射序：硬胶为骨架先射，软胶后包</li><li>第二色厚度 ≥ 0.8 mm，并全部放在前模侧</li><li>在硬胶上主动设计机械咬合（槽、孔、纹理），不要只依赖材料相容性</li><li>两种材料选型时同步核对熔融温度与缩水率</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/GoPro%20Hero4%20Session%20免外壳防水机身.html">GoPro Hero4 Session 免外壳防水机身</a>（包胶外壳）</li><li><a href="../cases/注塑倒扣脱模：强脱、斜顶还是滑块.html">注塑倒扣脱模：强脱、斜顶还是滑块</a></li><li><a href="../cases/塑料件加强筋设计：厚度、高度与间距比例.html">塑料件加强筋设计：厚度、高度与间距比例</a></li><li>分类索引：<a href="../categories/07.html">材料与工艺</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.bilibili.com/read/cv12125226" target="_blank" rel="noopener noreferrer">【模具知识】15、双色模与产品结构设计</a>（B 站专栏，2021-07-12，还在上学的rek，作者声明原创、为个人理解）</li><li>核实：2026-11-13 打开专栏原文核对模具特点 1–7、拆件要点 1–4 与包胶说明；文中两个示例视频（腾讯视频牙刷、杯子）未打开。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/07.html">07-材料与工艺</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>包胶/双色</li><li>注塑</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>牙刷</li><li>杯子</li><li>软硬胶结合外壳</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>硬胶 + 软胶（未注明牌号）</li><li>硅胶（包胶对比）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>双色注塑</li><li>包胶</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★<span class="off">☆☆</span></span> 3/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>B站</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.bilibili.com/read/cv12125226" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/read/cv12125226</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd>—</dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（B 站专栏原文，作者声明为个人理解）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">双色注塑</span><span class="chip">包胶</span><span class="chip">软硬胶</span><span class="chip">拆件</span><span class="chip">模具</span><span class="chip">中文来源</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/GoPro%20Hero4%20Session%20免外壳防水机身.html">GoPro Hero4 Session 免外壳防水机身</a></li><li><a href="../cases/注塑倒扣脱模：强脱、斜顶还是滑块.html">注塑倒扣脱模：强脱、斜顶还是滑块</a></li><li><a href="../cases/塑料件加强筋设计：厚度、高度与间距比例.html">塑料件加强筋设计：厚度、高度与间距比例</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

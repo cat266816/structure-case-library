@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>任天堂 Switch Joy-Con 滑轨连接 · 结构设计案例库</title>
+  <meta name="description" content="Switch 主机两侧各一根金属滑轨（Phillips 螺丝固定）带针脚触点，手柄侧是塑料滑轨——「硬金属 + 软塑料」让磨损和失效优先发生在更便宜、可单独更换的手柄上。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/02.html">连接与紧固</a><span class="sep">/</span><span>任天堂 Switch Joy-Con 滑轨连接</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>任天堂 Switch Joy-Con 滑轨连接</h1>
+      <p class="lede">Switch 主机两侧各一根金属滑轨（Phillips 螺丝固定）带针脚触点，手柄侧是塑料滑轨——「硬金属 + 软塑料」让磨损和失效优先发生在更便宜、可单独更换的手柄上。</p>
+      <div class="meta-row"><span class="chip chip-02">连接与紧固</span>
+<span class="chip chip-diff-入门">入门</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/switch-joycon-rail.jpg" alt="switch-joycon-rail.jpg"></figure>
+<p><em>iFixit：从主机上拆下的 Joy-Con 滑轨</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从主机侧边向内</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>Joy-Con 滑轨（主机侧）</td><td>金属</td><td>来源未给出</td><td>Phillips 螺丝固定在机身两端</td><td>Step 13、18</td></tr><tr><td>L2</td><td>针脚触点</td><td>—</td><td>来源未给出</td><td>集成在滑轨上</td><td>Step 13</td></tr><tr><td>L3</td><td>排线</td><td>—</td><td>来源未给出</td><td>把充电与按键信号传到主板</td><td>Step 13</td></tr><tr><td>对接件</td><td>Joy-Con 侧滑轨</td><td>塑料</td><td>来源未给出</td><td>手柄外壳的一部分</td><td>Step 18</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;主机金属滑轨(螺丝)&quot;]
+  N1[&quot;针脚触点&quot;]
+  N2[&quot;排线→主板&quot;]
+  N3[&quot;⇄ Joy-Con 塑料滑轨&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>主机侧滑轨</td><td>2</td><td>导向、承载并带触点</td><td>金属</td><td>Step 13、18</td></tr><tr><td>手柄侧滑轨</td><td>每个手柄 1</td><td>与主机滑轨配合</td><td>塑料</td><td>Step 18</td></tr><tr><td>排线</td><td>每侧 1</td><td>传信号与充电</td><td>—</td><td>Step 13</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>滑轨用 Phillips 螺丝固定到主机两端</li><li>接排线到主板</li><li>使用时手柄沿滑轨推入，触点接通</li></ol>
+<blockquote><p>主机侧来自拆解；手柄锁扣细节（弹片/按钮）来源未给出。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：手柄重量与插拔力由滑轨导向承担；推断：塑料侧更软，磨损集中在手柄侧。</li><li><strong>运动关系</strong>：手柄沿滑轨直线滑动插拔。</li><li><strong>失效风险</strong>：发布初期有 Joy-Con 滑轨锁扣耐久问题的传闻；iFixit 认为失效更可能发生在手柄侧，这正是期望的结果（Step 18）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>滑轨材料</td><td>主机侧金属 / 手柄侧塑料</td><td>Step 18</td></tr><tr><td>每个手柄电池</td><td>1.9 Wh</td><td>Step 17</td></tr><tr><td>滑轨尺寸/配合间隙</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>导向+电气连接合一</li><li>把耗损设计在便宜的可换件上</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>手柄侧塑料滑轨磨损后连接会松（推断）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>配对零件选材时，有意让「便宜、易换」的一侧成为磨损件</li><li>滑轨同时做导向与触点，可减少独立连接器</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/苹果%20AirTag%20旋转后盖与内部卡扣.html">苹果 AirTag 旋转后盖与内部卡扣</a></li><li>分类索引：<a href="../categories/02.html">连接与紧固</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/Nintendo+Switch+Teardown/78263" target="_blank" rel="noopener noreferrer">Nintendo Switch Teardown</a>（2017-03-04，Evan Noronha / iFixit）</li><li>补充来源：<a href="https://www.reddit.com/r/Games/comments/5wi0ya/nintendo_switch_joycons_latching_mechanism/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/Games/comments/5wi0ya/nintendo_switch_joycons_latching_mechanism/</a></li><li>核实：2026-11-13 通过 iFixit API 读取 25 步原文，核对 Step 13、17、18 中滑轨、触点、材料描述。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/02.html">02-连接与紧固</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>滑轨/导轨</li><li>可拆连接</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>游戏机手柄</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>金属滑轨（主机侧）</li><li>塑料滑轨（手柄侧）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>入门</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/Nintendo+Switch+Teardown/78263" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Nintendo+Switch+Teardown/78263</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.reddit.com/r/Games/comments/5wi0ya/nintendo_switch_joycons_latching_mechanism/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/Games/comments/5wi0ya/nintendo_switch_joycons_latching_mechanism/</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">滑轨</span><span class="chip">快拆</span><span class="chip">触点</span><span class="chip">材料搭配</span><span class="chip">拆解</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li><a href="../cases/苹果%20AirTag%20旋转后盖与内部卡扣.html">苹果 AirTag 旋转后盖与内部卡扣</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

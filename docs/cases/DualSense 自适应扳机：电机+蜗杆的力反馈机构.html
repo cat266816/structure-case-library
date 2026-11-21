@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DualSense 自适应扳机：电机+蜗杆的力反馈机构 · 结构设计案例库</title>
+  <meta name="description" content="DualSense 的 R2/L2 扳机在普通「销轴+弹簧」回位之外，加了一套「电机→白色蜗杆→圆形齿轮→黑色摆臂」机构，可由游戏程序控制扳机阻力，编码器测量齿轮转角。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/04.html">机构与运动</a><span class="sep">/</span><span>DualSense 自适应扳机：电机+蜗杆的力反馈机构</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>DualSense 自适应扳机：电机+蜗杆的力反馈机构</h1>
+      <p class="lede">DualSense 的 R2/L2 扳机在普通「销轴+弹簧」回位之外，加了一套「电机→白色蜗杆→圆形齿轮→黑色摆臂」机构，可由游戏程序控制扳机阻力，编码器测量齿轮转角。</p>
+      <div class="meta-row"><span class="chip chip-04">机构与运动</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★★<span class="off"></span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/dualsense-trigger-parts.jpg" alt="dualsense-trigger-parts.jpg"></figure>
+<p><em>iFixit：自适应扳机模块分解</em></p>
+<figure><img src="../images/dualsense-trigger.jpg" alt="dualsense-trigger.jpg"></figure>
+<p><em>iFixit：扳机模块与电机</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>扳机模块：从操作面到内部</strong></p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>扳机（R2）</td><td>塑料</td><td>来源未给出</td><td>金属销轴铰接</td><td>Step 17；维修指南 Step 5</td></tr><tr><td>L2</td><td>塑料框架 + 金属销 + 弹簧</td><td>塑料/金属</td><td>来源未给出</td><td>实现普通扳机动作</td><td>Step 17</td></tr><tr><td>L3</td><td>黑色摆臂</td><td>—</td><td>来源未给出</td><td>由圆形齿轮驱动</td><td>Step 16-17</td></tr><tr><td>L4</td><td>圆形齿轮 + 白色蜗杆（白色齿轮箱内）</td><td>塑料（白色）</td><td>来源未给出</td><td>齿轮箱固定</td><td>Step 17</td></tr><tr><td>L5</td><td>电机</td><td>—</td><td>来源未给出</td><td>引线焊到扳机模块电路板</td><td>Step 17</td></tr><tr><td>L6</td><td>模块电路板 + 编码器</td><td>—</td><td>来源未给出</td><td>2 根排线（按键、主板）</td><td>Step 17</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  N0[&quot;扳机(R2)&quot;]
+  N1[&quot;框架+金属销+弹簧&quot;]
+  N2[&quot;黑色摆臂&quot;]
+  N3[&quot;圆形齿轮←白色蜗杆&quot;]
+  N4[&quot;电机&quot;]
+  N5[&quot;电路板+编码器&quot;]
+  N0 --&gt; N1 --&gt; N2 --&gt; N3 --&gt; N4 --&gt; N5
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>电机</td><td>1/每侧</td><td>驱动蜗杆</td><td>—</td><td>Step 16</td></tr><tr><td>蜗杆</td><td>1</td><td>减速并带动圆形齿轮</td><td>白色塑料</td><td>Step 16-17</td></tr><tr><td>圆形齿轮</td><td>1</td><td>驱动摆臂</td><td>—</td><td>Step 17</td></tr><tr><td>摆臂</td><td>1</td><td>顶住扳机产生阻力</td><td>黑色</td><td>Step 16</td></tr><tr><td>编码器</td><td>1</td><td>测量圆形齿轮转角</td><td>—</td><td>Step 17</td></tr><tr><td>R2 两段式传感器</td><td>1</td><td>区分半按与全按</td><td>—</td><td>Step 17</td></tr><tr><td>金属销 + 弹簧</td><td>各 1</td><td>扳机转轴与回位</td><td>金属</td><td>Step 17</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<ol><li>(社区维修指南) 扳机通过金属销装到扳机组件上，下方是导电橡胶和按键膜</li><li>合上扳机组件外壳（一侧 3 颗螺丝 + 排线后 1 颗）</li><li>扳机组件用 2 颗螺丝固定到中框</li><li>中框用 4 颗螺丝与外框连接</li></ol>
+<blockquote><p>装配顺序来自 iFixit 社区维修指南（PS5 Controller Trigger Teardown，按拆解反向）。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：手指压扳机 → 扳机绕金属销转动；启用时摆臂向上顶住扳机提供阻力，反力经齿轮传到蜗杆（推断：蜗杆传动通常具有一定自锁性，来源未说明）。</li><li><strong>运动关系</strong>：电机旋转 → 蜗杆 → 圆形齿轮转动 → 摆臂上抬；编码器闭环测量齿轮角度（Step 16-17）。</li><li><strong>失效风险</strong>：来源未提及；维修指南用于更换扳机按键膜，说明按键膜是易损件（推断）。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>扳机模块占比</td><td>扳机与触觉马达占手柄内部约一半体积</td><td>Step 15</td></tr><tr><td>螺丝</td><td>组件 4 颗、组件到中框 2 颗、中框到外框 4 颗</td><td>维修指南 Step 1-4</td></tr><tr><td>减速比/电机型号/阻力大小</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>阻力可编程，交互丰富</li><li>不启用时扳机照常工作（机构与普通扳机并联）</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>占用大量内部空间</li><li>零件多、成本高（推断）</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>给手动操作件叠加「可编程阻力」：电机+蜗杆+摆臂+编码器的闭环方案</li><li>让主动机构与被动功能并联，主动失效时基本功能仍可用</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li><li>分类索引：<a href="../categories/04.html">机构与运动</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280" target="_blank" rel="noopener noreferrer">PlayStation 5 Teardown（DualSense 部分 Step 12-19）</a>（2020-11-05，Taylor Dixon / iFixit；维修指南作者 vickyjean1007）</li><li>补充来源：<a href="https://www.ifixit.com/Teardown/PS5+Controller+Trigger+Teardown/158397" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/PS5+Controller+Trigger+Teardown/158397</a></li><li>核实：2026-11-13 通过 iFixit API 读取 PS5 拆解 Step 15-17 与社区维修指南 8 步原文，核对传动链与零件。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/04.html">04-机构与运动</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>齿轮/蜗杆传动</li><li>力反馈</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>游戏手柄</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>塑料框架</li><li>金属销轴</li><li>弹簧</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>来源未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★★<span class="off"></span></span> 5/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.ifixit.com/Teardown/PS5+Controller+Trigger+Teardown/158397" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/PS5+Controller+Trigger+Teardown/158397</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">蜗杆</span><span class="chip">力反馈</span><span class="chip">扳机</span><span class="chip">编码器</span><span class="chip">机构</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/PS5%20免工具侧板与%20DualSense%20隐藏螺丝.html">PS5 免工具侧板与 DualSense 隐藏螺丝</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

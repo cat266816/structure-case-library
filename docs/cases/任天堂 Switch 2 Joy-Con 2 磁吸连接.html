@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>任天堂 Switch 2 Joy-Con 2 磁吸连接 · 结构设计案例库</title>
+  <meta name="description" content="Switch 2 把一代 Joy-Con 的金属滑轨+弹簧锁扣换成「主机侧藏磁铁 + 手柄侧钢制 SL/SR 键当衔铁」的磁吸连接，握把用的是和主机完全相同的磁铁；中间的触点连接器做成可单独更换的模块——代价是磁场让任天堂放弃了霍尔摇杆。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/02.html">连接与紧固</a><span class="sep">/</span><span>任天堂 Switch 2 Joy-Con 2 磁吸连接</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>任天堂 Switch 2 Joy-Con 2 磁吸连接</h1>
+      <p class="lede">Switch 2 把一代 Joy-Con 的金属滑轨+弹簧锁扣换成「主机侧藏磁铁 + 手柄侧钢制 SL/SR 键当衔铁」的磁吸连接，握把用的是和主机完全相同的磁铁；中间的触点连接器做成可单独更换的模块——代价是磁场让任天堂放弃了霍尔摇杆。</p>
+      <div class="meta-row"><span class="chip chip-02">连接与紧固</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <aside class="callout callout-note"><div class="callout-title">与已收录案例的区别</div><p><a href="../cases/任天堂%20Switch%20Joy-Con%20滑轨连接.html">任天堂 Switch Joy-Con 滑轨连接</a> 是机械滑轨 + 弹簧卡扣锁止；本篇是磁吸吸合 + 按钮释放，连接件「功能复用」（SL/SR 按键兼作磁吸衔铁），属于不同的连接思路，二者正好形成同一产品线两代方案对照。</p></aside>
+<h2>配图</h2>
+<figure><img src="../images/switch2-joycon2-grip-magnet-core.jpg" alt="switch2-joycon2-grip-magnet-core.jpg"></figure>
+<p><em>图源：iFixit 社区拆解 Nintendo Switch 2 Joy-Con 2 Grip Teardown（Logan Readinger）Step 8；拆掉全部螺丝后两侧握把从中间的磁吸部分上取下</em></p>
+<figure><img src="../images/switch2-joycon2-grip-cover-tabs.jpg" alt="switch2-joycon2-grip-cover-tabs.jpg"></figure>
+<p><em>图源：同上 Step 5；下盖内侧，5 个卡舌靠摩擦扣住上盖</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从 Joy-Con 侧到主机/握把侧</strong>（连接界面横截）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>Joy-Con 2 的 SL / SR 键（兼作衔铁）</td><td>钢</td><td>来源未给出</td><td>装在 Joy-Con 侧边排线上方</td><td>iFixit 设备页；TronicsFix 视频约 3:45</td></tr><tr><td>L2</td><td>Joy-Con 2 中间触点连接器（rail 模块）</td><td>来源未给出</td><td>来源未给出</td><td>螺丝固定，模块化可拆</td><td>TronicsFix 视频约 3:30</td></tr><tr><td>L3</td><td>释放按钮 + 弹簧</td><td>来源未给出</td><td>来源未给出</td><td>装在 Joy-Con 侧边</td><td>TronicsFix 视频约 3:20</td></tr><tr><td>L4</td><td>主机/握把侧彩色贴纸（盖住磁铁）</td><td>贴纸</td><td>来源未给出</td><td>背胶；主机侧需加热揭下才能拆后盖螺丝</td><td>iFixit 设备页；更换指南 194221 Step 4–9</td></tr><tr><td>L5</td><td>磁铁（每侧 2 块）</td><td>磁铁</td><td>来源未给出</td><td>藏在贴纸下</td><td>iFixit 设备页</td></tr><tr><td>L6</td><td>主机侧 Joy-Con 2 连接器</td><td>来源未给出</td><td>来源未给出</td><td>2 颗 3.2 mm 黑色螺丝 + ZIF 排线</td><td>更换指南 194221 Step 35–40</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart LR
+  A[&quot;SL/SR 钢键（衔铁）&quot;] --&gt;|磁吸| B[&quot;主机/握把侧磁铁 ×2（每侧）&quot;]
+  C[&quot;Joy-Con 触点连接器&quot;] --&gt;|电接触| D[&quot;主机侧连接器（2颗3.2mm螺丝）&quot;]
+  E[&quot;释放按钮+弹簧&quot;] -.按下解除.-&gt; A
+  B --- F[&quot;彩色贴纸覆盖&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>磁铁</td><td>每侧 2 块（握把与主机相同）</td><td>吸住 Joy-Con</td><td>来源未给出</td><td>iFixit 设备页</td></tr><tr><td>SL / SR 键</td><td>每只 Joy-Con 2 个</td><td>按键 + 磁吸衔铁</td><td>钢</td><td>iFixit 设备页；TronicsFix 视频</td></tr><tr><td>触点连接器模块</td><td>每只 1</td><td>电连接</td><td>来源未给出</td><td>TronicsFix 视频</td></tr><tr><td>释放按钮（带弹簧）</td><td>每只 1</td><td>解除吸合</td><td>来源未给出</td><td>TronicsFix 视频</td></tr><tr><td>握把：橡胶脚垫</td><td>4</td><td>遮盖螺丝</td><td>橡胶</td><td>握把拆解 Step 1</td></tr><tr><td>握把：00 号十字螺丝</td><td>4 + 4 + 2（共 3 种规格）</td><td>固定外壳与磁吸中段</td><td>来源未给出</td><td>握把拆解 Step 3、6、7</td></tr><tr><td>握把：下盖卡舌</td><td>5</td><td>下盖与上盖摩擦扣合</td><td>塑料</td><td>握把拆解 Step 5</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>握把（按拆解顺序反推）：</p>
+<ol><li>两侧握把壳体对准中间的磁吸部分，装 2 颗螺丝（第 3 种规格）</li><li>装中间 4 颗螺丝</li><li>下盖 5 个卡舌扣入上盖</li><li>脚垫下 4 颗螺丝</li><li>压入 4 个脚垫：带缺口一侧对准孔的缺口；上面 2 个孔朝向握把中心，下面 2 个孔朝上方中心 45°</li></ol>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：Joy-Con 与主机的保持力来自磁铁对钢制 SL/SR 键的吸力（来源未给吸力数值）；电连接由中间触点连接器完成。</li><li><strong>运动关系</strong>：插上为磁吸自对位；取下时按释放按钮解除（TronicsFix 视频描述释放按钮有弹簧，并会推出一根销）。</li><li><strong>失效风险</strong>：<ul><li>磁场干扰：iFixit 指出任天堂在 4 月确认摇杆不用霍尔传感器，原因合理——新的磁吸连接会干扰传感器里的磁铁（iFixit 建议可选对磁干扰不敏感的 TMR）。</li><li>释放按钮：TronicsFix 认为按钮位置与一代相同、缺少加强，用户用力过猛可能把按钮压断（作者观点）。</li></ul></li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>衔铁复用</td><td>SL/SR 键用钢制，同时当按键和磁吸衔铁</td><td>iFixit 设备页</td></tr><tr><td>磁铁一致性</td><td>握把与主机用完全相同的磁铁，每侧 2 块，彩色贴纸盖住</td><td>iFixit 设备页</td></tr><tr><td>连接器模块化</td><td>Joy-Con 侧触点连接器可单独拆换；主机侧连接器 2 颗 3.2 mm 螺丝</td><td>TronicsFix；指南 194221</td></tr><tr><td>磁敏感器件回避</td><td>摇杆未用霍尔传感器</td><td>iFixit 新闻</td></tr><tr><td>握把脚垫</td><td>仅摩擦固定、无胶，带缺口防错方向</td><td>握把拆解 Step 1–2</td></tr><tr><td>磁铁规格/吸力/释放力</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>去掉滑轨与锁扣弹片，插拔动作更简单，靠磁力自对位（推断）</li><li>SL/SR 键兼作衔铁，少一个零件</li><li>连接器模块可单独维修</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>磁场限制了周边器件选型（摇杆不用霍尔）</li><li>主机侧磁铁和螺丝被背胶贴纸覆盖，维修需加热揭贴纸、易损坏贴纸</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>做磁吸配件时，让已有的钢件（按键、支架）兼作衔铁，而不是另加铁片</li><li>磁吸连接需要提前排查附近的霍尔传感器、磁力计等磁敏感器件</li><li>机械定位/电连接用独立可换模块，磁铁只负责保持力</li><li>配件与主机使用同一规格磁铁，保证吸附手感一致</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/任天堂%20Switch%20Joy-Con%20滑轨连接.html">任天堂 Switch Joy-Con 滑轨连接</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li><li>分类索引：<a href="../categories/02.html">连接与紧固</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/Device/Nintendo_Switch_2_Joy-Con_2_Grip" target="_blank" rel="noopener noreferrer">Nintendo Switch 2 Joy-Con 2 Grip（iFixit 设备页）</a></li><li>补充来源：<a href="https://www.ifixit.com/Teardown/Nintendo+Switch+2+Joy-Con+2+Grip+Teardown/213340" target="_blank" rel="noopener noreferrer">Nintendo Switch 2 Joy-Con 2 Grip Teardown</a>（iFixit 社区拆解，Logan Readinger，发布于 2026-04-07）；<a href="https://www.ifixit.com/News/110926/switch-2-teardown" target="_blank" rel="noopener noreferrer">Switch 2 Teardown: Still Glued, Still Soldered, Still Drifting</a>（iFixit，2025-06-06，Elizabeth Chamberlain）；<a href="https://www.ifixit.com/Guide/Nintendo+Switch+2+Right+Joy-Con+2+Connector+Replacement/194221" target="_blank" rel="noopener noreferrer">Switch 2 Right Joy-Con 2 Connector Replacement</a>（iFixit，Nick Schultz）；<a href="https://www.youtube.com/watch?v=2t61wgZ6GtM" target="_blank" rel="noopener noreferrer">Nintendo Switch 2 Joy-Con Teardown - Full Disassembly</a>（YouTube，TronicsFix）</li><li>核实：2026-11-13 读取 iFixit 设备页、握把拆解 8 步与连接器更换指南原文；读取 TronicsFix 视频英文字幕中关于磁铁、释放按钮、连接器模块的段落；核对 iFixit 新闻中霍尔传感器的说法。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/02.html">02-连接与紧固</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>磁吸</li><li>可拆连接</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd><ul><li>游戏机手柄</li><li>手柄握把</li></ul></dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>磁铁</li><li>钢（SL/SR 键）</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/Device/Nintendo_Switch_2_Joy-Con_2_Grip" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Device/Nintendo_Switch_2_Joy-Con_2_Grip</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.ifixit.com/Teardown/Nintendo+Switch+2+Joy-Con+2+Grip+Teardown/213340" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Teardown/Nintendo+Switch+2+Joy-Con+2+Grip+Teardown/213340</a></li><li><a class="source-link" href="https://www.ifixit.com/News/110926/switch-2-teardown" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/News/110926/switch-2-teardown</a></li><li><a class="source-link" href="https://www.ifixit.com/Guide/Nintendo+Switch+2+Right+Joy-Con+2+Connector+Replacement/194221" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Guide/Nintendo+Switch+2+Right+Joy-Con+2+Connector+Replacement/194221</a></li><li><a class="source-link" href="https://www.youtube.com/watch?v=2t61wgZ6GtM" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=2t61wgZ6GtM</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>部分核实（磁铁位置与钢制 SL/SR 键来自 iFixit 设备页与 TronicsFix 视频字幕；磁铁规格、吸力来源未给出）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">磁吸</span><span class="chip">快拆</span><span class="chip">手柄</span><span class="chip">Switch 2</span><span class="chip">拆解</span><span class="chip">对比案例</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/任天堂%20Switch%20Joy-Con%20滑轨连接.html">任天堂 Switch Joy-Con 滑轨连接</a></li><li><a href="../cases/Framework%20笔记本模块化扩展卡与磁吸边框.html">Framework 笔记本模块化扩展卡与磁吸边框</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>

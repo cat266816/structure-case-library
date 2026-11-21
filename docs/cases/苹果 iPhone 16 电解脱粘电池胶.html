@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>苹果 iPhone 16 电解脱粘电池胶 · 结构设计案例库</title>
+  <meta name="description" content="iPhone 16/16 Plus 不再用易脆的拉胶条固定电池，而是用一种通电即脱粘的胶：把电池底边的银色导电片接正极、机内接地螺丝接负极，加 9 V 约 90 秒，胶与铝中框的界面被电化学「氧化脱开」，电池即可无力取出——把「胶粘」从不可维修变成可重复、可预期的拆卸工艺。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/06.html">拆解与可维修</a><span class="sep">/</span><span>苹果 iPhone 16 电解脱粘电池胶</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>苹果 iPhone 16 电解脱粘电池胶</h1>
+      <p class="lede">iPhone 16/16 Plus 不再用易脆的拉胶条固定电池，而是用一种通电即脱粘的胶：把电池底边的银色导电片接正极、机内接地螺丝接负极，加 9 V 约 90 秒，胶与铝中框的界面被电化学「氧化脱开」，电池即可无力取出——把「胶粘」从不可维修变成可重复、可预期的拆卸工艺。</p>
+      <div class="meta-row"><span class="chip chip-06">拆解与可维修</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★★<span class="off"></span></span>
+<span class="chip">2026-11-13</span></div>
+    </header>
+    <div class="article-body">
+      <aside class="callout callout-note"><div class="callout-title">与已收录案例的区别</div><p><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a> 是胶粘导致不可拆；本篇是<strong>可按需解除的胶粘</strong>，属于胶粘的正面改进。</p></aside>
+<h2>配图</h2>
+<figure><img src="../images/iphone16-battery-9v-debond.jpg" alt="iphone16-battery-9v-debond.jpg"></figure>
+<p><em>图源：iFixit 新闻 We Hot-Wired the iPhone 16 转引的苹果官方 iPhone 16 电池维修手册配图：9 V 电池 + 鳄鱼夹，计时 1:30</em></p>
+<figure><img src="../images/iphone16-frame-adhesive-well.jpg" alt="iphone16-frame-adhesive-well.jpg"></figure>
+<p><em>图源：同上；Evident 显微镜下的中框电池胶槽，机加工出的纹路与粗糙面供胶附着</em></p>
+<blockquote><p>图片版权归原作者所有，仅作个人学习收藏；出处见文末「来源与核实记录」。</p></blockquote>
+<h2>结构原理</h2>
+<blockquote><p>本节数字只写来源里给出的；来源没有就写「来源未给出」。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>方向：<strong>从后玻璃向屏幕方向</strong>（电池区域）</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1</td><td>后玻璃</td><td>玻璃</td><td>来源未给出</td><td>周边胶 + 金属卡扣；指南提示撬片不要插入超过 3 mm</td><td>指南 Step 8–13</td></tr><tr><td>L2</td><td>电池（无拉胶条），底边带银色导电片</td><td>锂电池</td><td>来源未给出</td><td>—</td><td>新闻；指南 Step 20</td></tr><tr><td>L3</td><td>电解脱粘胶层</td><td>导电电解胶（具体成分来源未给出）</td><td>来源未给出</td><td>夹在电池与中框之间，电池侧带粉色离型纸</td><td>新闻</td></tr><tr><td>L4</td><td>中框胶槽</td><td>铝</td><td>来源未给出</td><td>机加工出纹路与粗糙面供胶附着</td><td>新闻（显微照片）</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart TB
+  G[&quot;后玻璃（周边胶+金属卡扣）&quot;] --&gt; B[&quot;电池 + 银色导电片(+)&quot;]
+  B --&gt; A[&quot;电解脱粘胶&quot;]
+  A --&gt; F[&quot;铝中框胶槽（机加工纹理）&quot;]
+  F --- S[&quot;接地螺丝(-)&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>电池银色导电片</td><td>1</td><td>正极接入点（接红色鳄鱼夹）</td><td>金属</td><td>指南 Step 20、22</td></tr><tr><td>接地螺丝</td><td>1</td><td>负极接入点（位置：来源图示，文字未写明）</td><td>金属</td><td>指南 Step 23</td></tr><tr><td>电解脱粘胶</td><td>1 层</td><td>固定电池，通电后脱粘</td><td>iFixit 高度确信为 Tesa「Debonding on Demand — Electrical Release」</td><td>新闻</td></tr><tr><td>中框胶槽</td><td>1</td><td>容纳胶层，提供附着纹理</td><td>铝</td><td>新闻</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>按拆解顺序反推（维修更换时）：</p>
+<ol><li>清理中框残胶：大块用镊子撕掉，余下用浓度 &gt; 90% 的异丙醇擦净。</li><li>新电池若未预贴胶，按旧电池对照贴胶并撕离型纸（苹果手册描述撕粉色离型纸）。</li><li>放入新电池并压紧（具体对位步骤见指南后半部分，本次未逐步核对）。</li><li>装回后玻璃。</li></ol>
+<blockquote><p>拆卸：断开电池 → 揭起银色导电片 → 红夹接导电片、黑夹接地螺丝 → 通电约 90 秒 → 断电后抓导电片取出电池。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：日常使用时电池由胶层与中框胶槽的粘接承载。</li><li><strong>脱粘机理</strong>（iFixit 引用的论文解释）：阳极脱层——铝基材表面被氧化，Al³⁺ 迁移进胶层，胶与被氧化的那一面失去支撑而快速脱开；胶会留在接正极的一侧。</li><li><strong>极性</strong>：正确极性时残胶留在电池上、中框干净；接反也能脱粘，但残胶留在中框上；反接不能让胶重新粘合，胶不是可重复使用的。</li><li><strong>失效风险</strong>：苹果手册提示胶随时间老化可能需要更长时间脱粘；红夹不能碰到其他金属面以免短路。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>苹果推荐</td><td>9 V 电池通电 90 秒</td><td>指南简介；新闻</td></tr><tr><td>可用电压</td><td>5–20 V 电源/充电宝均可（时间不同）；苹果称最高可用 30 V</td><td>指南简介；新闻</td></tr><tr><td>iFixit 实测</td><td>12 V 约 60 秒取出；20 V 约 5 秒；5 V 略超 6 分钟</td><td>新闻</td></tr><tr><td>极性</td><td>正极接电池导电片，残胶留在电池侧</td><td>新闻；指南 Step 22–23</td></tr><tr><td>中框表面</td><td>胶槽机加工出纹路和粗糙面</td><td>新闻</td></tr><tr><td>适用机型</td><td>16 / 16 Plus 用新胶；16 Pro / Pro Max 仍用拉胶条（Pro 电池为钢壳）</td><td>新闻</td></tr><tr><td>胶层厚度、剥离强度</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>拆电池不再依赖易断的拉胶条或溶剂，过程一致、可重复</li><li>工具门槛低：9 V 电池 + 导线即可，非专有工具</li><li>胶槽纹理 + 极性控制让残胶留在旧电池上，中框易清理</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>需要电源和接线，维修者要注意极性与短路</li><li>胶不可复用，更换需新胶（iFixit 推测新电池会预贴胶）；胶老化后的脱粘时间未知</li><li>iFixit 仍更希望用螺丝等更易逆的紧固方式</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>「必须粘」又「必须可维修」的零件，可以设计成<strong>按需脱粘</strong>：预留电极接入点（导电片 + 接地螺丝）</li><li>让胶层与金属基材的哪一侧脱开可通过极性/表面处理设计，从而控制残胶位置</li><li>粘接面机加工纹理，提高粘接强度的同时保证脱粘界面可控（推断）</li></ul>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a></li><li><a href="../cases/Fairphone%205%20卡扣后盖与免胶可换电池.html">Fairphone 5 卡扣后盖与免胶可换电池</a></li><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li><li>分类索引：<a href="../categories/06.html">拆解与可维修</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16" target="_blank" rel="noopener noreferrer">We Hot-Wired the iPhone 16</a>（iFixit 新闻，2024-09-22，Kyle Wiens）</li><li>补充来源：<a href="https://www.ifixit.com/Guide/iPhone+16+Battery+Replacement/177286" target="_blank" rel="noopener noreferrer">iPhone 16 Battery Replacement</a>（iFixit 指南，Alex Diaz-Kokaisl）</li><li>核实：2026-11-13 打开新闻全文核对电压/时间、极性、机理、胶槽显微照片；通过 iFixit API 读取指南简介与 Step 8–29 核对导电片、接地螺丝、清胶步骤。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/06.html">06-拆解与可维修</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>可维修设计</li><li>胶粘封装</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>智能手机（iPhone 16 / 16 Plus）</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd><ul><li>电解可脱粘胶（iFixit 推测为 Tesa 技术）</li><li>铝合金中框</li></ul></dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd><ul><li>胶粘</li><li>CNC（中框胶槽加工出纹理）</li></ul></dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★★<span class="off"></span></span> 5/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-13</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>iFixit</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://www.ifixit.com/Guide/iPhone+16+Battery+Replacement/177286" target="_blank" rel="noopener noreferrer">https://www.ifixit.com/Guide/iPhone+16+Battery+Replacement/177286</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（iFixit 新闻 + 维修指南；胶的化学机理为 iFixit 引用论文的解释，胶供应商为 iFixit 推测）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">电池</span><span class="chip">胶粘</span><span class="chip">电解脱粘</span><span class="chip">可维修</span><span class="chip">拆解</span><span class="chip">创新</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/苹果%20AirPods%20Pro%20全胶粘封装（反面案例）.html">苹果 AirPods Pro 全胶粘封装（反面案例）</a></li><li><a href="../cases/Fairphone%205%20卡扣后盖与免胶可换电池.html">Fairphone 5 卡扣后盖与免胶可换电池</a></li><li><a href="../cases/微软%20Surface%20Laptop%20超声波点焊与%20Alcantara%20覆面（反面案例）.html">微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>
