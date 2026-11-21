@@ -1207,8 +1207,8 @@ def main():
         DOCS = Path(args.out).resolve()
 
     cases = load_cases()
-    if len(cases) != 111:
-        print(f"WARNING: expected 111 cases, found {len(cases)}")
+    if not cases:
+        raise SystemExit("No case notes found in vault/; refusing to build an empty site.")
 
     linker = Linker(cases)
     attach_used = set()

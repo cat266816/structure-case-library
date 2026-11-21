@@ -181,7 +181,7 @@ def main() -> int:
                     missing_assets.append((fp, src))
 
     print("\n--- Results ---")
-    print(f"Case page count == 111: {len(case_pages) == 111} ({len(case_pages)})")
+    print(f"Case page count == vault count: {len(case_pages) == len(vault_cases)} ({len(case_pages)}/{len(vault_cases)})")
     print(f"Missing case pages: {len(missing_pages)}")
     for s in missing_pages:
         print(f"  MISSING {s}")
@@ -216,7 +216,9 @@ def main() -> int:
     print(f"docs/ total size: {total / (1024*1024):.1f} MB")
 
     ok = (
-        len(case_pages) == 111
+        len(case_pages) == len(vault_cases)
+        and bool(vault_cases)
+        and not extra_pages
         and not missing_pages
         and not dead
         and not missing_imgs

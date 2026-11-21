@@ -1080,8 +1080,8 @@
       "x": 0,
       "y": 9180,
       "width": 2040,
-      "height": 4340,
-      "label": "04-机构与运动（26）",
+      "height": 6440,
+      "label": "04-机构与运动（45）",
       "color": "4"
     },
     {
@@ -1591,10 +1591,10 @@
       "id": "group-4",
       "type": "group",
       "x": 0,
-      "y": 13640,
+      "y": 15740,
       "width": 2040,
       "height": 2240,
-      "label": "05-密封与防护（11）",
+      "label": "05-密封与防护（12）",
       "color": "5"
     },
     {
@@ -1602,7 +1602,7 @@
       "type": "file",
       "file": "05-密封与防护/05-密封与防护 索引.md",
       "x": 40,
-      "y": 13680,
+      "y": 15780,
       "width": 360,
       "height": 60
     },
@@ -1611,7 +1611,7 @@
       "type": "file",
       "file": "附件/gore-adhesive-vent-mounting.png",
       "x": 40,
-      "y": 13780,
+      "y": 15880,
       "width": 360,
       "height": 240
     },
@@ -1620,7 +1620,7 @@
       "type": "file",
       "file": "05-密封与防护/GORE 防水透气膜：压力平衡与粘贴式透气阀的安装参数.md",
       "x": 40,
-      "y": 14040,
+      "y": 16140,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1630,7 +1630,7 @@
       "type": "file",
       "file": "附件/garmin-fenix7x-gasket.jpg",
       "x": 440,
-      "y": 13780,
+      "y": 15880,
       "width": 360,
       "height": 240
     },
@@ -1639,7 +1639,7 @@
       "type": "file",
       "file": "05-密封与防护/Garmin fēnix 7X 可复用橡胶密封圈.md",
       "x": 440,
-      "y": 14040,
+      "y": 16140,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1649,7 +1649,7 @@
       "type": "file",
       "file": "附件/gopro-session-oring.jpg",
       "x": 840,
-      "y": 13780,
+      "y": 15880,
       "width": 360,
       "height": 240
     },
@@ -1658,7 +1658,7 @@
       "type": "file",
       "file": "05-密封与防护/GoPro Hero4 Session 免外壳防水机身.md",
       "x": 840,
-      "y": 14040,
+      "y": 16140,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1668,7 +1668,7 @@
       "type": "file",
       "file": "附件/oring-gland-fill.jpg",
       "x": 1240,
-      "y": 13780,
+      "y": 15880,
       "width": 360,
       "height": 240
     },
@@ -1677,7 +1677,7 @@
       "type": "file",
       "file": "05-密封与防护/O 形圈密封槽设计：填充率、压缩率与挤出间隙的五个数.md",
       "x": 1240,
-      "y": 14040,
+      "y": 16140,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1687,7 +1687,7 @@
       "type": "file",
       "file": "附件/tpu-airbag-corner-cn204707366.jpg",
       "x": 1640,
-      "y": 13780,
+      "y": 15880,
       "width": 360,
       "height": 240
     },
@@ -1696,7 +1696,7 @@
       "type": "file",
       "file": "05-密封与防护/TPU 包胶气囊角：拐角外凸空腔缓冲跌落冲击.md",
       "x": 1640,
-      "y": 14040,
+      "y": 16140,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1706,7 +1706,7 @@
       "type": "file",
       "file": "附件/galaxy-z-fold3-teardown-ifixit.jpg",
       "x": 40,
-      "y": 14480,
+      "y": 16580,
       "width": 360,
       "height": 240
     },
@@ -1715,7 +1715,7 @@
       "type": "file",
       "file": "05-密封与防护/三星 Galaxy Z Fold3 折叠屏防水结构.md",
       "x": 40,
-      "y": 14740,
+      "y": 16840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1725,7 +1725,7 @@
       "type": "file",
       "file": "附件/rugged-phone-housing-gasket.jpg",
       "x": 440,
-      "y": 14480,
+      "y": 16580,
       "width": 360,
       "height": 240
     },
@@ -1734,7 +1734,7 @@
       "type": "file",
       "file": "05-密封与防护/三防手机整机防水结构：上下壳胶圈、电池盖、按键与开孔的参数清单.md",
       "x": 440,
-      "y": 14740,
+      "y": 16840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1744,7 +1744,7 @@
       "type": "file",
       "file": "附件/acoustic-membrane-oval-sheet.jpg",
       "x": 840,
-      "y": 14480,
+      "y": 16580,
       "width": 360,
       "height": 240
     },
@@ -1753,7 +1753,7 @@
       "type": "file",
       "file": "05-密封与防护/喇叭防尘网与防水透声膜叠层：声学孔与结构孔不要混用.md",
       "x": 840,
-      "y": 14740,
+      "y": 16840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1763,7 +1763,7 @@
       "type": "file",
       "file": "附件/epp-helmet-shell-liner-section.jpg",
       "x": 1240,
-      "y": 14480,
+      "y": 16580,
       "width": 360,
       "height": 240
     },
@@ -1772,7 +1772,7 @@
       "type": "file",
       "file": "05-密封与防护/安全帽 EPS 与 EPP 缓冲内衬：珠粒模压与硬壳堆叠.md",
       "x": 1240,
-      "y": 14740,
+      "y": 16840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1782,7 +1782,7 @@
       "type": "file",
       "file": "附件/iphone7-volume-button-gaskets.jpg",
       "x": 1640,
-      "y": 14480,
+      "y": 16580,
       "width": 360,
       "height": 240
     },
@@ -1791,7 +1791,7 @@
       "type": "file",
       "file": "05-密封与防护/苹果 iPhone 7 首代 IP67：逐个开口封堵与气压平衡阀.md",
       "x": 1640,
-      "y": 14740,
+      "y": 16840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1801,7 +1801,7 @@
       "type": "text",
       "text": "来源无结构配图",
       "x": 40,
-      "y": 15180,
+      "y": 17280,
       "width": 360,
       "height": 240
     },
@@ -1810,7 +1810,7 @@
       "type": "file",
       "file": "05-密封与防护/跌落测试结构加固：六面四角、外圆角与局部 TPU 缓冲.md",
       "x": 40,
-      "y": 15440,
+      "y": 17540,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1819,7 +1819,7 @@
       "id": "group-5",
       "type": "group",
       "x": 0,
-      "y": 16000,
+      "y": 18100,
       "width": 2040,
       "height": 1540,
       "label": "06-拆解与可维修（9）",
@@ -1830,7 +1830,7 @@
       "type": "file",
       "file": "06-拆解与可维修/06-拆解与可维修 索引.md",
       "x": 40,
-      "y": 16040,
+      "y": 18140,
       "width": 360,
       "height": 60
     },
@@ -1839,7 +1839,7 @@
       "type": "file",
       "file": "附件/fairphone5-back-cover-clips.jpg",
       "x": 40,
-      "y": 16140,
+      "y": 18240,
       "width": 360,
       "height": 240
     },
@@ -1848,7 +1848,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Fairphone 5 卡扣后盖与免胶可换电池.md",
       "x": 40,
-      "y": 16400,
+      "y": 18500,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1858,7 +1858,7 @@
       "type": "file",
       "file": "附件/fairphone6-teardown-layout.jpg",
       "x": 440,
-      "y": 16140,
+      "y": 18240,
       "width": 360,
       "height": 240
     },
@@ -1867,7 +1867,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Fairphone 6 螺丝模块化（屏、电池、摄像头、USB-C）.md",
       "x": 440,
-      "y": 16400,
+      "y": 18500,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1877,7 +1877,7 @@
       "type": "file",
       "file": "附件/framework-desktop-teardown-overview.jpg",
       "x": 840,
-      "y": 16140,
+      "y": 18240,
       "width": 360,
       "height": 240
     },
@@ -1886,7 +1886,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Framework Desktop 免工具面板与标准件模块化.md",
       "x": 840,
-      "y": 16400,
+      "y": 18500,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1896,7 +1896,7 @@
       "type": "file",
       "file": "附件/framework16-expansion-bay-slide.jpg",
       "x": 1240,
-      "y": 16140,
+      "y": 18240,
       "width": 360,
       "height": 240
     },
@@ -1905,7 +1905,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Framework Laptop 16 Expansion Bay 滑出式显卡模块.md",
       "x": 1240,
-      "y": 16400,
+      "y": 18500,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1915,7 +1915,7 @@
       "type": "file",
       "file": "附件/framework-laptop-ifixit.jpg",
       "x": 1640,
-      "y": 16140,
+      "y": 18240,
       "width": 360,
       "height": 240
     },
@@ -1924,7 +1924,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Framework 笔记本模块化扩展卡与磁吸边框.md",
       "x": 1640,
-      "y": 16400,
+      "y": 18500,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1934,7 +1934,7 @@
       "type": "file",
       "file": "附件/sdoled-interconnect-cable-3gen.jpg",
       "x": 40,
-      "y": 16840,
+      "y": 18940,
       "width": 360,
       "height": 240
     },
@@ -1943,7 +1943,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Valve Steam Deck OLED 可维修改版：金属螺纹柱、T6 Torx 与电池撬卡槽.md",
       "x": 40,
-      "y": 17100,
+      "y": 19200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1953,7 +1953,7 @@
       "type": "file",
       "file": "附件/airpods-pro-glue.jpg",
       "x": 440,
-      "y": 16840,
+      "y": 18940,
       "width": 360,
       "height": 240
     },
@@ -1962,7 +1962,7 @@
       "type": "file",
       "file": "06-拆解与可维修/苹果 AirPods Pro 全胶粘封装（反面案例）.md",
       "x": 440,
-      "y": 17100,
+      "y": 19200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1972,7 +1972,7 @@
       "type": "file",
       "file": "附件/iphone14-midframe-front-open.jpg",
       "x": 840,
-      "y": 16840,
+      "y": 18940,
       "width": 360,
       "height": 240
     },
@@ -1981,7 +1981,7 @@
       "type": "file",
       "file": "06-拆解与可维修/苹果 iPhone 14 双面可开：中框承力与前后两道密封.md",
       "x": 840,
-      "y": 17100,
+      "y": 19200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1991,7 +1991,7 @@
       "type": "file",
       "file": "附件/iphone16-battery-9v-debond.jpg",
       "x": 1240,
-      "y": 16840,
+      "y": 18940,
       "width": 360,
       "height": 240
     },
@@ -2000,7 +2000,7 @@
       "type": "file",
       "file": "06-拆解与可维修/苹果 iPhone 16 电解脱粘电池胶.md",
       "x": 1240,
-      "y": 17100,
+      "y": 19200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -2009,7 +2009,7 @@
       "id": "group-6",
       "type": "group",
       "x": 0,
-      "y": 17660,
+      "y": 19760,
       "width": 2040,
       "height": 2240,
       "label": "07-材料与工艺（12）",
@@ -2020,7 +2020,7 @@
       "type": "file",
       "file": "07-材料与工艺/07-材料与工艺 索引.md",
       "x": 40,
-      "y": 17700,
+      "y": 19800,
       "width": 360,
       "height": 60
     },
@@ -2029,7 +2029,7 @@
       "type": "file",
       "file": "附件/pip-hinge-concept-drvax.jpg",
       "x": 40,
-      "y": 17800,
+      "y": 19900,
       "width": 360,
       "height": 240
     },
@@ -2038,7 +2038,7 @@
       "type": "file",
       "file": "07-材料与工艺/FDM 一体打印活动件（Print-in-Place）：XY 每边 0.3 mm、Z 两整层的间隙规则.md",
       "x": 40,
-      "y": 18060,
+      "y": 20160,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2048,7 +2048,7 @@
       "type": "file",
       "file": "附件/spray-free-weldline-mechanism.jpg",
       "x": 440,
-      "y": 17800,
+      "y": 19900,
       "width": 360,
       "height": 240
     },
@@ -2057,7 +2057,7 @@
       "type": "file",
       "file": "07-材料与工艺/免喷涂材料 vs 喷涂：成本、良率与三条硬边界.md",
       "x": 440,
-      "y": 18060,
+      "y": 20160,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2067,7 +2067,7 @@
       "type": "file",
       "file": "附件/two-shot-molding-process.jpg",
       "x": 840,
-      "y": 17800,
+      "y": 19900,
       "width": 360,
       "height": 240
     },
@@ -2076,7 +2076,7 @@
       "type": "file",
       "file": "07-材料与工艺/双色注塑：硬胶先射、软胶后射的结构拆件规则.md",
       "x": 840,
-      "y": 18060,
+      "y": 20160,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2086,7 +2086,7 @@
       "type": "file",
       "file": "附件/foam-mucell-process-sequence.jpg",
       "x": 1240,
-      "y": 17800,
+      "y": 19900,
       "width": 360,
       "height": 240
     },
@@ -2095,7 +2095,7 @@
       "type": "file",
       "file": "07-材料与工艺/发泡件缩水：模温、排气与保压和实心件相反.md",
       "x": 1240,
-      "y": 18060,
+      "y": 20160,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2105,7 +2105,7 @@
       "type": "file",
       "file": "附件/shrink-mismatch-assembly-gap.jpg",
       "x": 1640,
-      "y": 17800,
+      "y": 19900,
       "width": 360,
       "height": 240
     },
@@ -2114,7 +2114,7 @@
       "type": "file",
       "file": "07-材料与工艺/换料收缩率：同一张图换料就裂，图纸必须按新缩水放缩.md",
       "x": 1640,
-      "y": 18060,
+      "y": 20160,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2124,7 +2124,7 @@
       "type": "file",
       "file": "附件/gaim-four-process-stages.jpg",
       "x": 40,
-      "y": 18500,
+      "y": 20600,
       "width": 360,
       "height": 240
     },
@@ -2133,7 +2133,7 @@
       "type": "file",
       "file": "07-材料与工艺/气体辅助注塑（GAIM）：用气道掏空厚筋消缩痕.md",
       "x": 40,
-      "y": 18760,
+      "y": 20860,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2143,7 +2143,7 @@
       "type": "text",
       "text": "来源无结构配图",
       "x": 440,
-      "y": 18500,
+      "y": 20600,
       "width": 360,
       "height": 240
     },
@@ -2152,7 +2152,7 @@
       "type": "file",
       "file": "07-材料与工艺/注塑倒扣脱模：强脱、斜顶还是滑块.md",
       "x": 440,
-      "y": 18760,
+      "y": 20860,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2162,7 +2162,7 @@
       "type": "file",
       "file": "附件/giga-casting-tesla-frame.jpg",
       "x": 840,
-      "y": 18500,
+      "y": 20600,
       "width": 360,
       "height": 240
     },
@@ -2171,7 +2171,7 @@
       "type": "file",
       "file": "07-材料与工艺/特斯拉 Giga Press 一体化压铸车身件.md",
       "x": 840,
-      "y": 18760,
+      "y": 20860,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2181,7 +2181,7 @@
       "type": "file",
       "file": "附件/honor-3dp-hinge-base-swingarm.png",
       "x": 1240,
-      "y": 18500,
+      "y": 20600,
       "width": 360,
       "height": 240
     },
@@ -2190,7 +2190,7 @@
       "type": "file",
       "file": "07-材料与工艺/荣耀金属 3D 打印免组装转轴专利：连接余料与垂直打印方向的切割面.md",
       "x": 1240,
-      "y": 18760,
+      "y": 20860,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2200,7 +2200,7 @@
       "type": "file",
       "file": "附件/mimplus-sintering-support.png",
       "x": 1640,
-      "y": 18500,
+      "y": 20600,
       "width": 360,
       "height": 240
     },
@@ -2209,7 +2209,7 @@
       "type": "file",
       "file": "07-材料与工艺/金属注射成型（MIM）：均匀壁厚、烧结支撑面与 5000 件成本拐点.md",
       "x": 1640,
-      "y": 18760,
+      "y": 20860,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2219,7 +2219,7 @@
       "type": "file",
       "file": "附件/sheet-metal-min-bend-radius.png",
       "x": 40,
-      "y": 19200,
+      "y": 21300,
       "width": 360,
       "height": 240
     },
@@ -2228,7 +2228,7 @@
       "type": "file",
       "file": "07-材料与工艺/钣金折弯件设计规则：最小弯曲半径与预留切口.md",
       "x": 40,
-      "y": 19460,
+      "y": 21560,
       "width": 360,
       "height": 400,
       "color": "1"
@@ -2238,7 +2238,7 @@
       "type": "file",
       "file": "附件/anodize-size-growth.png",
       "x": 440,
-      "y": 19200,
+      "y": 21300,
       "width": 360,
       "height": 240
     },
@@ -2247,10 +2247,390 @@
       "type": "file",
       "file": "07-材料与工艺/铝件阳极氧化的尺寸链：膜厚一半向外、遮蔽螺纹与挂点.md",
       "x": 440,
-      "y": 19460,
+      "y": 21560,
       "width": 360,
       "height": 400,
       "color": "1"
+    },
+    {
+      "id": "button-stabilizer-img",
+      "type": "file",
+      "file": "附件/button-stabilizer-wire.jpg",
+      "x": 440,
+      "y": 12820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-stabilizer-note",
+      "type": "file",
+      "file": "04-机构与运动/长键卫星轴：双滑块与弯钢丝同步，偏心按压不再单端下沉.md",
+      "x": 440,
+      "y": 13080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-dpad-img",
+      "type": "file",
+      "file": "附件/button-dpad-patent.jpg",
+      "x": 840,
+      "y": 12820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-dpad-note",
+      "type": "file",
+      "file": "04-机构与运动/手柄十字键：中央半球支点与四向弹性触点的倾转选择.md",
+      "x": 840,
+      "y": 13080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-joystick-img",
+      "type": "file",
+      "file": "附件/button-joystick-centering.jpg",
+      "x": 1240,
+      "y": 12820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-joystick-note",
+      "type": "file",
+      "file": "04-机构与运动/拇指摇杆万向导向：正交转动框与中央弹簧回中.md",
+      "x": 1240,
+      "y": 13080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-mouse-img",
+      "type": "file",
+      "file": "附件/button-mouse-preload.jpg",
+      "x": 1640,
+      "y": 12820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-mouse-note",
+      "type": "file",
+      "file": "04-机构与运动/鼠标分体主键预压：独立键板、金属枢轴与弹簧张紧.md",
+      "x": 1640,
+      "y": 13080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-double-img",
+      "type": "file",
+      "file": "附件/button-double-stack.jpg",
+      "x": 40,
+      "y": 13520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-double-note",
+      "type": "file",
+      "file": "04-机构与运动/相机两段按键：上下金属动触点与分级力行程，不把两路电信号当两级手感.md",
+      "x": 40,
+      "y": 13780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-estop-img",
+      "type": "file",
+      "file": "附件/button-estop-assembly.jpg",
+      "x": 440,
+      "y": 13520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-estop-note",
+      "type": "file",
+      "file": "04-机构与运动/急停蘑菇头：机械保持、刻意复位与触点脱落向安全侧断开.md",
+      "x": 440,
+      "y": 13780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-gang-img",
+      "type": "file",
+      "file": "附件/button-gang-latch.jpg",
+      "x": 840,
+      "y": 13520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-gang-note",
+      "type": "file",
+      "file": "04-机构与运动/联排按钮共享闩条：按新键释放旧键，互锁不自动等于禁止双按.md",
+      "x": 840,
+      "y": 13780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-guard-img",
+      "type": "file",
+      "file": "附件/button-guard-nkk.jpg",
+      "x": 1240,
+      "y": 13520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-guard-note",
+      "type": "file",
+      "file": "04-机构与运动/翻盖式按键防误触：铰链、自动回盖弹簧与独立按钮.md",
+      "x": 1240,
+      "y": 13780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-rocker-img",
+      "type": "file",
+      "file": "附件/button-rocker-plunger.jpg",
+      "x": 1640,
+      "y": 13520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-rocker-note",
+      "type": "file",
+      "file": "04-机构与运动/跷板开关的弹簧柱塞：滑动压点、摇动触桥与中位自定心.md",
+      "x": 1640,
+      "y": 13780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-air-img",
+      "type": "file",
+      "file": "附件/button-air-transmitter.jpg",
+      "x": 40,
+      "y": 14220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-air-note",
+      "type": "file",
+      "file": "04-机构与运动/气动远置按钮：压缩气腔、软管与隔离的电气开关.md",
+      "x": 40,
+      "y": 14480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-enable-img",
+      "type": "file",
+      "file": "附件/button-enable-sequence.jpg",
+      "x": 440,
+      "y": 14220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-enable-note",
+      "type": "file",
+      "file": "04-机构与运动/三位置使能握持键：松手OFF、轻握ON、过握OFF且回程不再导通.md",
+      "x": 440,
+      "y": 14480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-foot-img",
+      "type": "file",
+      "file": "附件/button-foot-hercules.jpg",
+      "x": 840,
+      "y": 14220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-foot-note",
+      "type": "file",
+      "file": "04-机构与运动/脚踏开关：后铰轴踏板、独立防护罩与多级操作边界.md",
+      "x": 840,
+      "y": 14480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-buckle-img",
+      "type": "file",
+      "file": "附件/button-buckle-patent.jpg",
+      "x": 1240,
+      "y": 14220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-buckle-note",
+      "type": "file",
+      "file": "04-机构与运动/IBM屈曲弹簧键：螺旋簧失稳产生力矩，驱动翻转锤.md",
+      "x": 1240,
+      "y": 14480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-beam-img",
+      "type": "file",
+      "file": "附件/button-beam-spring.jpg",
+      "x": 1640,
+      "y": 14220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-beam-note",
+      "type": "file",
+      "file": "04-机构与运动/IBM Beam Spring键：片簧越中反转并向上提起飞板.md",
+      "x": 1640,
+      "y": 14480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-piezo-img",
+      "type": "file",
+      "file": "附件/button-piezo-pse.jpg",
+      "x": 40,
+      "y": 14920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-piezo-note",
+      "type": "file",
+      "file": "04-机构与运动/金属压电按钮：连续金属面微挠曲，无可见滑动键程的扩展案例.md",
+      "x": 40,
+      "y": 15180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-gasket-img",
+      "type": "file",
+      "file": "附件/button-gasket-mount.jpg",
+      "x": 440,
+      "y": 14920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-gasket-note",
+      "type": "file",
+      "file": "04-机构与运动/键盘内胆Gasket悬置：把按键触底载荷从刚性螺柱改经弹性垫传到壳体.md",
+      "x": 440,
+      "y": 15180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-point-img",
+      "type": "file",
+      "file": "附件/button-point-patent.jpg",
+      "x": 840,
+      "y": 14920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-point-note",
+      "type": "file",
+      "file": "04-机构与运动/应变式指点杆：十字薄片根部弯曲，将侧向按力变成二维输入.md",
+      "x": 840,
+      "y": 15180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-gas-img",
+      "type": "file",
+      "file": "附件/button-gas-knob.jpg",
+      "x": 1240,
+      "y": 14920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-gas-note",
+      "type": "file",
+      "file": "04-机构与运动/灶具旋钮轴向解锁：先推或拉解除转动约束，阀芯压紧与解锁分工.md",
+      "x": 1240,
+      "y": 15180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-cable-img",
+      "type": "file",
+      "file": "附件/button-cable-release.jpg",
+      "x": 1640,
+      "y": 14920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-cable-note",
+      "type": "file",
+      "file": "04-机构与运动/机械快门线：柔性芯与固定外套的反力闭环，远置按钮不传手部晃动.md",
+      "x": 1640,
+      "y": 15180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-watch-img",
+      "type": "file",
+      "file": "附件/button-watch-pusher.jpg",
+      "x": 440,
+      "y": 17280,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-watch-note",
+      "type": "file",
+      "file": "05-密封与防护/手表防水推杆：套管导向、轴向回位与径向滑动密封.md",
+      "x": 440,
+      "y": 17540,
+      "width": 360,
+      "height": 400,
+      "color": "5"
     }
   ],
   "edges": [
@@ -2882,6 +3262,146 @@
       "fromNode": "img-89",
       "fromSide": "bottom",
       "toNode": "case-89",
+      "toSide": "top"
+    },
+    {
+      "id": "button-stabilizer-edge",
+      "fromNode": "button-stabilizer-img",
+      "fromSide": "bottom",
+      "toNode": "button-stabilizer-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-dpad-edge",
+      "fromNode": "button-dpad-img",
+      "fromSide": "bottom",
+      "toNode": "button-dpad-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-joystick-edge",
+      "fromNode": "button-joystick-img",
+      "fromSide": "bottom",
+      "toNode": "button-joystick-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-mouse-edge",
+      "fromNode": "button-mouse-img",
+      "fromSide": "bottom",
+      "toNode": "button-mouse-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-double-edge",
+      "fromNode": "button-double-img",
+      "fromSide": "bottom",
+      "toNode": "button-double-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-estop-edge",
+      "fromNode": "button-estop-img",
+      "fromSide": "bottom",
+      "toNode": "button-estop-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-gang-edge",
+      "fromNode": "button-gang-img",
+      "fromSide": "bottom",
+      "toNode": "button-gang-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-guard-edge",
+      "fromNode": "button-guard-img",
+      "fromSide": "bottom",
+      "toNode": "button-guard-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-rocker-edge",
+      "fromNode": "button-rocker-img",
+      "fromSide": "bottom",
+      "toNode": "button-rocker-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-air-edge",
+      "fromNode": "button-air-img",
+      "fromSide": "bottom",
+      "toNode": "button-air-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-enable-edge",
+      "fromNode": "button-enable-img",
+      "fromSide": "bottom",
+      "toNode": "button-enable-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-foot-edge",
+      "fromNode": "button-foot-img",
+      "fromSide": "bottom",
+      "toNode": "button-foot-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-buckle-edge",
+      "fromNode": "button-buckle-img",
+      "fromSide": "bottom",
+      "toNode": "button-buckle-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-beam-edge",
+      "fromNode": "button-beam-img",
+      "fromSide": "bottom",
+      "toNode": "button-beam-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-piezo-edge",
+      "fromNode": "button-piezo-img",
+      "fromSide": "bottom",
+      "toNode": "button-piezo-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-gasket-edge",
+      "fromNode": "button-gasket-img",
+      "fromSide": "bottom",
+      "toNode": "button-gasket-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-point-edge",
+      "fromNode": "button-point-img",
+      "fromSide": "bottom",
+      "toNode": "button-point-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-gas-edge",
+      "fromNode": "button-gas-img",
+      "fromSide": "bottom",
+      "toNode": "button-gas-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-cable-edge",
+      "fromNode": "button-cable-img",
+      "fromSide": "bottom",
+      "toNode": "button-cable-note",
+      "toSide": "top"
+    },
+    {
+      "id": "button-watch-edge",
+      "fromNode": "button-watch-img",
+      "fromSide": "bottom",
+      "toNode": "button-watch-note",
       "toSide": "top"
     }
   ]
