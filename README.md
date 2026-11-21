@@ -2,7 +2,9 @@
 
 产品与机械结构设计案例库（外壳、连接件、转轴铰链、机构、密封、拆解结构等），以 [Obsidian](https://obsidian.md/) 仓库形式整理，目前共 131 篇案例。
 
-本仓库为**私有**。配图版权归原作者，仅供个人学习，请勿公开再分发。
+本仓库现为**公开**。在线网页：https://cat266816.github.io/structure-case-library/
+
+配图版权归原作者，仅供个人学习，请勿把配图另行公开再分发。案例中的结构参数与说明整理自文内已列来源，不构成对原作品的额外授权。
 
 ## 用 Obsidian 打开
 
@@ -14,13 +16,13 @@
 
 ## 可视化网页
 
-静态站点位于 `docs/`，可作为 GitHub Pages 项目站的源（`main` 分支的 `/docs`）。本地可直接打开 `docs/index.html`，或在仓库根目录运行：
+在线浏览：https://cat266816.github.io/structure-case-library/
+
+静态站点位于 `docs/`，GitHub Pages 项目站源为 `main` 分支的 `/docs`。本地也可直接打开 `docs/index.html`，或在仓库根目录运行：
 
 ```bash
 python3 scripts/build_site.py
 ```
-
-GitHub Pages 尚未启用；若已发布，本节会改为实际地址。
 
 ## 目录
 
