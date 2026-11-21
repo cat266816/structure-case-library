@@ -1,0 +1,2888 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -260,
+      "width": 900,
+      "height": 200,
+      "color": "6",
+      "text": "# 结构设计案例地图\n共 111 个案例 · 按一级分类分组 · 卡片可直接打开笔记\n\n[[首页]] · [[收集计划]] · [[收集日志]]"
+    },
+    {
+      "id": "group-0",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 2040,
+      "height": 1540,
+      "label": "01-壳体与外观件（10）",
+      "color": "1"
+    },
+    {
+      "id": "idx-0",
+      "type": "file",
+      "file": "01-壳体与外观件/01-壳体与外观件 索引.md",
+      "x": 40,
+      "y": 40,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-0",
+      "type": "file",
+      "file": "附件/ps5-side-panel.jpg",
+      "x": 40,
+      "y": 140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-0",
+      "type": "file",
+      "file": "01-壳体与外观件/PS5 免工具侧板与 DualSense 隐藏螺丝.md",
+      "x": 40,
+      "y": 400,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-1",
+      "type": "file",
+      "file": "附件/moldtech-texture-draft.png",
+      "x": 440,
+      "y": 140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-1",
+      "type": "file",
+      "file": "01-壳体与外观件/咬花（晒纹）与拔模角：每 0.025 mm 纹深加 1°.md",
+      "x": 440,
+      "y": 400,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-2",
+      "type": "file",
+      "file": "附件/rib-design-dimensions.jpg",
+      "x": 840,
+      "y": 140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-2",
+      "type": "file",
+      "file": "01-壳体与外观件/塑料件加强筋设计：厚度、高度与间距比例.md",
+      "x": 840,
+      "y": 400,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-3",
+      "type": "file",
+      "file": "附件/shell-lip-face-bottom-step.jpg",
+      "x": 1240,
+      "y": 140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-3",
+      "type": "file",
+      "file": "01-壳体与外观件/塑料外壳止口与扣位：间隙参数与三个翻车案例.md",
+      "x": 1240,
+      "y": 400,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-4",
+      "type": "file",
+      "file": "附件/weldline-gate-position.jpg",
+      "x": 1640,
+      "y": 140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-4",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑熔接痕：位置由浇口定、深浅由前锋温差定.md",
+      "x": 1640,
+      "y": 400,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-5",
+      "type": "file",
+      "file": "附件/sink-mark-adjacent-wall-ratio.jpg",
+      "x": 40,
+      "y": 840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-5",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑缩痕：厚壁背面凹陷、减胶坑与保压边界.md",
+      "x": 40,
+      "y": 1100,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-6",
+      "type": "file",
+      "file": "附件/boss-dimensions.jpg",
+      "x": 440,
+      "y": 840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-6",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑螺丝柱（Boss 柱）：壁厚比 0.6 分水岭与自攻底孔公式.md",
+      "x": 440,
+      "y": 1100,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-70",
+      "type": "file",
+      "file": "附件/parker-honeycomb-cell-size-specs.jpg",
+      "x": 840,
+      "y": 840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-70",
+      "type": "file",
+      "file": "01-壳体与外观件/EMI 蜂窝波导通风板：孔径、深度与截止频率.md",
+      "x": 840,
+      "y": 1100,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-71",
+      "type": "file",
+      "file": "附件/amca-louver-free-area-definition.png",
+      "x": 1240,
+      "y": 840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-71",
+      "type": "file",
+      "file": "01-壳体与外观件/外壳散热通风口与防雨百叶：开孔率、进出风与滴水路径.md",
+      "x": 1240,
+      "y": 1100,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-72",
+      "type": "file",
+      "file": "附件/solidvents-speaker-grille-patterns.jpg",
+      "x": 1640,
+      "y": 840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-72",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑喇叭网罩：开孔率、孔径孔距与脱模.md",
+      "x": 1640,
+      "y": 1100,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "group-1",
+      "type": "group",
+      "x": 0,
+      "y": 1660,
+      "width": 2040,
+      "height": 5040,
+      "label": "02-连接与紧固（32）",
+      "color": "2"
+    },
+    {
+      "id": "idx-1",
+      "type": "file",
+      "file": "02-连接与紧固/02-连接与紧固 索引.md",
+      "x": 40,
+      "y": 1700,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-7",
+      "type": "file",
+      "file": "附件/heat-set-insert-section.jpg",
+      "x": 40,
+      "y": 1800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-7",
+      "type": "file",
+      "file": "02-连接与紧固/3D 打印件热熔铜螺母：孔径与拉拔力实测.md",
+      "x": 40,
+      "y": 2060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-8",
+      "type": "file",
+      "file": "附件/switch2-joycon2-grip-magnet-core.jpg",
+      "x": 440,
+      "y": 1800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-8",
+      "type": "file",
+      "file": "02-连接与紧固/任天堂 Switch 2 Joy-Con 2 磁吸连接.md",
+      "x": 440,
+      "y": 2060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-9",
+      "type": "file",
+      "file": "附件/switch-joycon-rail.jpg",
+      "x": 840,
+      "y": 1800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-9",
+      "type": "file",
+      "file": "02-连接与紧固/任天堂 Switch Joy-Con 滑轨连接.md",
+      "x": 840,
+      "y": 2060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-10",
+      "type": "file",
+      "file": "附件/snap-fit-cantilever.png",
+      "x": 1240,
+      "y": 1800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-10",
+      "type": "file",
+      "file": "02-连接与紧固/卡扣三种基本形式：悬臂、环形、扭转.md",
+      "x": 1240,
+      "y": 2060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-11",
+      "type": "file",
+      "file": "附件/ultrasonic-energy-director-dukane.jpg",
+      "x": 1640,
+      "y": 1800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-11",
+      "type": "file",
+      "file": "02-连接与紧固/塑料件超声波焊接：导熔线、焊筋与溢胶槽.md",
+      "x": 1640,
+      "y": 2060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-12",
+      "type": "file",
+      "file": "附件/surface-laptop-welds.jpg",
+      "x": 40,
+      "y": 2500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-12",
+      "type": "file",
+      "file": "02-连接与紧固/微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）.md",
+      "x": 40,
+      "y": 2760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-13",
+      "type": "file",
+      "file": "附件/heatstake-tpi-flared-high.png",
+      "x": 440,
+      "y": 2500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-13",
+      "type": "file",
+      "file": "02-连接与紧固/热铆（热熔柱）：铆柱高度按体积守恒算，蘑菇头直径 2d.md",
+      "x": 440,
+      "y": 2760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-14",
+      "type": "file",
+      "file": "附件/airtag-twist.jpg",
+      "x": 840,
+      "y": 2500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-14",
+      "type": "file",
+      "file": "02-连接与紧固/苹果 AirTag 旋转后盖与内部卡扣.md",
+      "x": 840,
+      "y": 2760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-15",
+      "type": "file",
+      "file": "附件/pem-clinch-nut-section.png",
+      "x": 1240,
+      "y": 2500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-15",
+      "type": "file",
+      "file": "02-连接与紧固/钣金压铆螺母（PEM S-CLS）：孔径、最小板厚、边距与板材硬度上限.md",
+      "x": 1240,
+      "y": 2760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-73",
+      "type": "file",
+      "file": "附件/arca-swiss-compatibility.jpg",
+      "x": 1640,
+      "y": 2500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-73",
+      "type": "file",
+      "file": "02-连接与紧固/Arca-Swiss 38 mm 燕尾快装板：事实标准与跨品牌混用风险.md",
+      "x": 1640,
+      "y": 2760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-74",
+      "type": "file",
+      "file": "附件/pogo-pin-structure-current-flow.png",
+      "x": 40,
+      "y": 3200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-74",
+      "type": "file",
+      "file": "02-连接与紧固/Pogo Pin 弹簧顶针：针头、弹簧与针管的工作行程和弹力.md",
+      "x": 40,
+      "y": 3460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-75",
+      "type": "file",
+      "file": "附件/sony-nex5-e-mount.jpg",
+      "x": 440,
+      "y": 3200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-75",
+      "type": "file",
+      "file": "02-连接与紧固/Sony E 卡口：三爪、18 mm 法兰距与锁销磨损.md",
+      "x": 440,
+      "y": 3460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-76",
+      "type": "file",
+      "file": "附件/southco-quarter-turn-exploded.jpg",
+      "x": 840,
+      "y": 3200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-76",
+      "type": "file",
+      "file": "02-连接与紧固/Southco、DZUS 四分之一转快锁：90° 凸轮与按总材料厚度选钉长.md",
+      "x": 840,
+      "y": 3460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-77",
+      "type": "file",
+      "file": "附件/legrand-ip68-plastic-cable-glands.jpg",
+      "x": 1240,
+      "y": 3200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-77",
+      "type": "file",
+      "file": "02-连接与紧固/电缆防水格兰头：PG 螺纹、夹紧爪与密封圈.md",
+      "x": 1240,
+      "y": 3460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-90",
+      "type": "file",
+      "file": "附件/delta-pt-boss-hole.png",
+      "x": 1640,
+      "y": 3200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-91",
+      "type": "file",
+      "file": "02-连接与紧固/EJOT Delta PT 塑料用三角齿自攻螺丝：底孔 0.8·d1、20° 牙侧角与应力释放沉孔.md",
+      "x": 1640,
+      "y": 3460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-92",
+      "type": "file",
+      "file": "附件/nord-lock-wedge-principle.jpg",
+      "x": 40,
+      "y": 3900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-93",
+      "type": "file",
+      "file": "02-连接与紧固/Nord-Lock 楔形防松垫圈：楔角大于螺纹升角的成对拉伸锁紧.md",
+      "x": 40,
+      "y": 4160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-94",
+      "type": "file",
+      "file": "附件/spiralock-thread-form.png",
+      "x": 440,
+      "y": 3900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-95",
+      "type": "file",
+      "file": "02-连接与紧固/Spiralock 楔形底 30° 防松内螺纹：牙顶楔入斜面消除径向间隙.md",
+      "x": 440,
+      "y": 4160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-96",
+      "type": "file",
+      "file": "附件/taptite-ii-trilobular-family.jpg",
+      "x": 840,
+      "y": 3900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-97",
+      "type": "file",
+      "file": "02-连接与紧固/TAPTITE II 金属三角挤牙自攻螺丝：按啮合率选底孔.md",
+      "x": 840,
+      "y": 4160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-98",
+      "type": "file",
+      "file": "附件/cd-weld-stud-pt.png",
+      "x": 1240,
+      "y": 3900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-99",
+      "type": "file",
+      "file": "02-连接与紧固/储能焊螺柱（GB-T 902.3 PT-IT）：电容放电把焊接端熔到板面.md",
+      "x": 1240,
+      "y": 4160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-100",
+      "type": "file",
+      "file": "附件/din980m-insert-section.jpg",
+      "x": 1640,
+      "y": 3900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-101",
+      "type": "file",
+      "file": "02-连接与紧固/全金属锁紧螺母（DIN 980）：三点变形与金属嵌片的预紧力矩防松.md",
+      "x": 1640,
+      "y": 4160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-102",
+      "type": "file",
+      "file": "附件/shoulder-screws-s76.jpg",
+      "x": 40,
+      "y": 4600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-103",
+      "type": "file",
+      "file": "02-连接与紧固/台阶螺丝（ISO 7379 塞打螺丝）：光杆定位、螺纹只锁紧.md",
+      "x": 40,
+      "y": 4860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-104",
+      "type": "file",
+      "file": "附件/nyloc-nut-a270.jpg",
+      "x": 440,
+      "y": 4600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-105",
+      "type": "file",
+      "file": "02-连接与紧固/尼龙嵌件锁紧螺母（DIN 985 Nyloc）：预紧力矩、120°C 上限与安装方向.md",
+      "x": 440,
+      "y": 4860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-106",
+      "type": "file",
+      "file": "附件/spring-washer-junker-curve.png",
+      "x": 840,
+      "y": 4600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-107",
+      "type": "file",
+      "file": "02-连接与紧固/开口弹簧垫圈防松失效（反面案例）：压平后在横向振动中几乎无效.md",
+      "x": 840,
+      "y": 4860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-108",
+      "type": "file",
+      "file": "附件/blind-rivet-grip-section.png",
+      "x": 1240,
+      "y": 4600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-109",
+      "type": "file",
+      "file": "02-连接与紧固/抽芯铆钉（盲铆钉）：钉套、钉芯与断颈槽，开口型与封闭型.md",
+      "x": 1240,
+      "y": 4860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-110",
+      "type": "file",
+      "file": "附件/rivet-nut-cutaway.jpg",
+      "x": 1640,
+      "y": 4600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-111",
+      "type": "file",
+      "file": "02-连接与紧固/拉铆螺母（铆螺母）：单面镦头、铆接范围与圆孔滚花及六角防转.md",
+      "x": 1640,
+      "y": 4860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-112",
+      "type": "file",
+      "file": "附件/well-nut-hanson.jpg",
+      "x": 40,
+      "y": 5300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-113",
+      "type": "file",
+      "file": "02-连接与紧固/橡胶膨胀螺母（Well nut）：橡胶套筒胀紧孔壁兼隔振.md",
+      "x": 40,
+      "y": 5560,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-114",
+      "type": "file",
+      "file": "附件/mold-in-insert-section.jpg",
+      "x": 440,
+      "y": 5300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-115",
+      "type": "file",
+      "file": "02-连接与紧固/注塑模内预埋铜螺母：模具定位、溢胶风险与直纹及斜花滚花.md",
+      "x": 440,
+      "y": 5560,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-116",
+      "type": "file",
+      "file": "附件/helicoil-plus-tight-fit.png",
+      "x": 840,
+      "y": 5300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-117",
+      "type": "file",
+      "file": "02-连接与紧固/钢丝螺套（Helicoil 与 STI 底孔）：菱形钢丝嵌件与专用底孔攻丝.md",
+      "x": 840,
+      "y": 5560,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-118",
+      "type": "file",
+      "file": "附件/u-type-clip-nuts.jpg",
+      "x": 1240,
+      "y": 5300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-119",
+      "type": "file",
+      "file": "02-连接与紧固/钣金 U 型夹板螺母与卡式笼式螺母：板边夹持与方孔浮动螺纹.md",
+      "x": 1240,
+      "y": 5560,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-120",
+      "type": "file",
+      "file": "附件/pem-fh-flush-stud.png",
+      "x": 1640,
+      "y": 5300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-121",
+      "type": "file",
+      "file": "02-连接与紧固/钣金压铆螺钉（PEM FH 平头螺柱）：孔径、最小板厚、边距与板材硬度上限.md",
+      "x": 1640,
+      "y": 5560,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-122",
+      "type": "file",
+      "file": "附件/pem-so-standoff-types.jpg",
+      "x": 40,
+      "y": 6000,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-123",
+      "type": "file",
+      "file": "02-连接与紧固/钣金压铆隔离柱（PEM SO）：孔径、最小板厚、柱长与板材硬度上限.md",
+      "x": 40,
+      "y": 6260,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-124",
+      "type": "file",
+      "file": "附件/precote-30-coated-screws.png",
+      "x": 440,
+      "y": 6000,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-125",
+      "type": "file",
+      "file": "02-连接与紧固/预涂微胶囊螺纹胶与现场涂厌氧锁固剂（precote 与 Loctite 243）.md",
+      "x": 440,
+      "y": 6260,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "group-2",
+      "type": "group",
+      "x": 0,
+      "y": 6820,
+      "width": 2040,
+      "height": 2240,
+      "label": "03-转轴与铰链（11）",
+      "color": "3"
+    },
+    {
+      "id": "idx-2",
+      "type": "file",
+      "file": "03-转轴与铰链/03-转轴与铰链 索引.md",
+      "x": 40,
+      "y": 6860,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-16",
+      "type": "file",
+      "file": "附件/brateck-ldt23-vesa-arm.jpg",
+      "x": 40,
+      "y": 6960,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-16",
+      "type": "file",
+      "file": "03-转轴与铰链/VESA MIS-D 75-100 接口与倾角摩擦关节.md",
+      "x": 40,
+      "y": 7220,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-17",
+      "type": "file",
+      "file": "附件/imac27-hinge-broken-plastic-caps.jpg",
+      "x": 440,
+      "y": 6960,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-17",
+      "type": "file",
+      "file": "03-转轴与铰链/iMac 27 英寸铰链弹簧塑料帽失效（反面案例）.md",
+      "x": 440,
+      "y": 7220,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-18",
+      "type": "file",
+      "file": "附件/ipad-magic-keyboard-xray.jpg",
+      "x": 840,
+      "y": 6960,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-18",
+      "type": "file",
+      "file": "03-转轴与铰链/iPad Magic Keyboard 双铰链悬浮支架与配重.md",
+      "x": 840,
+      "y": 7220,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-19",
+      "type": "file",
+      "file": "附件/galaxy-fold-hinge.jpg",
+      "x": 1240,
+      "y": 6960,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-19",
+      "type": "file",
+      "file": "03-转轴与铰链/三星 Galaxy Fold 一代铰链与屏幕支撑结构.md",
+      "x": 1240,
+      "y": 7220,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-20",
+      "type": "file",
+      "file": "附件/zflip-hinge.jpg",
+      "x": 1640,
+      "y": 6960,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-20",
+      "type": "file",
+      "file": "03-转轴与铰链/三星 Galaxy Z Flip 铰链与尼龙防尘刷.md",
+      "x": 1640,
+      "y": 7220,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-21",
+      "type": "file",
+      "file": "附件/surface-book-fulcrum-hinge-wired.jpg",
+      "x": 40,
+      "y": 7660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-21",
+      "type": "file",
+      "file": "03-转轴与铰链/微软 Surface Book 动态支点铰链（分段铝铰链）.md",
+      "x": 40,
+      "y": 7920,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-22",
+      "type": "file",
+      "file": "附件/surface-duo-hinge.jpg",
+      "x": 440,
+      "y": 7660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-22",
+      "type": "file",
+      "file": "03-转轴与铰链/微软 Surface Duo 360° 双铰链.md",
+      "x": 440,
+      "y": 7920,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-23",
+      "type": "file",
+      "file": "附件/surface-pro4-kickstand-hinge-closeup.jpg",
+      "x": 840,
+      "y": 7660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-23",
+      "type": "file",
+      "file": "03-转轴与铰链/微软 Surface Pro Kickstand 宽角摩擦铰链.md",
+      "x": 840,
+      "y": 7920,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-24",
+      "type": "file",
+      "file": "附件/reell-torque-insert-clips.png",
+      "x": 1240,
+      "y": 7660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-24",
+      "type": "file",
+      "file": "03-转轴与铰链/恒扭力摩擦铰链：卡簧过盈产生扭力与「最低扭力 > 盖板力矩」选型.md",
+      "x": 1240,
+      "y": 7920,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-25",
+      "type": "file",
+      "file": "附件/living-hinge-soy-sauce-cap.jpg",
+      "x": 1640,
+      "y": 7660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-25",
+      "type": "file",
+      "file": "03-转轴与铰链/活动铰链（Living Hinge）：一体成型的柔性铰链.md",
+      "x": 1640,
+      "y": 7920,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "img-26",
+      "type": "file",
+      "file": "附件/flexgate-2016-cable-open.jpg",
+      "x": 40,
+      "y": 8360,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-26",
+      "type": "file",
+      "file": "03-转轴与铰链/苹果 MacBook Pro 2016 Flexgate（反面案例）：绕板的屏幕排线与 2018 年加长 2 mm.md",
+      "x": 40,
+      "y": 8620,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "group-3",
+      "type": "group",
+      "x": 0,
+      "y": 9180,
+      "width": 2040,
+      "height": 4340,
+      "label": "04-机构与运动（26）",
+      "color": "4"
+    },
+    {
+      "id": "idx-3",
+      "type": "file",
+      "file": "04-机构与运动/04-机构与运动 索引.md",
+      "x": 40,
+      "y": 9220,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-27",
+      "type": "file",
+      "file": "附件/macbook-pro16-scissor-dome-thickness.jpg",
+      "x": 40,
+      "y": 9320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-27",
+      "type": "file",
+      "file": "04-机构与运动/16 英寸 MacBook Pro 剪刀脚键盘：1 mm 键程与交叉支架（对照蝶式）.md",
+      "x": 40,
+      "y": 9580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-28",
+      "type": "file",
+      "file": "附件/dualsense-trigger-parts.jpg",
+      "x": 440,
+      "y": 9320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-28",
+      "type": "file",
+      "file": "04-机构与运动/DualSense 自适应扳机：电机+蜗杆的力反馈机构.md",
+      "x": 440,
+      "y": 9580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-29",
+      "type": "file",
+      "file": "附件/ergotron-lx-cf-45-241-026.jpg",
+      "x": 840,
+      "y": 9320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-29",
+      "type": "file",
+      "file": "04-机构与运动/Ergotron CF 恒力螺旋弹簧支架（对比气弹簧）.md",
+      "x": 840,
+      "y": 9580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-30",
+      "type": "file",
+      "file": "附件/macpro-2019-twist-handle.jpg",
+      "x": 1240,
+      "y": 9320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-30",
+      "type": "file",
+      "file": "04-机构与运动/Mac Pro 2019 旋转把手外壳锁与免工具模块锁.md",
+      "x": 1240,
+      "y": 9580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-31",
+      "type": "file",
+      "file": "附件/surface-book-muscle-wire-lock.jpg",
+      "x": 1640,
+      "y": 9320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-31",
+      "type": "file",
+      "file": "04-机构与运动/微软 Surface Book 形状记忆合金（肌肉线）电控分离锁.md",
+      "x": 1640,
+      "y": 9580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-32",
+      "type": "file",
+      "file": "附件/click-pen-cam.jpg",
+      "x": 40,
+      "y": 10020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-32",
+      "type": "file",
+      "file": "04-机构与运动/按动圆珠笔：旋转凸轮的按压伸缩机构.md",
+      "x": 40,
+      "y": 10280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-33",
+      "type": "file",
+      "file": "附件/bansbach-rotary-vs-vane-damper.jpg",
+      "x": 440,
+      "y": 10020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-33",
+      "type": "file",
+      "file": "04-机构与运动/旋转阻尼器（缓降盖板）：硅油黏性、水平型与垂直型的扭矩曲线.md",
+      "x": 440,
+      "y": 10280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-34",
+      "type": "file",
+      "file": "附件/monitor-arm-nb-f00a-gas-spring.jpg",
+      "x": 840,
+      "y": 10020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-34",
+      "type": "file",
+      "file": "04-机构与运动/显示器气弹簧支架：张力螺丝与悬停平衡.md",
+      "x": 840,
+      "y": 10280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-35",
+      "type": "file",
+      "file": "附件/gas-spring-piston-pressure-cutaway.jpg",
+      "x": 1240,
+      "y": 10020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-35",
+      "type": "file",
+      "file": "04-机构与运动/气弹簧内部结构：活塞阻尼孔与氮气预压.md",
+      "x": 1240,
+      "y": 10280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-36",
+      "type": "file",
+      "file": "附件/butterfly-kb-2018-silicone-membrane.jpg",
+      "x": 1640,
+      "y": 10020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-36",
+      "type": "file",
+      "file": "04-机构与运动/苹果蝶式键盘（反面案例）：变薄 40% 的代价与硅胶防尘膜补救.md",
+      "x": 1640,
+      "y": 10280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-37",
+      "type": "file",
+      "file": "附件/push-push-latch-ep1596030.png",
+      "x": 40,
+      "y": 10720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-37",
+      "type": "file",
+      "file": "04-机构与运动/防变形静音 Push-Push 按压弹跳锁（ITW 专利 EP1596030）.md",
+      "x": 40,
+      "y": 10980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-78",
+      "type": "file",
+      "file": "附件/blum-tip-on-tandembox-components.jpg",
+      "x": 440,
+      "y": 10720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-78",
+      "type": "file",
+      "file": "04-机构与运动/Blum TIP-ON 按压弹开抽屉：柜体轨弹簧单元与抽屉锁止模块.md",
+      "x": 440,
+      "y": 10980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-79",
+      "type": "file",
+      "file": "附件/cherry-mx-brown-disassembled.jpg",
+      "x": 840,
+      "y": 10720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-79",
+      "type": "file",
+      "file": "04-机构与运动/Cherry MX 机械键盘轴：轴心、螺旋弹簧与金交叉触点.md",
+      "x": 840,
+      "y": 10980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-80",
+      "type": "file",
+      "file": "附件/fidlock-v-buckle-explosion.jpg",
+      "x": 1240,
+      "y": 10720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-80",
+      "type": "file",
+      "file": "04-机构与运动/FIDLOCK V-BUCKLE：磁吸引导到位后再由机械扣锁死.md",
+      "x": 1240,
+      "y": 10980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-81",
+      "type": "file",
+      "file": "附件/gopro-thumb-screw-in-mount.jpg",
+      "x": 1640,
+      "y": 10720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-81",
+      "type": "file",
+      "file": "04-机构与运动/GoPro 快拆卡扣与指旋螺母：两爪弹性卡入和螺钉夹紧是两套锁.md",
+      "x": 1640,
+      "y": 10980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-82",
+      "type": "file",
+      "file": "附件/nifco-us4660871-exploded.png",
+      "x": 40,
+      "y": 11420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-82",
+      "type": "file",
+      "file": "04-机构与运动/Nifco 经典心形槽 Push-Push：U 形销与片簧（对照 ITW 防变形版）.md",
+      "x": 40,
+      "y": 11680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-83",
+      "type": "file",
+      "file": "附件/jae-st5-microsd-sim-combo.jpg",
+      "x": 440,
+      "y": 11420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-83",
+      "type": "file",
+      "file": "04-机构与运动/SD 与 microSD 推推式卡座：心形槽滑块与卡片当撞销.md",
+      "x": 440,
+      "y": 11680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-84",
+      "type": "file",
+      "file": "附件/itw-sr1-buckle.jpg",
+      "x": 840,
+      "y": 11420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-84",
+      "type": "file",
+      "file": "04-机构与运动/侧向释放插扣（ITW SR 1）：双弹性卡臂、母座侧窗与中间翼.md",
+      "x": 840,
+      "y": 11680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-85",
+      "type": "file",
+      "file": "附件/dewalt-battery-latch-spring.jpg",
+      "x": 1240,
+      "y": 11420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-85",
+      "type": "file",
+      "file": "04-机构与运动/电动工具电池包：滑轨插入与按压锁舌（得伟拆解）.md",
+      "x": 1240,
+      "y": 11680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-86",
+      "type": "file",
+      "file": "附件/silicone-keypad-structure-force-curve.png",
+      "x": 1640,
+      "y": 11420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-86",
+      "type": "file",
+      "file": "04-机构与运动/硅胶导电按键：斜壁荷重、碳粒与排气槽.md",
+      "x": 1640,
+      "y": 11680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-87",
+      "type": "file",
+      "file": "附件/nfi-membrane-switch-stack.jpg",
+      "x": 40,
+      "y": 12120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-87",
+      "type": "file",
+      "file": "04-机构与运动/薄膜开关叠层：面板、间隔层、电路层与开窗排气.md",
+      "x": 40,
+      "y": 12380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-88",
+      "type": "file",
+      "file": "附件/snaptron-force-displacement-curve.jpg",
+      "x": 440,
+      "y": 12120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-88",
+      "type": "file",
+      "file": "04-机构与运动/金属锅仔片阵列：直径、力值、行程与寿命互换.md",
+      "x": 440,
+      "y": 12380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-89",
+      "type": "file",
+      "file": "附件/omron-d2fc-working.jpg",
+      "x": 840,
+      "y": 12120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-89",
+      "type": "file",
+      "file": "04-机构与运动/鼠标微动开关（Omron D2FC）：杠杆、簧片翻转与触点.md",
+      "x": 840,
+      "y": 12380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-126",
+      "type": "file",
+      "file": "附件/alps-ec11e-spec-table.jpg",
+      "x": 1240,
+      "y": 12120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-127",
+      "type": "file",
+      "file": "04-机构与运动/ALPS EC11 旋转编码器：11 mm 金属轴增量脉冲与可选按压开关.md",
+      "x": 1240,
+      "y": 12380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-128",
+      "type": "file",
+      "file": "附件/jae-sf70-datasheet.jpg",
+      "x": 1640,
+      "y": 12120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-129",
+      "type": "file",
+      "file": "04-机构与运动/Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出.md",
+      "x": 1640,
+      "y": 12380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-130",
+      "type": "file",
+      "file": "附件/side-key-metal-gaps.jpg",
+      "x": 40,
+      "y": 12820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-131",
+      "type": "file",
+      "file": "04-机构与运动/手机侧键传力结构：键帽、软胶导电基与壳体间隙链.md",
+      "x": 40,
+      "y": 13080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "group-4",
+      "type": "group",
+      "x": 0,
+      "y": 13640,
+      "width": 2040,
+      "height": 2240,
+      "label": "05-密封与防护（11）",
+      "color": "5"
+    },
+    {
+      "id": "idx-4",
+      "type": "file",
+      "file": "05-密封与防护/05-密封与防护 索引.md",
+      "x": 40,
+      "y": 13680,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-38",
+      "type": "file",
+      "file": "附件/gore-adhesive-vent-mounting.png",
+      "x": 40,
+      "y": 13780,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-38",
+      "type": "file",
+      "file": "05-密封与防护/GORE 防水透气膜：压力平衡与粘贴式透气阀的安装参数.md",
+      "x": 40,
+      "y": 14040,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-39",
+      "type": "file",
+      "file": "附件/garmin-fenix7x-gasket.jpg",
+      "x": 440,
+      "y": 13780,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-39",
+      "type": "file",
+      "file": "05-密封与防护/Garmin fēnix 7X 可复用橡胶密封圈.md",
+      "x": 440,
+      "y": 14040,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-40",
+      "type": "file",
+      "file": "附件/gopro-session-oring.jpg",
+      "x": 840,
+      "y": 13780,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-40",
+      "type": "file",
+      "file": "05-密封与防护/GoPro Hero4 Session 免外壳防水机身.md",
+      "x": 840,
+      "y": 14040,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-41",
+      "type": "file",
+      "file": "附件/oring-gland-fill.jpg",
+      "x": 1240,
+      "y": 13780,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-41",
+      "type": "file",
+      "file": "05-密封与防护/O 形圈密封槽设计：填充率、压缩率与挤出间隙的五个数.md",
+      "x": 1240,
+      "y": 14040,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-42",
+      "type": "file",
+      "file": "附件/tpu-airbag-corner-cn204707366.jpg",
+      "x": 1640,
+      "y": 13780,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-42",
+      "type": "file",
+      "file": "05-密封与防护/TPU 包胶气囊角：拐角外凸空腔缓冲跌落冲击.md",
+      "x": 1640,
+      "y": 14040,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-43",
+      "type": "file",
+      "file": "附件/galaxy-z-fold3-teardown-ifixit.jpg",
+      "x": 40,
+      "y": 14480,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-43",
+      "type": "file",
+      "file": "05-密封与防护/三星 Galaxy Z Fold3 折叠屏防水结构.md",
+      "x": 40,
+      "y": 14740,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-44",
+      "type": "file",
+      "file": "附件/rugged-phone-housing-gasket.jpg",
+      "x": 440,
+      "y": 14480,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-44",
+      "type": "file",
+      "file": "05-密封与防护/三防手机整机防水结构：上下壳胶圈、电池盖、按键与开孔的参数清单.md",
+      "x": 440,
+      "y": 14740,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-45",
+      "type": "file",
+      "file": "附件/acoustic-membrane-oval-sheet.jpg",
+      "x": 840,
+      "y": 14480,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-45",
+      "type": "file",
+      "file": "05-密封与防护/喇叭防尘网与防水透声膜叠层：声学孔与结构孔不要混用.md",
+      "x": 840,
+      "y": 14740,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-46",
+      "type": "file",
+      "file": "附件/epp-helmet-shell-liner-section.jpg",
+      "x": 1240,
+      "y": 14480,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-46",
+      "type": "file",
+      "file": "05-密封与防护/安全帽 EPS 与 EPP 缓冲内衬：珠粒模压与硬壳堆叠.md",
+      "x": 1240,
+      "y": 14740,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-47",
+      "type": "file",
+      "file": "附件/iphone7-volume-button-gaskets.jpg",
+      "x": 1640,
+      "y": 14480,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-47",
+      "type": "file",
+      "file": "05-密封与防护/苹果 iPhone 7 首代 IP67：逐个开口封堵与气压平衡阀.md",
+      "x": 1640,
+      "y": 14740,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-48",
+      "type": "text",
+      "text": "来源无结构配图",
+      "x": 40,
+      "y": 15180,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-48",
+      "type": "file",
+      "file": "05-密封与防护/跌落测试结构加固：六面四角、外圆角与局部 TPU 缓冲.md",
+      "x": 40,
+      "y": 15440,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "group-5",
+      "type": "group",
+      "x": 0,
+      "y": 16000,
+      "width": 2040,
+      "height": 1540,
+      "label": "06-拆解与可维修（9）",
+      "color": "6"
+    },
+    {
+      "id": "idx-5",
+      "type": "file",
+      "file": "06-拆解与可维修/06-拆解与可维修 索引.md",
+      "x": 40,
+      "y": 16040,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-49",
+      "type": "file",
+      "file": "附件/fairphone5-back-cover-clips.jpg",
+      "x": 40,
+      "y": 16140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-49",
+      "type": "file",
+      "file": "06-拆解与可维修/Fairphone 5 卡扣后盖与免胶可换电池.md",
+      "x": 40,
+      "y": 16400,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-50",
+      "type": "file",
+      "file": "附件/fairphone6-teardown-layout.jpg",
+      "x": 440,
+      "y": 16140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-50",
+      "type": "file",
+      "file": "06-拆解与可维修/Fairphone 6 螺丝模块化（屏、电池、摄像头、USB-C）.md",
+      "x": 440,
+      "y": 16400,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-51",
+      "type": "file",
+      "file": "附件/framework-desktop-teardown-overview.jpg",
+      "x": 840,
+      "y": 16140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-51",
+      "type": "file",
+      "file": "06-拆解与可维修/Framework Desktop 免工具面板与标准件模块化.md",
+      "x": 840,
+      "y": 16400,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-52",
+      "type": "file",
+      "file": "附件/framework16-expansion-bay-slide.jpg",
+      "x": 1240,
+      "y": 16140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-52",
+      "type": "file",
+      "file": "06-拆解与可维修/Framework Laptop 16 Expansion Bay 滑出式显卡模块.md",
+      "x": 1240,
+      "y": 16400,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-53",
+      "type": "file",
+      "file": "附件/framework-laptop-ifixit.jpg",
+      "x": 1640,
+      "y": 16140,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-53",
+      "type": "file",
+      "file": "06-拆解与可维修/Framework 笔记本模块化扩展卡与磁吸边框.md",
+      "x": 1640,
+      "y": 16400,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-54",
+      "type": "file",
+      "file": "附件/sdoled-interconnect-cable-3gen.jpg",
+      "x": 40,
+      "y": 16840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-54",
+      "type": "file",
+      "file": "06-拆解与可维修/Valve Steam Deck OLED 可维修改版：金属螺纹柱、T6 Torx 与电池撬卡槽.md",
+      "x": 40,
+      "y": 17100,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-55",
+      "type": "file",
+      "file": "附件/airpods-pro-glue.jpg",
+      "x": 440,
+      "y": 16840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-55",
+      "type": "file",
+      "file": "06-拆解与可维修/苹果 AirPods Pro 全胶粘封装（反面案例）.md",
+      "x": 440,
+      "y": 17100,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-56",
+      "type": "file",
+      "file": "附件/iphone14-midframe-front-open.jpg",
+      "x": 840,
+      "y": 16840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-56",
+      "type": "file",
+      "file": "06-拆解与可维修/苹果 iPhone 14 双面可开：中框承力与前后两道密封.md",
+      "x": 840,
+      "y": 17100,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "img-57",
+      "type": "file",
+      "file": "附件/iphone16-battery-9v-debond.jpg",
+      "x": 1240,
+      "y": 16840,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-57",
+      "type": "file",
+      "file": "06-拆解与可维修/苹果 iPhone 16 电解脱粘电池胶.md",
+      "x": 1240,
+      "y": 17100,
+      "width": 360,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "group-6",
+      "type": "group",
+      "x": 0,
+      "y": 17660,
+      "width": 2040,
+      "height": 2240,
+      "label": "07-材料与工艺（12）",
+      "color": "1"
+    },
+    {
+      "id": "idx-6",
+      "type": "file",
+      "file": "07-材料与工艺/07-材料与工艺 索引.md",
+      "x": 40,
+      "y": 17700,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-58",
+      "type": "file",
+      "file": "附件/pip-hinge-concept-drvax.jpg",
+      "x": 40,
+      "y": 17800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-58",
+      "type": "file",
+      "file": "07-材料与工艺/FDM 一体打印活动件（Print-in-Place）：XY 每边 0.3 mm、Z 两整层的间隙规则.md",
+      "x": 40,
+      "y": 18060,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-59",
+      "type": "file",
+      "file": "附件/spray-free-weldline-mechanism.jpg",
+      "x": 440,
+      "y": 17800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-59",
+      "type": "file",
+      "file": "07-材料与工艺/免喷涂材料 vs 喷涂：成本、良率与三条硬边界.md",
+      "x": 440,
+      "y": 18060,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-60",
+      "type": "file",
+      "file": "附件/two-shot-molding-process.jpg",
+      "x": 840,
+      "y": 17800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-60",
+      "type": "file",
+      "file": "07-材料与工艺/双色注塑：硬胶先射、软胶后射的结构拆件规则.md",
+      "x": 840,
+      "y": 18060,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-61",
+      "type": "file",
+      "file": "附件/foam-mucell-process-sequence.jpg",
+      "x": 1240,
+      "y": 17800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-61",
+      "type": "file",
+      "file": "07-材料与工艺/发泡件缩水：模温、排气与保压和实心件相反.md",
+      "x": 1240,
+      "y": 18060,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-62",
+      "type": "file",
+      "file": "附件/shrink-mismatch-assembly-gap.jpg",
+      "x": 1640,
+      "y": 17800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-62",
+      "type": "file",
+      "file": "07-材料与工艺/换料收缩率：同一张图换料就裂，图纸必须按新缩水放缩.md",
+      "x": 1640,
+      "y": 18060,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-63",
+      "type": "file",
+      "file": "附件/gaim-four-process-stages.jpg",
+      "x": 40,
+      "y": 18500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-63",
+      "type": "file",
+      "file": "07-材料与工艺/气体辅助注塑（GAIM）：用气道掏空厚筋消缩痕.md",
+      "x": 40,
+      "y": 18760,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-64",
+      "type": "text",
+      "text": "来源无结构配图",
+      "x": 440,
+      "y": 18500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-64",
+      "type": "file",
+      "file": "07-材料与工艺/注塑倒扣脱模：强脱、斜顶还是滑块.md",
+      "x": 440,
+      "y": 18760,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-65",
+      "type": "file",
+      "file": "附件/giga-casting-tesla-frame.jpg",
+      "x": 840,
+      "y": 18500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-65",
+      "type": "file",
+      "file": "07-材料与工艺/特斯拉 Giga Press 一体化压铸车身件.md",
+      "x": 840,
+      "y": 18760,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-66",
+      "type": "file",
+      "file": "附件/honor-3dp-hinge-base-swingarm.png",
+      "x": 1240,
+      "y": 18500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-66",
+      "type": "file",
+      "file": "07-材料与工艺/荣耀金属 3D 打印免组装转轴专利：连接余料与垂直打印方向的切割面.md",
+      "x": 1240,
+      "y": 18760,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-67",
+      "type": "file",
+      "file": "附件/mimplus-sintering-support.png",
+      "x": 1640,
+      "y": 18500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-67",
+      "type": "file",
+      "file": "07-材料与工艺/金属注射成型（MIM）：均匀壁厚、烧结支撑面与 5000 件成本拐点.md",
+      "x": 1640,
+      "y": 18760,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-68",
+      "type": "file",
+      "file": "附件/sheet-metal-min-bend-radius.png",
+      "x": 40,
+      "y": 19200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-68",
+      "type": "file",
+      "file": "07-材料与工艺/钣金折弯件设计规则：最小弯曲半径与预留切口.md",
+      "x": 40,
+      "y": 19460,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-69",
+      "type": "file",
+      "file": "附件/anodize-size-growth.png",
+      "x": 440,
+      "y": 19200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-69",
+      "type": "file",
+      "file": "07-材料与工艺/铝件阳极氧化的尺寸链：膜厚一半向外、遮蔽螺纹与挂点.md",
+      "x": 440,
+      "y": 19460,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-img-0",
+      "fromNode": "img-0",
+      "fromSide": "bottom",
+      "toNode": "case-0",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-1",
+      "fromNode": "img-1",
+      "fromSide": "bottom",
+      "toNode": "case-1",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-2",
+      "fromNode": "img-2",
+      "fromSide": "bottom",
+      "toNode": "case-2",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-3",
+      "fromNode": "img-3",
+      "fromSide": "bottom",
+      "toNode": "case-3",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-4",
+      "fromNode": "img-4",
+      "fromSide": "bottom",
+      "toNode": "case-4",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-5",
+      "fromNode": "img-5",
+      "fromSide": "bottom",
+      "toNode": "case-5",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-6",
+      "fromNode": "img-6",
+      "fromSide": "bottom",
+      "toNode": "case-6",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-7",
+      "fromNode": "img-7",
+      "fromSide": "bottom",
+      "toNode": "case-7",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-8",
+      "fromNode": "img-8",
+      "fromSide": "bottom",
+      "toNode": "case-8",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-9",
+      "fromNode": "img-9",
+      "fromSide": "bottom",
+      "toNode": "case-9",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-10",
+      "fromNode": "img-10",
+      "fromSide": "bottom",
+      "toNode": "case-10",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-11",
+      "fromNode": "img-11",
+      "fromSide": "bottom",
+      "toNode": "case-11",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-12",
+      "fromNode": "img-12",
+      "fromSide": "bottom",
+      "toNode": "case-12",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-13",
+      "fromNode": "img-13",
+      "fromSide": "bottom",
+      "toNode": "case-13",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-14",
+      "fromNode": "img-14",
+      "fromSide": "bottom",
+      "toNode": "case-14",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-15",
+      "fromNode": "img-15",
+      "fromSide": "bottom",
+      "toNode": "case-15",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-16",
+      "fromNode": "img-16",
+      "fromSide": "bottom",
+      "toNode": "case-16",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-17",
+      "fromNode": "img-17",
+      "fromSide": "bottom",
+      "toNode": "case-17",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-18",
+      "fromNode": "img-18",
+      "fromSide": "bottom",
+      "toNode": "case-18",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-19",
+      "fromNode": "img-19",
+      "fromSide": "bottom",
+      "toNode": "case-19",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-20",
+      "fromNode": "img-20",
+      "fromSide": "bottom",
+      "toNode": "case-20",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-21",
+      "fromNode": "img-21",
+      "fromSide": "bottom",
+      "toNode": "case-21",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-22",
+      "fromNode": "img-22",
+      "fromSide": "bottom",
+      "toNode": "case-22",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-23",
+      "fromNode": "img-23",
+      "fromSide": "bottom",
+      "toNode": "case-23",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-24",
+      "fromNode": "img-24",
+      "fromSide": "bottom",
+      "toNode": "case-24",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-25",
+      "fromNode": "img-25",
+      "fromSide": "bottom",
+      "toNode": "case-25",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-26",
+      "fromNode": "img-26",
+      "fromSide": "bottom",
+      "toNode": "case-26",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-27",
+      "fromNode": "img-27",
+      "fromSide": "bottom",
+      "toNode": "case-27",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-28",
+      "fromNode": "img-28",
+      "fromSide": "bottom",
+      "toNode": "case-28",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-29",
+      "fromNode": "img-29",
+      "fromSide": "bottom",
+      "toNode": "case-29",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-30",
+      "fromNode": "img-30",
+      "fromSide": "bottom",
+      "toNode": "case-30",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-31",
+      "fromNode": "img-31",
+      "fromSide": "bottom",
+      "toNode": "case-31",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-32",
+      "fromNode": "img-32",
+      "fromSide": "bottom",
+      "toNode": "case-32",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-33",
+      "fromNode": "img-33",
+      "fromSide": "bottom",
+      "toNode": "case-33",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-34",
+      "fromNode": "img-34",
+      "fromSide": "bottom",
+      "toNode": "case-34",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-35",
+      "fromNode": "img-35",
+      "fromSide": "bottom",
+      "toNode": "case-35",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-36",
+      "fromNode": "img-36",
+      "fromSide": "bottom",
+      "toNode": "case-36",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-37",
+      "fromNode": "img-37",
+      "fromSide": "bottom",
+      "toNode": "case-37",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-38",
+      "fromNode": "img-38",
+      "fromSide": "bottom",
+      "toNode": "case-38",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-39",
+      "fromNode": "img-39",
+      "fromSide": "bottom",
+      "toNode": "case-39",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-40",
+      "fromNode": "img-40",
+      "fromSide": "bottom",
+      "toNode": "case-40",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-41",
+      "fromNode": "img-41",
+      "fromSide": "bottom",
+      "toNode": "case-41",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-42",
+      "fromNode": "img-42",
+      "fromSide": "bottom",
+      "toNode": "case-42",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-43",
+      "fromNode": "img-43",
+      "fromSide": "bottom",
+      "toNode": "case-43",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-44",
+      "fromNode": "img-44",
+      "fromSide": "bottom",
+      "toNode": "case-44",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-45",
+      "fromNode": "img-45",
+      "fromSide": "bottom",
+      "toNode": "case-45",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-46",
+      "fromNode": "img-46",
+      "fromSide": "bottom",
+      "toNode": "case-46",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-47",
+      "fromNode": "img-47",
+      "fromSide": "bottom",
+      "toNode": "case-47",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-48",
+      "fromNode": "img-48",
+      "fromSide": "bottom",
+      "toNode": "case-48",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-49",
+      "fromNode": "img-49",
+      "fromSide": "bottom",
+      "toNode": "case-49",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-50",
+      "fromNode": "img-50",
+      "fromSide": "bottom",
+      "toNode": "case-50",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-51",
+      "fromNode": "img-51",
+      "fromSide": "bottom",
+      "toNode": "case-51",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-52",
+      "fromNode": "img-52",
+      "fromSide": "bottom",
+      "toNode": "case-52",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-53",
+      "fromNode": "img-53",
+      "fromSide": "bottom",
+      "toNode": "case-53",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-54",
+      "fromNode": "img-54",
+      "fromSide": "bottom",
+      "toNode": "case-54",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-55",
+      "fromNode": "img-55",
+      "fromSide": "bottom",
+      "toNode": "case-55",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-56",
+      "fromNode": "img-56",
+      "fromSide": "bottom",
+      "toNode": "case-56",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-57",
+      "fromNode": "img-57",
+      "fromSide": "bottom",
+      "toNode": "case-57",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-58",
+      "fromNode": "img-58",
+      "fromSide": "bottom",
+      "toNode": "case-58",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-59",
+      "fromNode": "img-59",
+      "fromSide": "bottom",
+      "toNode": "case-59",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-60",
+      "fromNode": "img-60",
+      "fromSide": "bottom",
+      "toNode": "case-60",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-61",
+      "fromNode": "img-61",
+      "fromSide": "bottom",
+      "toNode": "case-61",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-62",
+      "fromNode": "img-62",
+      "fromSide": "bottom",
+      "toNode": "case-62",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-63",
+      "fromNode": "img-63",
+      "fromSide": "bottom",
+      "toNode": "case-63",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-64",
+      "fromNode": "img-64",
+      "fromSide": "bottom",
+      "toNode": "case-64",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-65",
+      "fromNode": "img-65",
+      "fromSide": "bottom",
+      "toNode": "case-65",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-66",
+      "fromNode": "img-66",
+      "fromSide": "bottom",
+      "toNode": "case-66",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-67",
+      "fromNode": "img-67",
+      "fromSide": "bottom",
+      "toNode": "case-67",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-68",
+      "fromNode": "img-68",
+      "fromSide": "bottom",
+      "toNode": "case-68",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-69",
+      "fromNode": "img-69",
+      "fromSide": "bottom",
+      "toNode": "case-69",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-70",
+      "fromNode": "img-70",
+      "fromSide": "bottom",
+      "toNode": "case-70",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-71",
+      "fromNode": "img-71",
+      "fromSide": "bottom",
+      "toNode": "case-71",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-72",
+      "fromNode": "img-72",
+      "fromSide": "bottom",
+      "toNode": "case-72",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-73",
+      "fromNode": "img-73",
+      "fromSide": "bottom",
+      "toNode": "case-73",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-74",
+      "fromNode": "img-74",
+      "fromSide": "bottom",
+      "toNode": "case-74",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-75",
+      "fromNode": "img-75",
+      "fromSide": "bottom",
+      "toNode": "case-75",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-76",
+      "fromNode": "img-76",
+      "fromSide": "bottom",
+      "toNode": "case-76",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-77",
+      "fromNode": "img-77",
+      "fromSide": "bottom",
+      "toNode": "case-77",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-78",
+      "fromNode": "img-78",
+      "fromSide": "bottom",
+      "toNode": "case-78",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-79",
+      "fromNode": "img-79",
+      "fromSide": "bottom",
+      "toNode": "case-79",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-80",
+      "fromNode": "img-80",
+      "fromSide": "bottom",
+      "toNode": "case-80",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-81",
+      "fromNode": "img-81",
+      "fromSide": "bottom",
+      "toNode": "case-81",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-82",
+      "fromNode": "img-82",
+      "fromSide": "bottom",
+      "toNode": "case-82",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-83",
+      "fromNode": "img-83",
+      "fromSide": "bottom",
+      "toNode": "case-83",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-84",
+      "fromNode": "img-84",
+      "fromSide": "bottom",
+      "toNode": "case-84",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-85",
+      "fromNode": "img-85",
+      "fromSide": "bottom",
+      "toNode": "case-85",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-86",
+      "fromNode": "img-86",
+      "fromSide": "bottom",
+      "toNode": "case-86",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-87",
+      "fromNode": "img-87",
+      "fromSide": "bottom",
+      "toNode": "case-87",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-88",
+      "fromNode": "img-88",
+      "fromSide": "bottom",
+      "toNode": "case-88",
+      "toSide": "top"
+    },
+    {
+      "id": "e-img-89",
+      "fromNode": "img-89",
+      "fromSide": "bottom",
+      "toNode": "case-89",
+      "toSide": "top"
+    }
+  ]
+}

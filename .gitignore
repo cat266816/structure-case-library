@@ -1,0 +1,5 @@
+structure-case-library.zip
+preview/
+work-*/
+.DS_Store
+*.log
