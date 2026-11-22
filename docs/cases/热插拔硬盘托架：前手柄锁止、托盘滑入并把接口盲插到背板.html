@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>热插拔硬盘托架：前手柄锁止、托盘滑入并把接口盲插到背板 · 结构设计案例库</title>
+  <meta name="description" content="热插拔硬盘不是把裸盘塞进机箱，而是先把硬盘固定在带前手柄的托架里，再沿导轨把整只托盘推入，让硬盘接口对上机箱里的背板或中面板连接器；合上手柄把托盘留在位。这样可以在设备带电时抽出、换入硬盘。它和 Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出 不同：这里没有外针顶出，对接的是机内背板，并且只有来源写明支持热插拔的机型才允许带电更换。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html"><svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="2.5" y="4.5" width="14" height="11" rx="1.6"/>
+  <rect x="7.5" y="8.5" width="14" height="11" rx="1.6"/>
+</svg><span>结构设计案例库</span></a>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="../index.html">首页</a>
+        <a href="../browse.html">浏览案例</a>
+        <a href="../map.html">案例地图</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    
+<nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span class="sep">/</span><a href="../categories/06.html">拆解与可维修</a><span class="sep">/</span><span>热插拔硬盘托架：前手柄锁止、托盘滑入并把接口盲插到背板</span></nav>
+<div class="case-layout">
+  <article>
+    <header class="case-header">
+      <h1>热插拔硬盘托架：前手柄锁止、托盘滑入并把接口盲插到背板</h1>
+      <p class="lede">热插拔硬盘不是把裸盘塞进机箱，而是先把硬盘固定在带前手柄的托架里，再沿导轨把整只托盘推入，让硬盘接口对上机箱里的背板或中面板连接器；合上手柄把托盘留在位。这样可以在设备带电时抽出、换入硬盘。它和 Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出 不同：这里没有外针顶出，对接的是机内背板，并且只有来源写明支持热插拔的机型才允许带电更换。</p>
+      <div class="meta-row"><span class="chip chip-06">拆解与可维修</span>
+<span class="chip chip-diff-进阶">进阶</span>
+<span class="stars">★★★★<span class="off">☆</span></span>
+<span class="chip">2026-11-22</span></div>
+    </header>
+    <div class="article-body">
+      <h2>配图</h2>
+<figure><img src="../images/synology-ds925-hdd-tray-handle.jpg" alt="synology-ds925-hdd-tray-handle.jpg"></figure>
+<p><em>图源：群晖《DS925+ 硬件安装指南》第 13 页，https://cndl.synology.cn/download/Document/Hardware/HIG/DiskStation/25-year/DS925+/chs/DS925p_HIG_chs.pdf；按图示方向拉出硬盘托架手柄，再把托架从槽中抽出。</em></p>
+<figure><img src="../images/synology-ds925-hdd-tray-insert-lock.jpg" alt="synology-ds925-hdd-tray-insert-lock.jpg"></figure>
+<p><em>图源：同上，第 16 页；装载好的托盘插入空槽，向后推直到听到锁定到位的咔哒声；再用托盘钥匙顺时针转到「I」位置锁定把手。指南注明：托盘必须完全插入，否则硬盘可能无法正常工作。</em></p>
+<figure><img src="../images/lenovo-sr630-hotswap-drive-handle.jpg" alt="lenovo-sr630-hotswap-drive-handle.jpg"></figure>
+<p><em>图源：联想 ThinkSystem SR630《安装热插拔硬盘》，https://pubs.lenovo.com/sr630/zh-CN/install_a_hotswap_drive；步骤 1 将硬盘滑入插槽直至咔嗒固定，步骤 2 合上硬盘托盘手柄将硬盘锁定到位。</em></p>
+<h2>结构原理</h2>
+<blockquote><p>本节所有数字只写来源里给出的；来源没有就写「来源未给出」，不估算、不换算成看似精确的值。</p></blockquote>
+<h3>堆叠方案</h3>
+<p>按「从机箱外到机箱内」写，安装方向是托盘沿导轨由前向后推入。</p>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>零件</th><th>材料</th><th>厚度/尺寸</th><th>固定方式</th><th>依据</th></tr></thead><tbody><tr><td>L1（最外）</td><td>前方面板与托架手柄（群晖另有硬盘托盘锁和钥匙）</td><td>未注明</td><td>来源未给出</td><td>拉出/合上手柄；群晖用钥匙顺时针转到「I」锁定把手</td><td>群晖 DS925+ 指南 2.4 节第 1、3、4 步；联想 SR630 安装步骤</td></tr><tr><td>L2</td><td>硬盘托架（群晖备件名：硬盘托架，类型 D9）</td><td>未注明</td><td>来源未给出托架外形尺寸；兼容 3.5&quot;/2.5&quot; SATA（群晖）</td><td>3.5 英寸：侧面固定面板插入托架；2.5 英寸：托架背面螺钉固定</td><td>群晖 1.6 备件、2.4 节安装步骤及插图</td></tr><tr><td>L3</td><td>硬盘（HDD 或 SSD）</td><td>未注明</td><td>群晖：3.5&quot;/2.5&quot; SATA；联想 SR630：SAS/SATA 硬盘、SAS/SATA 固态硬盘、NVMe 固态硬盘（以该型号说明为准）</td><td>被托架侧板或螺钉保持，随托盘一起运动</td><td>群晖 1.5 硬件规格、2.4 节；联想 SR630 安装页「服务器支持的硬盘类型」</td></tr><tr><td>L4（最内）</td><td>硬盘背板或中面板上的连接器</td><td>未注明</td><td>来源未给出连接器型号、针数或行程</td><td>托盘完全推入后，硬盘接口与背板/中面板盲插对接</td><td>群晖故障排除「检查 HDD 背板上的电源和连接器是否正确插入」；联想 DM 页「凸轮手柄……中面板」</td></tr></tbody></table></div>
+<p>剖面示意：</p>
+<pre class="mermaid">
+flowchart LR
+  手柄[&quot;L1 前手柄 / 释放滑锁&quot;] --&gt; 托架[&quot;L2 托架本体&quot;]
+  托架 --&gt; 硬盘[&quot;L3 硬盘&quot;]
+  硬盘 --&gt;|&quot;完全推入后盲插&quot;| 背板[&quot;L4 背板或中面板连接器&quot;]
+</pre>
+<h3>零件清单</h3>
+<div class="table-wrap"><table><thead><tr><th>零件</th><th>数量</th><th>功能</th><th>材料</th><th>依据</th></tr></thead><tbody><tr><td>硬盘托架（类型 D9，带锁）</td><td>来源未给出整机配备数量；备件按只更换</td><td>承载硬盘、提供前手柄与导向</td><td>未注明</td><td>群晖 1.6 备件：「3.5&quot;/2.5&quot; 带锁硬盘托架」</td></tr><tr><td>托架手柄</td><td>每只托架 1 个（按插图）</td><td>抽出与锁止托盘</td><td>未注明</td><td>群晖 2.4 节；联想 SR630 安装/卸下页</td></tr><tr><td>释放滑锁</td><td>来源未给出（联想 SR630 写「向左滑动释放滑锁以打开硬盘托盘手柄」）</td><td>打开托盘手柄</td><td>未注明</td><td>联想 SR630 卸下页步骤 1</td></tr><tr><td>侧面固定面板</td><td>3.5 英寸安装时左右侧使用；2.5 英寸时指南要求从左侧移除并妥善存放</td><td>把 3.5 英寸硬盘固定在托架里</td><td>未注明</td><td>群晖 2.4 节第 2 步</td></tr><tr><td>2.5 英寸硬盘螺丝</td><td>包装内容写「2.5&quot; 硬盘螺丝 x 18」；单只托架用量来源正文未给出，官方插图用 f 标出 4 处螺钉位置</td><td>从托架背面把 2.5 英寸硬盘拧紧</td><td>未注明</td><td>群晖 1.1 包装内容、2.4 节第 2 步及第 15 页插图</td></tr><tr><td>硬盘托盘钥匙</td><td>包装内容写 x 2</td><td>插入托盘锁，顺时针转到「I」锁定把手</td><td>未注明</td><td>群晖 1.1 包装内容、1.2 一览「硬盘托盘锁」、2.4 节第 4 步</td></tr><tr><td>硬盘填充件</td><td>来源未给出数量</td><td>空槽时遮盖插槽，维持散热</td><td>未注明</td><td>联想 SR630：卸下后「安装硬盘填充件或新硬盘」；空槽运行不超过两分钟</td></tr><tr><td>背板 / 中面板连接器</td><td>来源未给出</td><td>与硬盘接口盲插，传输电源和数据</td><td>未注明</td><td>群晖故障排除；联想 DM 页称「中面板」</td></tr></tbody></table></div>
+<h3>装配顺序</h3>
+<p>按群晖 DS925+ 指南 2.4 节（安装顺序原文）：</p>
+<ol><li>按图示方向拉出硬盘托架手柄，把空托架从槽中取出。</li><li>把硬盘装入托架：3.5 英寸先从侧面取下固定面板，放入硬盘后再插入固定面板；2.5 英寸先取下左侧固定面板并保存，把硬盘放到指定区域，翻转托架后拧紧螺钉。</li><li>将装载好的托盘插入空槽，向后推直到听到托盘锁定到位的咔哒声。指南强调必须完全插入，否则硬盘可能无法正常工作。</li><li>把硬盘托盘钥匙插入托盘锁，顺时针转到「I」位置锁定把手，然后取出钥匙。</li><li>按同样步骤安装其余硬盘。</li></ol>
+<p>按联想 ThinkSystem SR630 安装页（与群晖同属「手柄打开再推入、合上手柄锁定」，但释放件和热插拔限制不同）：</p>
+<ol><li>先从插槽卸下硬盘填充件并妥善保管。</li><li>确保硬盘托盘手柄处于打开位置，将硬盘滑入插槽，直至咔嗒一声固定到位。</li><li>合上硬盘托盘手柄，将硬盘锁定到位。</li><li>查看硬盘状态 LED：黄色状态 LED 持续点亮表示硬盘故障须更换；绿色活动 LED 闪烁表示正在访问该硬盘。</li></ol>
+<p>卸下（联想 SR630）：向左滑动释放滑锁以打开托盘手柄，握住把手把硬盘从插槽中滑出。指南要求：空槽不要让服务器运行超过两分钟。</p>
+<p>联想 DM3000H/DM5000F/DM5000H 中文页对同一机构下另一种前手柄写法更具体（不另计独立来源）：按硬盘表面上的释放按钮后，「硬盘弹簧上的凸轮手柄将部分打开，而硬盘将与中面板脱离」；把凸轮手柄拉到完全打开位置，再抽出硬盘；装回时手柄保持打开，推到停住后「合上凸轮手柄以使硬盘在中面板中完全就位，且手柄『咔嗒』一声锁定到位」，并要求缓慢合上、使手柄与硬盘表面正确对齐。该页还写：卸下故障硬盘后等待一分钟再插入替换硬盘；必须用双手，但不要把手放在托架下方露出的硬盘板上。</p>
+<blockquote><p>群晖指南写「只有特定的 Synology NAS 支持组件的热插拔，并设计为在开启时安全运行」，以及「更换热插拔硬盘时，请尽快安装新的热插拔硬盘」。指南没有给出「尽快」的分钟数。带电更换只按各来源自己的条件执行，不把联想的两分钟规则套到群晖上。</p></blockquote>
+<h3>受力与运动分析</h3>
+<ul><li><strong>受力路径</strong>：抽出时，手力作用在前手柄上，经托架把硬盘一起沿导轨拉出，硬盘接口与背板/中面板分离。推入到位后，群晖用咔哒锁定加上可选钥匙锁保持把手；联想 SR630 用合上的托盘手柄把硬盘锁定到位。盲插对接力来自向后推入（群晖）或推入后再合上手柄（联想）；来源未给出插入力或保持力数值。</li><li><strong>运动关系</strong>：托盘相对机箱槽主要是前后滑动；手柄相对托架转动或开合。联想 DM 页把这一开合称为凸轮手柄，并写明开到位时硬盘与中面板脱离、合上后在中面板中完全就位。没有来源给出凸轮升程或转角。</li><li><strong>失效风险</strong>：群晖写明托盘未完全插入时硬盘可能无法正常工作，故障排除还要求目视检查硬盘连接器是否损坏或弯曲，并检查背板上的电源和连接器是否正确插入。联想 SR630 写空槽运行超过两分钟会影响充分散热。推断（来源未直接测力）：如果手柄未锁到位，振动中托盘可能后退，接口接触不可靠。</li></ul>
+<h2>设计要点与参数</h2>
+<div class="table-wrap"><table><thead><tr><th>要点</th><th>内容</th><th>依据</th></tr></thead><tbody><tr><td>托架类型</td><td>群晖备件：硬盘托架（类型 D9），3.5&quot;/2.5&quot; 带锁硬盘托架</td><td>群晖指南 1.6 备件</td></tr><tr><td>接口与盘型</td><td>群晖 DS925+：兼容 3.5&quot;/2.5&quot; SATA x 4，另有 M.2 2280 NVMe SSD x 2（M.2 不是本托架）。联想 SR630：SAS/SATA 硬盘、SAS/SATA 固态硬盘、NVMe 固态硬盘</td><td>群晖 1.5；联想 SR630 安装页</td></tr><tr><td>锁止动作</td><td>群晖：向后推到听到咔哒；再用钥匙顺时针转到「I」锁把手。联想 SR630：合上托盘手柄锁定。联想 DM：合上凸轮手柄，咔嗒锁定，硬盘在中面板完全就位</td><td>群晖 2.4；联想 SR630 安装页；联想 DM 热插拔页</td></tr><tr><td>释放动作</td><td>群晖：按图示拉出托架手柄。联想 SR630：向左滑动释放滑锁以打开手柄。联想 DM：按释放按钮，凸轮手柄部分打开并与中面板脱离</td><td>同上卸下/安装步骤</td></tr><tr><td>热插拔条件</td><td>群晖：只有特定型号支持，尽快装回新盘，具体分钟数来源未给出。联想 SR630：空槽运行不超过两分钟。联想 DM：可在系统保持开机时热插拔；更换多块时，卸下后须等待一分钟再插入下一块</td><td>群晖 2.2、系统可靠性指南；联想 SR630 注意；联想 DM「关于本任务」与步骤 6 注</td></tr><tr><td>整机外形（仅群晖该型号，不是托架尺寸）</td><td>DS925+ 尺寸（高 x 宽 x 深）：166 x 199 x 223 mm；重量 2.26 kg</td><td>群晖 1.5 硬件规格</td></tr><tr><td>冷却空隙（整机，不是托架间隙）</td><td>群晖要求前后留出大约 50 毫米（2 英寸）空隙</td><td>群晖系统可靠性指南</td></tr><tr><td>连接器针数、凸轮转角、插入力</td><td>来源未给出</td><td>—</td></tr></tbody></table></div>
+<h2>优缺点</h2>
+<p><strong>优点</strong></p>
+<ul><li>硬盘作为前面板模块更换，不必打开上盖去拔内部线缆；背板或中面板负责盲插。</li><li>前手柄既是抽手，也是锁止件；联想 SR630 还用单独的释放滑锁防止误开。</li><li>群晖用侧板（3.5 英寸）或螺钉（2.5 英寸）把硬盘留在托架里，换盘时托架可重复使用；带锁把手可减少误拉。</li><li>来源给出了明确的空槽散热时限（联想 SR630 两分钟）和完全插入才可靠的警告（群晖）。</li></ul>
+<p><strong>缺点 / 代价</strong></p>
+<ul><li>必须为每只硬盘准备托架、机箱导轨和背板/中面板，结构件比线缆直连多。</li><li>未推到位或手柄未锁死时，接口可能接触不良；群晖已写明「无法正常工作」的后果。</li><li>不是所有机型都允许带电更换；群晖把热插拔限定为「特定」机型。</li><li>空槽会破坏原设计气流，服务器侧有明确的短时限。</li></ul>
+<h2>可借鉴点</h2>
+<ul><li>做带电可换模块时，把「导向推入 + 终点盲插 + 前手柄锁止」分成三件事写进检查表：导轨有没有让连接器对准；锁有没有把模块保持在完全插入位置；释放件会不会被误碰。</li><li>手柄打开再推入、推到位后再合上手柄（联想 SR630 / DM），比只靠手把模块「塞到头」更容易把最后一段插合走完。来源若写了「缓慢合上、对齐」，就不要设计成猛甩上锁。</li><li>空槽必须有填充件，并写清允许空置的最长时间；不要把某一家的两分钟或一分钟规则抄到未写时限的产品上。</li><li>需要防误拔时，可另加机械锁（群晖的托盘钥匙锁），它锁的是把手，不是替代背板插合。</li><li>不要和针顶出卡托或笔记本扩展舱混用同一套行程：本结构的终点是机内背板连接器。</li></ul>
+<h2>与库中相似案例对比</h2>
+<div class="table-wrap"><table><thead><tr><th>对比项</th><th>本案例（热插拔硬盘托架）</th><th><a href="../cases/Nano-SIM%20针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出.html">Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出</a></th><th><a href="../cases/Framework%20Laptop%2016%20Expansion%20Bay%20滑出式显卡模块.html">Framework Laptop 16 Expansion Bay 滑出式显卡模块</a></th><th><a href="../cases/电动工具电池包：滑轨插入与按压锁舌（得伟拆解）.html">电动工具电池包：滑轨插入与按压锁舌（得伟拆解）</a></th></tr></thead><tbody><tr><td>抽出方式</td><td>打开前手柄（或先滑开释放滑锁）后沿槽抽出托盘</td><td>外部顶针从针孔把托盘顶出</td><td>滑出笔记本扩展舱模块</td><td>按压锁舌后沿滑轨抽出电池包</td></tr><tr><td>电连接</td><td>硬盘接口与机内背板或中面板盲插；可热插拔的条件只看来源</td><td>托盘上的卡与卡座触点；该案例不是机柜背板，一般不按热插拔模块来设计</td><td>笔记本扩展接口，不是机柜硬盘背板</td><td>电池包电触点，不是 SATA/SAS/NVMe 背板</td></tr><tr><td>锁止</td><td>合上手柄咔哒锁定；群晖另可用钥匙锁把手</td><td>托盘在卡座内由卡座机构保持</td><td>扩展舱自己的保持结构，见该案例</td><td>按压锁舌</td></tr><tr><td>空位限制</td><td>联想 SR630：无硬盘或填充件时运行不超过两分钟</td><td>不适用</td><td>不适用本篇两分钟规则</td><td>不适用</td></tr><tr><td>分类取舍</td><td>放在 06：核心是整机前面板可换存储模块，而不只是一个卡扣</td><td>04，顶出机构</td><td>06，笔记本模块化扩展</td><td>04，电池包锁舌与滑轨</td></tr></tbody></table></div>
+<h2>相关案例</h2>
+<ul><li><a href="../cases/Nano-SIM%20针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出.html">Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出</a></li><li><a href="../cases/Framework%20Laptop%2016%20Expansion%20Bay%20滑出式显卡模块.html">Framework Laptop 16 Expansion Bay 滑出式显卡模块</a></li><li><a href="../cases/电动工具电池包：滑轨插入与按压锁舌（得伟拆解）.html">电动工具电池包：滑轨插入与按压锁舌（得伟拆解）</a></li><li><a href="../cases/SD%20与%20microSD%20推推式卡座：心形槽滑块与卡片当撞销.html">SD 与 microSD 推推式卡座：心形槽滑块与卡片当撞销</a></li><li><a href="../cases/Mac%20Pro%202019%20旋转把手外壳锁与免工具模块锁.html">Mac Pro 2019 旋转把手外壳锁与免工具模块锁</a></li><li>分类索引：<a href="../categories/06.html">拆解与可维修</a></li></ul>
+<h2>来源与核实记录</h2>
+<ul><li>主来源：<a href="https://cndl.synology.cn/download/Document/Hardware/HIG/DiskStation/25-year/DS925+/chs/DS925p_HIG_chs.pdf" target="_blank" rel="noopener noreferrer">群晖 DS925+ 硬件安装指南（中文 PDF）</a>（PDF 元数据创建时间 2025-03，打开时共 58 页；群晖。核对了包装内容、部件一览中的硬盘托盘锁、类型 D9 带锁托架、1.5 规格、2.2 节热插拔限定、2.4 节安装步骤与插图、故障排除中的 HDD 背板检查）</li><li>补充来源 1：<a href="https://pubs.lenovo.com/sr630/zh-CN/remove_a_hotswap_drive" target="_blank" rel="noopener noreferrer">联想 ThinkSystem SR630：卸下热插拔硬盘</a>（联想 Docs 中文页。释放滑锁、托盘手柄、空槽不超过两分钟）</li><li>补充来源 2：<a href="https://pubs.lenovo.com/sr630/zh-CN/install_a_hotswap_drive" target="_blank" rel="noopener noreferrer">联想 ThinkSystem SR630：安装热插拔硬盘</a>（与上页同属联想。手柄打开推入至咔嗒、合上手柄锁定、支持的硬盘类型与 LED）</li><li>补充来源 3：<a href="https://pubs.lenovo.com/dm5000f-dm5000h-dm3000h-himg/zh-CN/3C17B7A7-C9C8-45DE-9D02-4B197913CF9A_" target="_blank" rel="noopener noreferrer">联想 DM3000H、DM5000F、DM5000H：对内部硬盘进行热插拔</a>（同属联想，不另计机构。凸轮手柄、中面板脱离/就位、等待一分钟、双手操作）</li><li>核实：2026-11-22 下载群晖 PDF 并抽出第 13–16 页插图；打开联想 SR630 卸下/安装页并下载官方插图；打开联想 DM 热插拔页。华为企业文档在本环境返回 403，未写入正文。超微机箱手册 PDF 同样 403，未引用。</li></ul>
+    </div>
+  </article>
+  
+<aside class="case-aside">
+  <div class="panel">
+    <h2>属性</h2>
+    <dl class="prop-list">
+      <div class="prop-item"><dt>一级分类</dt><dd><a href="../categories/06.html">06-拆解与可维修</a></dd></div>
+      <div class="prop-item"><dt>二级分类</dt><dd><ul><li>热插拔模块</li><li>硬盘托架</li><li>背板盲插</li></ul></dd></div>
+      <div class="prop-item"><dt>应用产品</dt><dd>NAS 与机架服务器热插拔硬盘位（以群晖 DS925+ 与联想 ThinkSystem SR630 为例）</dd></div>
+      <div class="prop-item"><dt>材料</dt><dd>未注明</dd></div>
+      <div class="prop-item"><dt>工艺</dt><dd>未注明</dd></div>
+      <div class="prop-item"><dt>难度</dt><dd>进阶</dd></div>
+      <div class="prop-item"><dt>评分</dt><dd><span class="stars">★★★★<span class="off">☆</span></span> 4/5</dd></div>
+      <div class="prop-item"><dt>收录日期</dt><dd>2026-11-22</dd></div>
+      <div class="prop-item"><dt>来源平台</dt><dd>厂商技术文章</dd></div>
+      <div class="prop-item"><dt>来源链接</dt><dd><a class="source-link" href="https://cndl.synology.cn/download/Document/Hardware/HIG/DiskStation/25-year/DS925+/chs/DS925p_HIG_chs.pdf" target="_blank" rel="noopener noreferrer">https://cndl.synology.cn/download/Document/Hardware/HIG/DiskStation/25-year/DS925+/chs/DS925p_HIG_chs.pdf</a></dd></div>
+      <div class="prop-item"><dt>补充来源</dt><dd><ul><li><a class="source-link" href="https://pubs.lenovo.com/sr630/zh-CN/remove_a_hotswap_drive" target="_blank" rel="noopener noreferrer">https://pubs.lenovo.com/sr630/zh-CN/remove_a_hotswap_drive</a></li><li><a class="source-link" href="https://pubs.lenovo.com/sr630/zh-CN/install_a_hotswap_drive" target="_blank" rel="noopener noreferrer">https://pubs.lenovo.com/sr630/zh-CN/install_a_hotswap_drive</a></li><li><a class="source-link" href="https://pubs.lenovo.com/dm5000f-dm5000h-dm3000h-himg/zh-CN/3C17B7A7-C9C8-45DE-9D02-4B197913CF9A_" target="_blank" rel="noopener noreferrer">https://pubs.lenovo.com/dm5000f-dm5000h-dm3000h-himg/zh-CN/3C17B7A7-C9C8-45DE-9D02-4B197913CF9A_</a></li></ul></dd></div>
+      <div class="prop-item"><dt>核实状态</dt><dd>已核实（已下载并打开群晖 DS925+ 中文硬件安装指南 PDF：类型 D9 带锁托架、拉出手柄、推入至咔哒锁定、钥匙顺时针至 I 锁把手、3.5 英寸侧板固定与 2.5 英寸螺钉固定、未完全插入会导致硬盘无法正常工作、故障排除中检查 HDD 背板电源和连接器。交叉打开联想 ThinkSystem SR630 中文热插拔硬盘卸下/安装页：滑动释放滑锁打开托盘手柄、合上手柄锁定、空槽运行不超过两分钟。联想 DM 系列中文页补充同一机构对凸轮手柄与中面板的表述，不另计独立机构。未把 Nano-SIM 托盘或 Framework Expansion Bay 写成同一结构。）</dd></div>
+      <div class="prop-item"><dt>标签</dt><dd><div class="tag-list"><span class="chip">热插拔</span><span class="chip">硬盘托架</span><span class="chip">凸轮手柄</span><span class="chip">背板</span><span class="chip">盲插</span></div></dd></div>
+    </dl>
+  </div>
+  <div class="panel"><h2>相关案例</h2><ul class="related-list"><li><a href="../cases/Nano-SIM%20针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出.html">Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出</a></li><li><a href="../cases/Framework%20Laptop%2016%20Expansion%20Bay%20滑出式显卡模块.html">Framework Laptop 16 Expansion Bay 滑出式显卡模块</a></li><li><a href="../cases/电动工具电池包：滑轨插入与按压锁舌（得伟拆解）.html">电动工具电池包：滑轨插入与按压锁舌（得伟拆解）</a></li><li><a href="../cases/SD%20与%20microSD%20推推式卡座：心形槽滑块与卡片当撞销.html">SD 与 microSD 推推式卡座：心形槽滑块与卡片当撞销</a></li><li><a href="../cases/Mac%20Pro%202019%20旋转把手外壳锁与免工具模块锁.html">Mac Pro 2019 旋转把手外壳锁与免工具模块锁</a></li></ul></div>
+</aside>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>仅供个人学习，配图版权归原作者。</div>
+      <div>结构设计案例库 · 静态站点，可部署到 GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="../assets/config.js"></script>
+  <script src="../assets/mermaid.min.js"></script>
+  <script src="../assets/app.js"></script>
+  
+</body>
+</html>
