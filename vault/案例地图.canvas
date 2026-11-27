@@ -8,7 +8,7 @@
       "width": 900,
       "height": 200,
       "color": "6",
-      "text": "# 结构设计案例地图\n共 152 个案例 · 按一级分类分组 · 卡片可直接打开笔记\n\n[[首页]] · [[收集计划]] · [[收集日志]]"
+      "text": "# 结构设计案例地图\n共 266 个案例 · 按一级分类分组 · 卡片可直接打开笔记\n\n[[首页]] · [[收集计划]] · [[收集日志]]"
     },
     {
       "id": "group-0",
@@ -16,8 +16,8 @@
       "x": 0,
       "y": 0,
       "width": 2040,
-      "height": 1540,
-      "label": "01-壳体与外观件（10）",
+      "height": 4340,
+      "label": "01-壳体与外观件（26）",
       "color": "1"
     },
     {
@@ -220,13 +220,317 @@
       "color": "1"
     },
     {
+      "id": "t9-01-399-img",
+      "type": "file",
+      "file": "附件/rtp-uniform-wall-and-transition.jpg",
+      "x": 40,
+      "y": 1540,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-399-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑均匀壁厚与厚薄渐变：相邻壁厚比与过渡段长度.md",
+      "x": 40,
+      "y": 1800,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-401-img",
+      "type": "file",
+      "file": "附件/rtp-inner-outer-radius.jpg",
+      "x": 440,
+      "y": 1540,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-401-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑内圆角与外圆角：内半径至少 0.5 t、外半径等于内半径加壁厚.md",
+      "x": 440,
+      "y": 1800,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-403-img",
+      "type": "file",
+      "file": "附件/protolabs-fig1-4-5-edge-tunnel-gates.jpg",
+      "x": 840,
+      "y": 1540,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-403-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑浇口类型与位置：侧浇口、潜伏浇口与点浇口对痕迹和对面结构的影响.md",
+      "x": 840,
+      "y": 1800,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-405-img",
+      "type": "file",
+      "file": "附件/xometry-core-cavity-shrink.jpg",
+      "x": 1240,
+      "y": 1540,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-405-note",
+      "type": "file",
+      "file": "01-壳体与外观件/型芯与型腔拔模差：收缩抱紧型芯，让塑件留在动模顶出侧.md",
+      "x": 1240,
+      "y": 1800,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-407-img",
+      "type": "file",
+      "file": "附件/swcpu-gussets-photo.jpg",
+      "x": 1640,
+      "y": 1540,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-407-note",
+      "type": "file",
+      "file": "01-壳体与外观件/三角筋与角撑（Gusset）：斜撑高侧壁或凸台，而不是再做一面等厚壁.md",
+      "x": 1640,
+      "y": 1800,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-409-img",
+      "type": "file",
+      "file": "附件/envalior-stepped-parting-shutoff.jpg",
+      "x": 40,
+      "y": 2240,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-409-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑分型面与阶梯封胶斜度：最大轮廓留后模，shut-off 至少 5–7°.md",
+      "x": 40,
+      "y": 2500,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-411-img",
+      "type": "file",
+      "file": "附件/moldds-ejector-on-boss.jpg",
+      "x": 440,
+      "y": 2240,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-411-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑顶针布置与顶白：顶在筋柱刚性区，避开外观面并消除真空吸附.md",
+      "x": 440,
+      "y": 2500,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-413-img",
+      "type": "file",
+      "file": "附件/moldds-keyboard-insert-shutoff.jpg",
+      "x": 840,
+      "y": 2240,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-413-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑碰穿与插穿：用封胶面成型通孔或侧孔，避免侧抽.md",
+      "x": 840,
+      "y": 2500,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-415-img",
+      "type": "file",
+      "file": "附件/pe-jetting-snake-photo.jpg",
+      "x": 1240,
+      "y": 2240,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-415-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑喷射纹（Jetting）：浇口冲入开阔型腔形成蛇形流.md",
+      "x": 1240,
+      "y": 2500,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-417-img",
+      "type": "file",
+      "file": "附件/moldds-vent-defects.jpg",
+      "x": 1640,
+      "y": 2240,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-417-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑困气烧焦与排气槽：最后充填处开浅槽，筋交叉用镶件或排气顶针.md",
+      "x": 1640,
+      "y": 2500,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-419-img",
+      "type": "file",
+      "file": "附件/jlcfa-insert-undercut-forms.jpg",
+      "x": 40,
+      "y": 2940,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-419-note",
+      "type": "file",
+      "file": "01-壳体与外观件/金属嵌件注塑：周围壁厚、滚花止转与开裂风险.md",
+      "x": 40,
+      "y": 3200,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-423-img",
+      "type": "file",
+      "file": "附件/smartmolding-thickness-map.jpg",
+      "x": 440,
+      "y": 2940,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-423-note",
+      "type": "file",
+      "file": "01-壳体与外观件/薄壁电子外壳：壁厚区间与流长比 L-t.md",
+      "x": 440,
+      "y": 3200,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-427-img",
+      "type": "file",
+      "file": "附件/yxfimd-iml-appliance-panel.jpg",
+      "x": 840,
+      "y": 2940,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-427-note",
+      "type": "file",
+      "file": "01-壳体与外观件/IMD与IML模内装饰：圆角、翻边与浇口避开图案.md",
+      "x": 840,
+      "y": 3200,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-429-img",
+      "type": "file",
+      "file": "附件/aluminum-extrusion-tube-and-split.jpg",
+      "x": 1240,
+      "y": 2940,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-429-note",
+      "type": "file",
+      "file": "01-壳体与外观件/铝合金挤出型材电子设备外壳：一体管、分体壳、PCB导轨槽与端盖密封槽.md",
+      "x": 1240,
+      "y": 3200,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-431-img",
+      "type": "file",
+      "file": "附件/rtp-rib-balance-warpage.jpg",
+      "x": 1640,
+      "y": 2940,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-431-note",
+      "type": "file",
+      "file": "01-壳体与外观件/注塑件翘曲：壁厚不均与筋不对称使整件弯向冷却较慢的一侧.md",
+      "x": 1640,
+      "y": 3200,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-01-435-img",
+      "type": "file",
+      "file": "附件/firstmold-raised-text-in-recess.jpg",
+      "x": 40,
+      "y": 3640,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-01-435-note",
+      "type": "file",
+      "file": "01-壳体与外观件/壳体凸字与凹字LOGO：字高、笔画宽和凸凹拔模的差异.md",
+      "x": 40,
+      "y": 3900,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
       "id": "group-1",
       "type": "group",
       "x": 0,
-      "y": 1660,
+      "y": 4460,
       "width": 2040,
-      "height": 6420,
-      "label": "02-连接与紧固（42）",
+      "height": 9240,
+      "label": "02-连接与紧固（61）",
       "color": "2"
     },
     {
@@ -234,7 +538,7 @@
       "type": "file",
       "file": "02-连接与紧固/02-连接与紧固 索引.md",
       "x": 40,
-      "y": 1700,
+      "y": 4500,
       "width": 360,
       "height": 60
     },
@@ -243,7 +547,7 @@
       "type": "file",
       "file": "附件/heat-set-insert-section.jpg",
       "x": 40,
-      "y": 1800,
+      "y": 4600,
       "width": 360,
       "height": 240
     },
@@ -252,7 +556,7 @@
       "type": "file",
       "file": "02-连接与紧固/3D 打印件热熔铜螺母：孔径与拉拔力实测.md",
       "x": 40,
-      "y": 2060,
+      "y": 4860,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -262,7 +566,7 @@
       "type": "file",
       "file": "附件/switch2-joycon2-grip-magnet-core.jpg",
       "x": 440,
-      "y": 1800,
+      "y": 4600,
       "width": 360,
       "height": 240
     },
@@ -271,7 +575,7 @@
       "type": "file",
       "file": "02-连接与紧固/任天堂 Switch 2 Joy-Con 2 磁吸连接.md",
       "x": 440,
-      "y": 2060,
+      "y": 4860,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -281,7 +585,7 @@
       "type": "file",
       "file": "附件/switch-joycon-rail.jpg",
       "x": 840,
-      "y": 1800,
+      "y": 4600,
       "width": 360,
       "height": 240
     },
@@ -290,7 +594,7 @@
       "type": "file",
       "file": "02-连接与紧固/任天堂 Switch Joy-Con 滑轨连接.md",
       "x": 840,
-      "y": 2060,
+      "y": 4860,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -300,7 +604,7 @@
       "type": "file",
       "file": "附件/snap-fit-cantilever.png",
       "x": 1240,
-      "y": 1800,
+      "y": 4600,
       "width": 360,
       "height": 240
     },
@@ -309,7 +613,7 @@
       "type": "file",
       "file": "02-连接与紧固/卡扣三种基本形式：悬臂、环形、扭转.md",
       "x": 1240,
-      "y": 2060,
+      "y": 4860,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -319,7 +623,7 @@
       "type": "file",
       "file": "附件/ultrasonic-energy-director-dukane.jpg",
       "x": 1640,
-      "y": 1800,
+      "y": 4600,
       "width": 360,
       "height": 240
     },
@@ -328,7 +632,7 @@
       "type": "file",
       "file": "02-连接与紧固/塑料件超声波焊接：导熔线、焊筋与溢胶槽.md",
       "x": 1640,
-      "y": 2060,
+      "y": 4860,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -338,7 +642,7 @@
       "type": "file",
       "file": "附件/surface-laptop-welds.jpg",
       "x": 40,
-      "y": 2500,
+      "y": 5300,
       "width": 360,
       "height": 240
     },
@@ -347,7 +651,7 @@
       "type": "file",
       "file": "02-连接与紧固/微软 Surface Laptop 超声波点焊与 Alcantara 覆面（反面案例）.md",
       "x": 40,
-      "y": 2760,
+      "y": 5560,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -357,7 +661,7 @@
       "type": "file",
       "file": "附件/heatstake-tpi-flared-high.png",
       "x": 440,
-      "y": 2500,
+      "y": 5300,
       "width": 360,
       "height": 240
     },
@@ -366,7 +670,7 @@
       "type": "file",
       "file": "02-连接与紧固/热铆（热熔柱）：铆柱高度按体积守恒算，蘑菇头直径 2d.md",
       "x": 440,
-      "y": 2760,
+      "y": 5560,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -376,7 +680,7 @@
       "type": "file",
       "file": "附件/airtag-twist.jpg",
       "x": 840,
-      "y": 2500,
+      "y": 5300,
       "width": 360,
       "height": 240
     },
@@ -385,7 +689,7 @@
       "type": "file",
       "file": "02-连接与紧固/苹果 AirTag 旋转后盖与内部卡扣.md",
       "x": 840,
-      "y": 2760,
+      "y": 5560,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -395,7 +699,7 @@
       "type": "file",
       "file": "附件/pem-clinch-nut-section.png",
       "x": 1240,
-      "y": 2500,
+      "y": 5300,
       "width": 360,
       "height": 240
     },
@@ -404,7 +708,7 @@
       "type": "file",
       "file": "02-连接与紧固/钣金压铆螺母（PEM S-CLS）：孔径、最小板厚、边距与板材硬度上限.md",
       "x": 1240,
-      "y": 2760,
+      "y": 5560,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -414,7 +718,7 @@
       "type": "file",
       "file": "附件/arca-swiss-compatibility.jpg",
       "x": 1640,
-      "y": 2500,
+      "y": 5300,
       "width": 360,
       "height": 240
     },
@@ -423,7 +727,7 @@
       "type": "file",
       "file": "02-连接与紧固/Arca-Swiss 38 mm 燕尾快装板：事实标准与跨品牌混用风险.md",
       "x": 1640,
-      "y": 2760,
+      "y": 5560,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -433,7 +737,7 @@
       "type": "file",
       "file": "附件/pogo-pin-structure-current-flow.png",
       "x": 40,
-      "y": 3200,
+      "y": 6000,
       "width": 360,
       "height": 240
     },
@@ -442,7 +746,7 @@
       "type": "file",
       "file": "02-连接与紧固/Pogo Pin 弹簧顶针：针头、弹簧与针管的工作行程和弹力.md",
       "x": 40,
-      "y": 3460,
+      "y": 6260,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -452,7 +756,7 @@
       "type": "file",
       "file": "附件/sony-nex5-e-mount.jpg",
       "x": 440,
-      "y": 3200,
+      "y": 6000,
       "width": 360,
       "height": 240
     },
@@ -461,7 +765,7 @@
       "type": "file",
       "file": "02-连接与紧固/Sony E 卡口：三爪、18 mm 法兰距与锁销磨损.md",
       "x": 440,
-      "y": 3460,
+      "y": 6260,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -471,7 +775,7 @@
       "type": "file",
       "file": "附件/southco-quarter-turn-exploded.jpg",
       "x": 840,
-      "y": 3200,
+      "y": 6000,
       "width": 360,
       "height": 240
     },
@@ -480,7 +784,7 @@
       "type": "file",
       "file": "02-连接与紧固/Southco、DZUS 四分之一转快锁：90° 凸轮与按总材料厚度选钉长.md",
       "x": 840,
-      "y": 3460,
+      "y": 6260,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -490,7 +794,7 @@
       "type": "file",
       "file": "附件/legrand-ip68-plastic-cable-glands.jpg",
       "x": 1240,
-      "y": 3200,
+      "y": 6000,
       "width": 360,
       "height": 240
     },
@@ -499,7 +803,7 @@
       "type": "file",
       "file": "02-连接与紧固/电缆防水格兰头：PG 螺纹、夹紧爪与密封圈.md",
       "x": 1240,
-      "y": 3460,
+      "y": 6260,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -509,7 +813,7 @@
       "type": "file",
       "file": "附件/delta-pt-boss-hole.png",
       "x": 1640,
-      "y": 3200,
+      "y": 6000,
       "width": 360,
       "height": 240
     },
@@ -518,7 +822,7 @@
       "type": "file",
       "file": "02-连接与紧固/EJOT Delta PT 塑料用三角齿自攻螺丝：底孔 0.8·d1、20° 牙侧角与应力释放沉孔.md",
       "x": 1640,
-      "y": 3460,
+      "y": 6260,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -528,7 +832,7 @@
       "type": "file",
       "file": "附件/nord-lock-wedge-principle.jpg",
       "x": 40,
-      "y": 3900,
+      "y": 6700,
       "width": 360,
       "height": 240
     },
@@ -537,7 +841,7 @@
       "type": "file",
       "file": "02-连接与紧固/Nord-Lock 楔形防松垫圈：楔角大于螺纹升角的成对拉伸锁紧.md",
       "x": 40,
-      "y": 4160,
+      "y": 6960,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -547,7 +851,7 @@
       "type": "file",
       "file": "附件/spiralock-thread-form.png",
       "x": 440,
-      "y": 3900,
+      "y": 6700,
       "width": 360,
       "height": 240
     },
@@ -556,7 +860,7 @@
       "type": "file",
       "file": "02-连接与紧固/Spiralock 楔形底 30° 防松内螺纹：牙顶楔入斜面消除径向间隙.md",
       "x": 440,
-      "y": 4160,
+      "y": 6960,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -566,7 +870,7 @@
       "type": "file",
       "file": "附件/taptite-ii-trilobular-family.jpg",
       "x": 840,
-      "y": 3900,
+      "y": 6700,
       "width": 360,
       "height": 240
     },
@@ -575,7 +879,7 @@
       "type": "file",
       "file": "02-连接与紧固/TAPTITE II 金属三角挤牙自攻螺丝：按啮合率选底孔.md",
       "x": 840,
-      "y": 4160,
+      "y": 6960,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -585,7 +889,7 @@
       "type": "file",
       "file": "附件/cd-weld-stud-pt.png",
       "x": 1240,
-      "y": 3900,
+      "y": 6700,
       "width": 360,
       "height": 240
     },
@@ -594,7 +898,7 @@
       "type": "file",
       "file": "02-连接与紧固/储能焊螺柱（GB-T 902.3 PT-IT）：电容放电把焊接端熔到板面.md",
       "x": 1240,
-      "y": 4160,
+      "y": 6960,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -604,7 +908,7 @@
       "type": "file",
       "file": "附件/din980m-insert-section.jpg",
       "x": 1640,
-      "y": 3900,
+      "y": 6700,
       "width": 360,
       "height": 240
     },
@@ -613,7 +917,7 @@
       "type": "file",
       "file": "02-连接与紧固/全金属锁紧螺母（DIN 980）：三点变形与金属嵌片的预紧力矩防松.md",
       "x": 1640,
-      "y": 4160,
+      "y": 6960,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -623,7 +927,7 @@
       "type": "file",
       "file": "附件/shoulder-screws-s76.jpg",
       "x": 40,
-      "y": 4600,
+      "y": 7400,
       "width": 360,
       "height": 240
     },
@@ -632,7 +936,7 @@
       "type": "file",
       "file": "02-连接与紧固/台阶螺丝（ISO 7379 塞打螺丝）：光杆定位、螺纹只锁紧.md",
       "x": 40,
-      "y": 4860,
+      "y": 7660,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -642,7 +946,7 @@
       "type": "file",
       "file": "附件/nyloc-nut-a270.jpg",
       "x": 440,
-      "y": 4600,
+      "y": 7400,
       "width": 360,
       "height": 240
     },
@@ -651,7 +955,7 @@
       "type": "file",
       "file": "02-连接与紧固/尼龙嵌件锁紧螺母（DIN 985 Nyloc）：预紧力矩、120°C 上限与安装方向.md",
       "x": 440,
-      "y": 4860,
+      "y": 7660,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -661,7 +965,7 @@
       "type": "file",
       "file": "附件/spring-washer-junker-curve.png",
       "x": 840,
-      "y": 4600,
+      "y": 7400,
       "width": 360,
       "height": 240
     },
@@ -670,7 +974,7 @@
       "type": "file",
       "file": "02-连接与紧固/开口弹簧垫圈防松失效（反面案例）：压平后在横向振动中几乎无效.md",
       "x": 840,
-      "y": 4860,
+      "y": 7660,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -680,7 +984,7 @@
       "type": "file",
       "file": "附件/blind-rivet-grip-section.png",
       "x": 1240,
-      "y": 4600,
+      "y": 7400,
       "width": 360,
       "height": 240
     },
@@ -689,7 +993,7 @@
       "type": "file",
       "file": "02-连接与紧固/抽芯铆钉（盲铆钉）：钉套、钉芯与断颈槽，开口型与封闭型.md",
       "x": 1240,
-      "y": 4860,
+      "y": 7660,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -699,7 +1003,7 @@
       "type": "file",
       "file": "附件/rivet-nut-cutaway.jpg",
       "x": 1640,
-      "y": 4600,
+      "y": 7400,
       "width": 360,
       "height": 240
     },
@@ -708,7 +1012,7 @@
       "type": "file",
       "file": "02-连接与紧固/拉铆螺母（铆螺母）：单面镦头、铆接范围与圆孔滚花及六角防转.md",
       "x": 1640,
-      "y": 4860,
+      "y": 7660,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -718,7 +1022,7 @@
       "type": "file",
       "file": "附件/well-nut-hanson.jpg",
       "x": 40,
-      "y": 5300,
+      "y": 8100,
       "width": 360,
       "height": 240
     },
@@ -727,7 +1031,7 @@
       "type": "file",
       "file": "02-连接与紧固/橡胶膨胀螺母（Well nut）：橡胶套筒胀紧孔壁兼隔振.md",
       "x": 40,
-      "y": 5560,
+      "y": 8360,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -737,7 +1041,7 @@
       "type": "file",
       "file": "附件/mold-in-insert-section.jpg",
       "x": 440,
-      "y": 5300,
+      "y": 8100,
       "width": 360,
       "height": 240
     },
@@ -746,7 +1050,7 @@
       "type": "file",
       "file": "02-连接与紧固/注塑模内预埋铜螺母：模具定位、溢胶风险与直纹及斜花滚花.md",
       "x": 440,
-      "y": 5560,
+      "y": 8360,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -756,7 +1060,7 @@
       "type": "file",
       "file": "附件/helicoil-plus-tight-fit.png",
       "x": 840,
-      "y": 5300,
+      "y": 8100,
       "width": 360,
       "height": 240
     },
@@ -765,7 +1069,7 @@
       "type": "file",
       "file": "02-连接与紧固/钢丝螺套（Helicoil 与 STI 底孔）：菱形钢丝嵌件与专用底孔攻丝.md",
       "x": 840,
-      "y": 5560,
+      "y": 8360,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -775,7 +1079,7 @@
       "type": "file",
       "file": "附件/u-type-clip-nuts.jpg",
       "x": 1240,
-      "y": 5300,
+      "y": 8100,
       "width": 360,
       "height": 240
     },
@@ -784,7 +1088,7 @@
       "type": "file",
       "file": "02-连接与紧固/钣金 U 型夹板螺母与卡式笼式螺母：板边夹持与方孔浮动螺纹.md",
       "x": 1240,
-      "y": 5560,
+      "y": 8360,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -794,7 +1098,7 @@
       "type": "file",
       "file": "附件/pem-fh-flush-stud.png",
       "x": 1640,
-      "y": 5300,
+      "y": 8100,
       "width": 360,
       "height": 240
     },
@@ -803,7 +1107,7 @@
       "type": "file",
       "file": "02-连接与紧固/钣金压铆螺钉（PEM FH 平头螺柱）：孔径、最小板厚、边距与板材硬度上限.md",
       "x": 1640,
-      "y": 5560,
+      "y": 8360,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -813,7 +1117,7 @@
       "type": "file",
       "file": "附件/pem-so-standoff-types.jpg",
       "x": 40,
-      "y": 6000,
+      "y": 8800,
       "width": 360,
       "height": 240
     },
@@ -822,7 +1126,7 @@
       "type": "file",
       "file": "02-连接与紧固/钣金压铆隔离柱（PEM SO）：孔径、最小板厚、柱长与板材硬度上限.md",
       "x": 40,
-      "y": 6260,
+      "y": 9060,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -832,7 +1136,7 @@
       "type": "file",
       "file": "附件/precote-30-coated-screws.png",
       "x": 440,
-      "y": 6000,
+      "y": 8800,
       "width": 360,
       "height": 240
     },
@@ -841,7 +1145,463 @@
       "type": "file",
       "file": "02-连接与紧固/预涂微胶囊螺纹胶与现场涂厌氧锁固剂（precote 与 Loctite 243）.md",
       "x": 440,
-      "y": 6260,
+      "y": 9060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t6-02-0-img",
+      "type": "file",
+      "file": "附件/hafele-minifix-principle.jpg",
+      "x": 840,
+      "y": 8800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-02-0-note",
+      "type": "file",
+      "file": "02-连接与紧固/Häfele Minifix 15 柜体连接件：半球头对中拉入杯形凹槽（对照 Hettich Rastex）.md",
+      "x": 840,
+      "y": 9060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t6-02-1-img",
+      "type": "file",
+      "file": "附件/sugatsune-mc-sp-magnetic-catch.jpg",
+      "x": 1240,
+      "y": 8800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-02-1-note",
+      "type": "file",
+      "file": "02-连接与紧固/橱柜磁吸门吸：只有磁力保持、没有机械锁死（对照 FIDLOCK）.md",
+      "x": 1240,
+      "y": 9060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t6-02-2-img",
+      "type": "file",
+      "file": "附件/foreach-luer-lock-cutaway.jpg",
+      "x": 1640,
+      "y": 8800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-02-2-note",
+      "type": "file",
+      "file": "02-连接与紧固/鲁尔锁定接头：6% 锥面负责密封，螺纹与锁耳只负责保持.md",
+      "x": 1640,
+      "y": 9060,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t7-02-01-img",
+      "type": "file",
+      "file": "附件/micron-csn23-sodimm-angle-insert.jpg",
+      "x": 40,
+      "y": 9500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t7-02-01-note",
+      "type": "file",
+      "file": "02-连接与紧固/SODIMM 双侧释放卡扣：斜插入槽后下压锁止（对照焊接 LPDDR）.md",
+      "x": 40,
+      "y": 9760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t7-02-06-img",
+      "type": "file",
+      "file": "附件/hirose-fh12-flip-lock-photo.jpg",
+      "x": 440,
+      "y": 9500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t7-02-06-note",
+      "type": "file",
+      "file": "02-连接与紧固/FPC 翻盖锁扣连接器：IRISO 三类锁与 Hirose FH12 前翻盖 ZIF.md",
+      "x": 440,
+      "y": 9760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t7-02-08-img",
+      "type": "file",
+      "file": "附件/pem-pf11-captive-section.jpg",
+      "x": 840,
+      "y": 9500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t7-02-08-note",
+      "type": "file",
+      "file": "02-连接与紧固/PEM 与 Southco 防脱落面板螺丝：拧松后留在盖上，HP EliteBook 845 G8 五颗底盖钉.md",
+      "x": 840,
+      "y": 9760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t7-02-11-img",
+      "type": "file",
+      "file": "附件/zlg-din-rail-clip-install.jpg",
+      "x": 1240,
+      "y": 9500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t7-02-11-note",
+      "type": "file",
+      "file": "02-连接与紧固/DIN 导轨卡装模块（IEC 60715 TH35）：卡钩挂住 35 mm 顶帽轨，弹簧卡脚锁紧，拆时拨开卡脚.md",
+      "x": 1240,
+      "y": 9760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t7-02-19-img",
+      "type": "file",
+      "file": "附件/gateron-hotswap-2-socket.jpg",
+      "x": 1640,
+      "y": 9500,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t7-02-19-note",
+      "type": "file",
+      "file": "02-连接与紧固/机械键盘热插拔轴座：PCB 插座夹住轴针脚，换轴不必焊接（对照 Cherry MX 轴内部）.md",
+      "x": 1640,
+      "y": 9760,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t8-02-01-img",
+      "type": "file",
+      "file": "附件/misumi-scpw-structure.jpg",
+      "x": 40,
+      "y": 10200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-02-01-note",
+      "type": "file",
+      "file": "02-连接与紧固/膜片（膜盘）式弹性联轴器：扭矩走膜片平面，两半轴毂夹住金属膜片组来补偿不对中.md",
+      "x": 40,
+      "y": 10460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t8-02-02-img",
+      "type": "file",
+      "file": "附件/helical-acr100-drawing.jpg",
+      "x": 440,
+      "y": 10200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-02-02-note",
+      "type": "file",
+      "file": "02-连接与紧固/螺旋切口弹性联轴器（Helical beam coupling）：圆棒上切连续螺旋槽，一体梁弯曲补偿轴偏差.md",
+      "x": 440,
+      "y": 10460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "t9-02-433-img",
+      "type": "file",
+      "file": "附件/phasa-stake-hole-clearance.jpg",
+      "x": 840,
+      "y": 10200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-02-433-note",
+      "type": "file",
+      "file": "02-连接与紧固/热铆柱几何：实心柱不超过3mm、空心壁厚0.75–2.0mm，被铆孔径按柱径1.1倍.md",
+      "x": 840,
+      "y": 10460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-132",
+      "type": "file",
+      "file": "附件/pencil-recycler-p-13.png",
+      "x": 1240,
+      "y": 10200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-133",
+      "type": "file",
+      "file": "02-连接与紧固/Apple Pencil 2 侧边磁吸充电：线性排列的五颗磁铁与感应线圈.md",
+      "x": 1240,
+      "y": 10460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-134",
+      "type": "file",
+      "file": "附件/watch-s7-center-magnet.jpg",
+      "x": 1640,
+      "y": 10200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-135",
+      "type": "file",
+      "file": "02-连接与紧固/Apple Watch 磁吸充电盘：中心单颗磁铁对位与电感耦合（对照手机环形阵列）.md",
+      "x": 1640,
+      "y": 10460,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-136",
+      "type": "file",
+      "file": "附件/magsafe-laptop-pins-labeled.png",
+      "x": 40,
+      "y": 10900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-137",
+      "type": "file",
+      "file": "02-连接与紧固/MagSafe 1-2 笔记本磁吸充电头：磁力保持触点对中，拉力过大时整头脱落.md",
+      "x": 40,
+      "y": 11160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-138",
+      "type": "file",
+      "file": "附件/iphone12-magsafe-array-close.jpg",
+      "x": 440,
+      "y": 10900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-139",
+      "type": "file",
+      "file": "02-连接与紧固/iPhone MagSafe 环形磁铁阵列：18 颗磁铁把线圈对中并对附件保持.md",
+      "x": 440,
+      "y": 11160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-140",
+      "type": "file",
+      "file": "附件/cn216929085-fig4-section.jpg",
+      "x": 840,
+      "y": 10900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-141",
+      "type": "file",
+      "file": "02-连接与紧固/磁吸充电线接头：钢壳与环形磁铁对中，弹簧顶针导电，定位耳防误接.md",
+      "x": 840,
+      "y": 11160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-142",
+      "type": "file",
+      "file": "附件/nisi-jetmag-system.jpg",
+      "x": 1240,
+      "y": 10900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-143",
+      "type": "file",
+      "file": "02-连接与紧固/NiSi JetMag Pro：转接环磁吸滤镜叠放与小手柄旋转锁定.md",
+      "x": 1240,
+      "y": 11160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-144",
+      "type": "file",
+      "file": "附件/lightseek-magnetic-track-hero.jpg",
+      "x": 1640,
+      "y": 10900,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-145",
+      "type": "file",
+      "file": "02-连接与紧固/低压磁吸轨道灯：导轨内永磁吸附与铜轨针脚取电.md",
+      "x": 1640,
+      "y": 11160,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-146",
+      "type": "file",
+      "file": "附件/ktr-minex-operating-description.png",
+      "x": 40,
+      "y": 11600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-147",
+      "type": "file",
+      "file": "02-连接与紧固/KTR MINEX-S 磁力联轴器：隔离套两侧磁转子无接触传扭.md",
+      "x": 40,
+      "y": 11860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-148",
+      "type": "file",
+      "file": "附件/hvr-epm-magnetize.jpg",
+      "x": 440,
+      "y": 11600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-149",
+      "type": "file",
+      "file": "02-连接与紧固/机床电永磁吸盘：脉冲充磁后停电仍保持夹紧.md",
+      "x": 440,
+      "y": 11860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-150",
+      "type": "file",
+      "file": "附件/securitron-m32-m62-m82-p1.png",
+      "x": 840,
+      "y": 11600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-151",
+      "type": "file",
+      "file": "02-连接与紧固/电磁门锁（磁力锁）：通电线圈吸合衔铁，断电释放.md",
+      "x": 840,
+      "y": 11860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-152",
+      "type": "file",
+      "file": "附件/steelmax-d1-design.png",
+      "x": 1240,
+      "y": 11600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-153",
+      "type": "file",
+      "file": "02-连接与紧固/磁力钻座：电磁底座把钻机吸在钢板上再钻孔.md",
+      "x": 1240,
+      "y": 11860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-154",
+      "type": "file",
+      "file": "附件/yuesen-ceiling-exploded.jpg",
+      "x": 1640,
+      "y": 11600,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-155",
+      "type": "file",
+      "file": "02-连接与紧固/吸顶灯磁吸安装座：预装固定板或铁座与灯体磁铁对吸，并可加防坠绳（对照低压磁吸轨道灯）.md",
+      "x": 1640,
+      "y": 11860,
+      "width": 360,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "img-156",
+      "type": "file",
+      "file": "附件/weixing-cn205728416-fig1.jpg",
+      "x": 40,
+      "y": 12300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-157",
+      "type": "file",
+      "file": "02-连接与紧固/服装箱包磁四合扣：公母壳包住永磁体对吸，凸环或凹腔抗剪而无机械锁死.md",
+      "x": 40,
+      "y": 12560,
       "width": 360,
       "height": 400,
       "color": "2"
@@ -850,9 +1610,9 @@
       "id": "group-2",
       "type": "group",
       "x": 0,
-      "y": 8200,
+      "y": 13820,
       "width": 2040,
-      "height": 2920,
+      "height": 2940,
       "label": "03-转轴与铰链（17）",
       "color": "3"
     },
@@ -861,7 +1621,7 @@
       "type": "file",
       "file": "03-转轴与铰链/03-转轴与铰链 索引.md",
       "x": 40,
-      "y": 8240,
+      "y": 13860,
       "width": 360,
       "height": 60
     },
@@ -870,7 +1630,7 @@
       "type": "file",
       "file": "附件/brateck-ldt23-vesa-arm.jpg",
       "x": 40,
-      "y": 8340,
+      "y": 13960,
       "width": 360,
       "height": 240
     },
@@ -879,7 +1639,7 @@
       "type": "file",
       "file": "03-转轴与铰链/VESA MIS-D 75-100 接口与倾角摩擦关节.md",
       "x": 40,
-      "y": 8600,
+      "y": 14220,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -889,7 +1649,7 @@
       "type": "file",
       "file": "附件/imac27-hinge-broken-plastic-caps.jpg",
       "x": 440,
-      "y": 8340,
+      "y": 13960,
       "width": 360,
       "height": 240
     },
@@ -898,7 +1658,7 @@
       "type": "file",
       "file": "03-转轴与铰链/iMac 27 英寸铰链弹簧塑料帽失效（反面案例）.md",
       "x": 440,
-      "y": 8600,
+      "y": 14220,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -908,7 +1668,7 @@
       "type": "file",
       "file": "附件/ipad-magic-keyboard-xray.jpg",
       "x": 840,
-      "y": 8340,
+      "y": 13960,
       "width": 360,
       "height": 240
     },
@@ -917,7 +1677,7 @@
       "type": "file",
       "file": "03-转轴与铰链/iPad Magic Keyboard 双铰链悬浮支架与配重.md",
       "x": 840,
-      "y": 8600,
+      "y": 14220,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -927,7 +1687,7 @@
       "type": "file",
       "file": "附件/galaxy-fold-hinge.jpg",
       "x": 1240,
-      "y": 8340,
+      "y": 13960,
       "width": 360,
       "height": 240
     },
@@ -936,7 +1696,7 @@
       "type": "file",
       "file": "03-转轴与铰链/三星 Galaxy Fold 一代铰链与屏幕支撑结构.md",
       "x": 1240,
-      "y": 8600,
+      "y": 14220,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -946,7 +1706,7 @@
       "type": "file",
       "file": "附件/zflip-hinge.jpg",
       "x": 1640,
-      "y": 8340,
+      "y": 13960,
       "width": 360,
       "height": 240
     },
@@ -955,7 +1715,7 @@
       "type": "file",
       "file": "03-转轴与铰链/三星 Galaxy Z Flip 铰链与尼龙防尘刷.md",
       "x": 1640,
-      "y": 8600,
+      "y": 14220,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -965,7 +1725,7 @@
       "type": "file",
       "file": "附件/surface-book-fulcrum-hinge-wired.jpg",
       "x": 40,
-      "y": 9040,
+      "y": 14660,
       "width": 360,
       "height": 240
     },
@@ -974,7 +1734,7 @@
       "type": "file",
       "file": "03-转轴与铰链/微软 Surface Book 动态支点铰链（分段铝铰链）.md",
       "x": 40,
-      "y": 9300,
+      "y": 14920,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -984,7 +1744,7 @@
       "type": "file",
       "file": "附件/surface-duo-hinge.jpg",
       "x": 440,
-      "y": 9040,
+      "y": 14660,
       "width": 360,
       "height": 240
     },
@@ -993,7 +1753,7 @@
       "type": "file",
       "file": "03-转轴与铰链/微软 Surface Duo 360° 双铰链.md",
       "x": 440,
-      "y": 9300,
+      "y": 14920,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -1003,7 +1763,7 @@
       "type": "file",
       "file": "附件/surface-pro4-kickstand-hinge-closeup.jpg",
       "x": 840,
-      "y": 9040,
+      "y": 14660,
       "width": 360,
       "height": 240
     },
@@ -1012,7 +1772,7 @@
       "type": "file",
       "file": "03-转轴与铰链/微软 Surface Pro Kickstand 宽角摩擦铰链.md",
       "x": 840,
-      "y": 9300,
+      "y": 14920,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -1022,7 +1782,7 @@
       "type": "file",
       "file": "附件/reell-torque-insert-clips.png",
       "x": 1240,
-      "y": 9040,
+      "y": 14660,
       "width": 360,
       "height": 240
     },
@@ -1031,7 +1791,7 @@
       "type": "file",
       "file": "03-转轴与铰链/恒扭力摩擦铰链：卡簧过盈产生扭力与「最低扭力 > 盖板力矩」选型.md",
       "x": 1240,
-      "y": 9300,
+      "y": 14920,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -1041,7 +1801,7 @@
       "type": "file",
       "file": "附件/living-hinge-soy-sauce-cap.jpg",
       "x": 1640,
-      "y": 9040,
+      "y": 14660,
       "width": 360,
       "height": 240
     },
@@ -1050,7 +1810,7 @@
       "type": "file",
       "file": "03-转轴与铰链/活动铰链（Living Hinge）：一体成型的柔性铰链.md",
       "x": 1640,
-      "y": 9300,
+      "y": 14920,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -1060,7 +1820,7 @@
       "type": "file",
       "file": "附件/flexgate-2016-cable-open.jpg",
       "x": 40,
-      "y": 9740,
+      "y": 15360,
       "width": 360,
       "height": 240
     },
@@ -1069,7 +1829,121 @@
       "type": "file",
       "file": "03-转轴与铰链/苹果 MacBook Pro 2016 Flexgate（反面案例）：绕板的屏幕排线与 2018 年加长 2 mm.md",
       "x": 40,
-      "y": 10000,
+      "y": 15620,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "t6-03-0-img",
+      "type": "file",
+      "file": "附件/blum-clip-top-assembly.jpg",
+      "x": 440,
+      "y": 15360,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-03-0-note",
+      "type": "file",
+      "file": "03-转轴与铰链/Blum CLIP top BLUMOTION 杯型铰链：35 mm 杯孔、免工具卡底板与杯内集成阻尼.md",
+      "x": 440,
+      "y": 15620,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "t8-03-01-img",
+      "type": "file",
+      "file": "附件/cflex-pivot-cutaway.jpg",
+      "x": 840,
+      "y": 15360,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-03-01-note",
+      "type": "file",
+      "file": "03-转轴与铰链/十字交叉簧片枢轴（Cross-spring pivot）：交叉位置对寄生位移的影响与 C-Flex I-10 实例.md",
+      "x": 840,
+      "y": 15620,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "t8-03-02-img",
+      "type": "file",
+      "file": "附件/cartwheel-flexure-geometry.jpg",
+      "x": 1240,
+      "y": 15360,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-03-02-note",
+      "type": "file",
+      "file": "03-转轴与铰链/卡特轮柔性铰链（Cartwheel flexure）：中心交叉梁转动副，对照切口短铰与十字簧片.md",
+      "x": 1240,
+      "y": 15620,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "t8-03-03-img",
+      "type": "file",
+      "file": "附件/corner-filleted-vs-circular-ellipse.jpg",
+      "x": 1640,
+      "y": 15360,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-03-03-note",
+      "type": "file",
+      "file": "03-转轴与铰链/圆角直梁柔性铰链（Corner-filleted flexure hinge）：等厚直梁加两端圆角 r，对照直圆切口铰.md",
+      "x": 1640,
+      "y": 15620,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "t8-03-04-img",
+      "type": "file",
+      "file": "附件/right-circular-yong-fig1.jpg",
+      "x": 40,
+      "y": 16060,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-03-04-note",
+      "type": "file",
+      "file": "03-转轴与铰链/直圆切口柔性铰链（Right circular flexure hinge）：最薄处厚度 t、切口半径 R 与公式适用范围.md",
+      "x": 40,
+      "y": 16320,
+      "width": 360,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "t8-03-05-img",
+      "type": "file",
+      "file": "附件/husky-tethered-slit-vs-bridge.jpg",
+      "x": 440,
+      "y": 16060,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-03-05-note",
+      "type": "file",
+      "file": "03-转轴与铰链/系带式连体瓶盖（Tethered cap）：防丢系带或模压桥把盖留在瓶口，并用开启后的停留几何区别于短薄膜活铰.md",
+      "x": 440,
+      "y": 16320,
       "width": 360,
       "height": 400,
       "color": "3"
@@ -1078,10 +1952,10 @@
       "id": "group-3",
       "type": "group",
       "x": 0,
-      "y": 11240,
+      "y": 16880,
       "width": 2040,
-      "height": 11320,
-      "label": "04-机构与运动（76）",
+      "height": 13440,
+      "label": "04-机构与运动（95）",
       "color": "4"
     },
     {
@@ -1089,7 +1963,7 @@
       "type": "file",
       "file": "04-机构与运动/04-机构与运动 索引.md",
       "x": 40,
-      "y": 11280,
+      "y": 16920,
       "width": 360,
       "height": 60
     },
@@ -1098,7 +1972,7 @@
       "type": "file",
       "file": "附件/macbook-pro16-scissor-dome-thickness.jpg",
       "x": 40,
-      "y": 11380,
+      "y": 17020,
       "width": 360,
       "height": 240
     },
@@ -1107,7 +1981,7 @@
       "type": "file",
       "file": "04-机构与运动/16 英寸 MacBook Pro 剪刀脚键盘：1 mm 键程与交叉支架（对照蝶式）.md",
       "x": 40,
-      "y": 11640,
+      "y": 17280,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1117,7 +1991,7 @@
       "type": "file",
       "file": "附件/dualsense-trigger-parts.jpg",
       "x": 440,
-      "y": 11380,
+      "y": 17020,
       "width": 360,
       "height": 240
     },
@@ -1126,7 +2000,7 @@
       "type": "file",
       "file": "04-机构与运动/DualSense 自适应扳机：电机+蜗杆的力反馈机构.md",
       "x": 440,
-      "y": 11640,
+      "y": 17280,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1136,7 +2010,7 @@
       "type": "file",
       "file": "附件/ergotron-lx-cf-45-241-026.jpg",
       "x": 840,
-      "y": 11380,
+      "y": 17020,
       "width": 360,
       "height": 240
     },
@@ -1145,7 +2019,7 @@
       "type": "file",
       "file": "04-机构与运动/Ergotron CF 恒力螺旋弹簧支架（对比气弹簧）.md",
       "x": 840,
-      "y": 11640,
+      "y": 17280,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1155,7 +2029,7 @@
       "type": "file",
       "file": "附件/macpro-2019-twist-handle.jpg",
       "x": 1240,
-      "y": 11380,
+      "y": 17020,
       "width": 360,
       "height": 240
     },
@@ -1164,7 +2038,7 @@
       "type": "file",
       "file": "04-机构与运动/Mac Pro 2019 旋转把手外壳锁与免工具模块锁.md",
       "x": 1240,
-      "y": 11640,
+      "y": 17280,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1174,7 +2048,7 @@
       "type": "file",
       "file": "附件/surface-book-muscle-wire-lock.jpg",
       "x": 1640,
-      "y": 11380,
+      "y": 17020,
       "width": 360,
       "height": 240
     },
@@ -1183,7 +2057,7 @@
       "type": "file",
       "file": "04-机构与运动/微软 Surface Book 形状记忆合金（肌肉线）电控分离锁.md",
       "x": 1640,
-      "y": 11640,
+      "y": 17280,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1193,7 +2067,7 @@
       "type": "file",
       "file": "附件/click-pen-cam.jpg",
       "x": 40,
-      "y": 12080,
+      "y": 17720,
       "width": 360,
       "height": 240
     },
@@ -1202,7 +2076,7 @@
       "type": "file",
       "file": "04-机构与运动/按动圆珠笔：旋转凸轮的按压伸缩机构.md",
       "x": 40,
-      "y": 12340,
+      "y": 17980,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1212,7 +2086,7 @@
       "type": "file",
       "file": "附件/bansbach-rotary-vs-vane-damper.jpg",
       "x": 440,
-      "y": 12080,
+      "y": 17720,
       "width": 360,
       "height": 240
     },
@@ -1221,7 +2095,7 @@
       "type": "file",
       "file": "04-机构与运动/旋转阻尼器（缓降盖板）：硅油黏性、水平型与垂直型的扭矩曲线.md",
       "x": 440,
-      "y": 12340,
+      "y": 17980,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1231,7 +2105,7 @@
       "type": "file",
       "file": "附件/monitor-arm-nb-f00a-gas-spring.jpg",
       "x": 840,
-      "y": 12080,
+      "y": 17720,
       "width": 360,
       "height": 240
     },
@@ -1240,7 +2114,7 @@
       "type": "file",
       "file": "04-机构与运动/显示器气弹簧支架：张力螺丝与悬停平衡.md",
       "x": 840,
-      "y": 12340,
+      "y": 17980,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1250,7 +2124,7 @@
       "type": "file",
       "file": "附件/gas-spring-piston-pressure-cutaway.jpg",
       "x": 1240,
-      "y": 12080,
+      "y": 17720,
       "width": 360,
       "height": 240
     },
@@ -1259,7 +2133,7 @@
       "type": "file",
       "file": "04-机构与运动/气弹簧内部结构：活塞阻尼孔与氮气预压.md",
       "x": 1240,
-      "y": 12340,
+      "y": 17980,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1269,7 +2143,7 @@
       "type": "file",
       "file": "附件/butterfly-kb-2018-silicone-membrane.jpg",
       "x": 1640,
-      "y": 12080,
+      "y": 17720,
       "width": 360,
       "height": 240
     },
@@ -1278,7 +2152,7 @@
       "type": "file",
       "file": "04-机构与运动/苹果蝶式键盘（反面案例）：变薄 40% 的代价与硅胶防尘膜补救.md",
       "x": 1640,
-      "y": 12340,
+      "y": 17980,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1288,7 +2162,7 @@
       "type": "file",
       "file": "附件/push-push-latch-ep1596030.png",
       "x": 40,
-      "y": 12780,
+      "y": 18420,
       "width": 360,
       "height": 240
     },
@@ -1297,7 +2171,7 @@
       "type": "file",
       "file": "04-机构与运动/防变形静音 Push-Push 按压弹跳锁（ITW 专利 EP1596030）.md",
       "x": 40,
-      "y": 13040,
+      "y": 18680,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1307,7 +2181,7 @@
       "type": "file",
       "file": "附件/blum-tip-on-tandembox-components.jpg",
       "x": 440,
-      "y": 12780,
+      "y": 18420,
       "width": 360,
       "height": 240
     },
@@ -1316,7 +2190,7 @@
       "type": "file",
       "file": "04-机构与运动/Blum TIP-ON 按压弹开抽屉：柜体轨弹簧单元与抽屉锁止模块.md",
       "x": 440,
-      "y": 13040,
+      "y": 18680,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1326,7 +2200,7 @@
       "type": "file",
       "file": "附件/cherry-mx-brown-disassembled.jpg",
       "x": 840,
-      "y": 12780,
+      "y": 18420,
       "width": 360,
       "height": 240
     },
@@ -1335,7 +2209,7 @@
       "type": "file",
       "file": "04-机构与运动/Cherry MX 机械键盘轴：轴心、螺旋弹簧与金交叉触点.md",
       "x": 840,
-      "y": 13040,
+      "y": 18680,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1345,7 +2219,7 @@
       "type": "file",
       "file": "附件/fidlock-v-buckle-explosion.jpg",
       "x": 1240,
-      "y": 12780,
+      "y": 18420,
       "width": 360,
       "height": 240
     },
@@ -1354,7 +2228,7 @@
       "type": "file",
       "file": "04-机构与运动/FIDLOCK V-BUCKLE：磁吸引导到位后再由机械扣锁死.md",
       "x": 1240,
-      "y": 13040,
+      "y": 18680,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1364,7 +2238,7 @@
       "type": "file",
       "file": "附件/gopro-thumb-screw-in-mount.jpg",
       "x": 1640,
-      "y": 12780,
+      "y": 18420,
       "width": 360,
       "height": 240
     },
@@ -1373,7 +2247,7 @@
       "type": "file",
       "file": "04-机构与运动/GoPro 快拆卡扣与指旋螺母：两爪弹性卡入和螺钉夹紧是两套锁.md",
       "x": 1640,
-      "y": 13040,
+      "y": 18680,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1383,7 +2257,7 @@
       "type": "file",
       "file": "附件/nifco-us4660871-exploded.png",
       "x": 40,
-      "y": 13480,
+      "y": 19120,
       "width": 360,
       "height": 240
     },
@@ -1392,7 +2266,7 @@
       "type": "file",
       "file": "04-机构与运动/Nifco 经典心形槽 Push-Push：U 形销与片簧（对照 ITW 防变形版）.md",
       "x": 40,
-      "y": 13740,
+      "y": 19380,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1402,7 +2276,7 @@
       "type": "file",
       "file": "附件/jae-st5-microsd-sim-combo.jpg",
       "x": 440,
-      "y": 13480,
+      "y": 19120,
       "width": 360,
       "height": 240
     },
@@ -1411,7 +2285,7 @@
       "type": "file",
       "file": "04-机构与运动/SD 与 microSD 推推式卡座：心形槽滑块与卡片当撞销.md",
       "x": 440,
-      "y": 13740,
+      "y": 19380,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1421,7 +2295,7 @@
       "type": "file",
       "file": "附件/itw-sr1-buckle.jpg",
       "x": 840,
-      "y": 13480,
+      "y": 19120,
       "width": 360,
       "height": 240
     },
@@ -1430,7 +2304,7 @@
       "type": "file",
       "file": "04-机构与运动/侧向释放插扣（ITW SR 1）：双弹性卡臂、母座侧窗与中间翼.md",
       "x": 840,
-      "y": 13740,
+      "y": 19380,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1440,7 +2314,7 @@
       "type": "file",
       "file": "附件/dewalt-battery-latch-spring.jpg",
       "x": 1240,
-      "y": 13480,
+      "y": 19120,
       "width": 360,
       "height": 240
     },
@@ -1449,7 +2323,7 @@
       "type": "file",
       "file": "04-机构与运动/电动工具电池包：滑轨插入与按压锁舌（得伟拆解）.md",
       "x": 1240,
-      "y": 13740,
+      "y": 19380,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1459,7 +2333,7 @@
       "type": "file",
       "file": "附件/silicone-keypad-structure-force-curve.png",
       "x": 1640,
-      "y": 13480,
+      "y": 19120,
       "width": 360,
       "height": 240
     },
@@ -1468,7 +2342,7 @@
       "type": "file",
       "file": "04-机构与运动/硅胶导电按键：斜壁荷重、碳粒与排气槽.md",
       "x": 1640,
-      "y": 13740,
+      "y": 19380,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1478,7 +2352,7 @@
       "type": "file",
       "file": "附件/nfi-membrane-switch-stack.jpg",
       "x": 40,
-      "y": 14180,
+      "y": 19820,
       "width": 360,
       "height": 240
     },
@@ -1487,7 +2361,7 @@
       "type": "file",
       "file": "04-机构与运动/薄膜开关叠层：面板、间隔层、电路层与开窗排气.md",
       "x": 40,
-      "y": 14440,
+      "y": 20080,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1497,7 +2371,7 @@
       "type": "file",
       "file": "附件/snaptron-force-displacement-curve.jpg",
       "x": 440,
-      "y": 14180,
+      "y": 19820,
       "width": 360,
       "height": 240
     },
@@ -1506,7 +2380,7 @@
       "type": "file",
       "file": "04-机构与运动/金属锅仔片阵列：直径、力值、行程与寿命互换.md",
       "x": 440,
-      "y": 14440,
+      "y": 20080,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1516,7 +2390,7 @@
       "type": "file",
       "file": "附件/omron-d2fc-working.jpg",
       "x": 840,
-      "y": 14180,
+      "y": 19820,
       "width": 360,
       "height": 240
     },
@@ -1525,7 +2399,7 @@
       "type": "file",
       "file": "04-机构与运动/鼠标微动开关（Omron D2FC）：杠杆、簧片翻转与触点.md",
       "x": 840,
-      "y": 14440,
+      "y": 20080,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1535,7 +2409,7 @@
       "type": "file",
       "file": "附件/alps-ec11e-spec-table.jpg",
       "x": 1240,
-      "y": 14180,
+      "y": 19820,
       "width": 360,
       "height": 240
     },
@@ -1544,7 +2418,7 @@
       "type": "file",
       "file": "04-机构与运动/ALPS EC11 旋转编码器：11 mm 金属轴增量脉冲与可选按压开关.md",
       "x": 1240,
-      "y": 14440,
+      "y": 20080,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1554,7 +2428,7 @@
       "type": "file",
       "file": "附件/jae-sf70-datasheet.jpg",
       "x": 1640,
-      "y": 14180,
+      "y": 19820,
       "width": 360,
       "height": 240
     },
@@ -1563,7 +2437,7 @@
       "type": "file",
       "file": "04-机构与运动/Nano-SIM 针顶出托盘（Pin-eject）：外部顶针把客户自制托盘顶出.md",
       "x": 1640,
-      "y": 14440,
+      "y": 20080,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1573,7 +2447,7 @@
       "type": "file",
       "file": "附件/side-key-metal-gaps.jpg",
       "x": 40,
-      "y": 14880,
+      "y": 20520,
       "width": 360,
       "height": 240
     },
@@ -1582,7 +2456,1052 @@
       "type": "file",
       "file": "04-机构与运动/手机侧键传力结构：键帽、软胶导电基与壳体间隙链.md",
       "x": 40,
-      "y": 15140,
+      "y": 20780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-stabilizer-img",
+      "type": "file",
+      "file": "附件/button-stabilizer-wire.jpg",
+      "x": 440,
+      "y": 20520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-stabilizer-note",
+      "type": "file",
+      "file": "04-机构与运动/长键卫星轴：双滑块与弯钢丝同步，偏心按压不再单端下沉.md",
+      "x": 440,
+      "y": 20780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-dpad-img",
+      "type": "file",
+      "file": "附件/button-dpad-patent.jpg",
+      "x": 840,
+      "y": 20520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-dpad-note",
+      "type": "file",
+      "file": "04-机构与运动/手柄十字键：中央半球支点与四向弹性触点的倾转选择.md",
+      "x": 840,
+      "y": 20780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-joystick-img",
+      "type": "file",
+      "file": "附件/button-joystick-centering.jpg",
+      "x": 1240,
+      "y": 20520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-joystick-note",
+      "type": "file",
+      "file": "04-机构与运动/拇指摇杆万向导向：正交转动框与中央弹簧回中.md",
+      "x": 1240,
+      "y": 20780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-mouse-img",
+      "type": "file",
+      "file": "附件/button-mouse-preload.jpg",
+      "x": 1640,
+      "y": 20520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-mouse-note",
+      "type": "file",
+      "file": "04-机构与运动/鼠标分体主键预压：独立键板、金属枢轴与弹簧张紧.md",
+      "x": 1640,
+      "y": 20780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-double-img",
+      "type": "file",
+      "file": "附件/button-double-stack.jpg",
+      "x": 40,
+      "y": 21220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-double-note",
+      "type": "file",
+      "file": "04-机构与运动/相机两段按键：上下金属动触点与分级力行程，不把两路电信号当两级手感.md",
+      "x": 40,
+      "y": 21480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-estop-img",
+      "type": "file",
+      "file": "附件/button-estop-assembly.jpg",
+      "x": 440,
+      "y": 21220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-estop-note",
+      "type": "file",
+      "file": "04-机构与运动/急停蘑菇头：机械保持、刻意复位与触点脱落向安全侧断开.md",
+      "x": 440,
+      "y": 21480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-gang-img",
+      "type": "file",
+      "file": "附件/button-gang-latch.jpg",
+      "x": 840,
+      "y": 21220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-gang-note",
+      "type": "file",
+      "file": "04-机构与运动/联排按钮共享闩条：按新键释放旧键，互锁不自动等于禁止双按.md",
+      "x": 840,
+      "y": 21480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-guard-img",
+      "type": "file",
+      "file": "附件/button-guard-nkk.jpg",
+      "x": 1240,
+      "y": 21220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-guard-note",
+      "type": "file",
+      "file": "04-机构与运动/翻盖式按键防误触：铰链、自动回盖弹簧与独立按钮.md",
+      "x": 1240,
+      "y": 21480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-rocker-img",
+      "type": "file",
+      "file": "附件/button-rocker-plunger.jpg",
+      "x": 1640,
+      "y": 21220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-rocker-note",
+      "type": "file",
+      "file": "04-机构与运动/跷板开关的弹簧柱塞：滑动压点、摇动触桥与中位自定心.md",
+      "x": 1640,
+      "y": 21480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-air-img",
+      "type": "file",
+      "file": "附件/button-air-transmitter.jpg",
+      "x": 40,
+      "y": 21920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-air-note",
+      "type": "file",
+      "file": "04-机构与运动/气动远置按钮：压缩气腔、软管与隔离的电气开关.md",
+      "x": 40,
+      "y": 22180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-enable-img",
+      "type": "file",
+      "file": "附件/button-enable-sequence.jpg",
+      "x": 440,
+      "y": 21920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-enable-note",
+      "type": "file",
+      "file": "04-机构与运动/三位置使能握持键：松手OFF、轻握ON、过握OFF且回程不再导通.md",
+      "x": 440,
+      "y": 22180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-foot-img",
+      "type": "file",
+      "file": "附件/button-foot-hercules.jpg",
+      "x": 840,
+      "y": 21920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-foot-note",
+      "type": "file",
+      "file": "04-机构与运动/脚踏开关：后铰轴踏板、独立防护罩与多级操作边界.md",
+      "x": 840,
+      "y": 22180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-buckle-img",
+      "type": "file",
+      "file": "附件/button-buckle-patent.jpg",
+      "x": 1240,
+      "y": 21920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-buckle-note",
+      "type": "file",
+      "file": "04-机构与运动/IBM屈曲弹簧键：螺旋簧失稳产生力矩，驱动翻转锤.md",
+      "x": 1240,
+      "y": 22180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-beam-img",
+      "type": "file",
+      "file": "附件/button-beam-spring.jpg",
+      "x": 1640,
+      "y": 21920,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-beam-note",
+      "type": "file",
+      "file": "04-机构与运动/IBM Beam Spring键：片簧越中反转并向上提起飞板.md",
+      "x": 1640,
+      "y": 22180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-piezo-img",
+      "type": "file",
+      "file": "附件/button-piezo-pse.jpg",
+      "x": 40,
+      "y": 22620,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-piezo-note",
+      "type": "file",
+      "file": "04-机构与运动/金属压电按钮：连续金属面微挠曲，无可见滑动键程的扩展案例.md",
+      "x": 40,
+      "y": 22880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-gasket-img",
+      "type": "file",
+      "file": "附件/button-gasket-mount.jpg",
+      "x": 440,
+      "y": 22620,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-gasket-note",
+      "type": "file",
+      "file": "04-机构与运动/键盘内胆Gasket悬置：把按键触底载荷从刚性螺柱改经弹性垫传到壳体.md",
+      "x": 440,
+      "y": 22880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-point-img",
+      "type": "file",
+      "file": "附件/button-point-patent.jpg",
+      "x": 840,
+      "y": 22620,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-point-note",
+      "type": "file",
+      "file": "04-机构与运动/应变式指点杆：十字薄片根部弯曲，将侧向按力变成二维输入.md",
+      "x": 840,
+      "y": 22880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-gas-img",
+      "type": "file",
+      "file": "附件/button-gas-knob.jpg",
+      "x": 1240,
+      "y": 22620,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-gas-note",
+      "type": "file",
+      "file": "04-机构与运动/灶具旋钮轴向解锁：先推或拉解除转动约束，阀芯压紧与解锁分工.md",
+      "x": 1240,
+      "y": 22880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "button-cable-img",
+      "type": "file",
+      "file": "附件/button-cable-release.jpg",
+      "x": 1640,
+      "y": 22620,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-cable-note",
+      "type": "file",
+      "file": "04-机构与运动/机械快门线：柔性芯与固定外套的反力闭环，远置按钮不传手部晃动.md",
+      "x": 1640,
+      "y": 22880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-0-img",
+      "type": "file",
+      "file": "附件/hz-twistlock-and-corner-castings.jpg",
+      "x": 40,
+      "y": 23320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-0-note",
+      "type": "file",
+      "file": "04-机构与运动/ISO 集装箱角件扭锁：锁头插入椭圆孔后旋转约 90° 卡住.md",
+      "x": 40,
+      "y": 23580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-1-img",
+      "type": "file",
+      "file": "附件/heinlein-crc-push-turn-caps.jpg",
+      "x": 440,
+      "y": 23320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-1-note",
+      "type": "file",
+      "file": "04-机构与运动/儿童安全瓶盖压旋锁：外盖与内芯齿平时不啮合，按下后啮合再旋转.md",
+      "x": 440,
+      "y": 23580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-2-img",
+      "type": "file",
+      "file": "附件/halder-4212a20-product.jpg",
+      "x": 840,
+      "y": 23320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-2-note",
+      "type": "file",
+      "file": "04-机构与运动/单动式球头快卸销：按按钮收钢珠，松手后钢珠弹出锁紧.md",
+      "x": 840,
+      "y": 23580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-3-img",
+      "type": "file",
+      "file": "附件/winco-gn413-indexing-plunger.jpg",
+      "x": 1240,
+      "y": 23320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-3-note",
+      "type": "file",
+      "file": "04-机构与运动/带拉环弹簧分度销：弹簧保持插入，拉出后转 90° 停在槽上.md",
+      "x": 1240,
+      "y": 23580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-4-img",
+      "type": "file",
+      "file": "附件/popup-socket-lockbar-patent.jpg",
+      "x": 1640,
+      "y": 23320,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-4-note",
+      "type": "file",
+      "file": "04-机构与运动/弹出式地面插座：按压锁条解锁后面板弹起（对照 TIP-ON 与心形槽）.md",
+      "x": 1640,
+      "y": 23580,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-5-img",
+      "type": "file",
+      "file": "附件/cn-patent-dual-push-butterfly-clasp.jpg",
+      "x": 40,
+      "y": 24020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-5-note",
+      "type": "file",
+      "file": "04-机构与运动/手表折叠扣与蝴蝶扣：双按或掀盖释放，表带折叠后由卡舌锁住.md",
+      "x": 40,
+      "y": 24280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-6-img",
+      "type": "file",
+      "file": "附件/omr-cam-lock-components.jpg",
+      "x": 440,
+      "y": 24020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-6-note",
+      "type": "file",
+      "file": "04-机构与运动/柜用凸轮转舌锁：钥匙带动锁舌转过门框挡边（不是板式偏心轮）.md",
+      "x": 440,
+      "y": 24280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-7-img",
+      "type": "file",
+      "file": "附件/hager-1446-ball-catch-install.jpg",
+      "x": 840,
+      "y": 24020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-7-note",
+      "type": "file",
+      "file": "04-机构与运动/橱柜弹簧碰珠（Hager、Brusso）：弹簧把钢珠顶入锁片凹坑.md",
+      "x": 840,
+      "y": 24280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-8-img",
+      "type": "file",
+      "file": "附件/smc-kq2-cutaway.jpg",
+      "x": 1240,
+      "y": 24020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-8-note",
+      "type": "file",
+      "file": "04-机构与运动/气动快插接头（SMC KQ2 一类）：卡爪咬管、密封圈密封，按解锁套后拔出.md",
+      "x": 1240,
+      "y": 24280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-9-img",
+      "type": "file",
+      "file": "附件/songyuan-cn207136399-fig2-exploded.jpg",
+      "x": 1640,
+      "y": 24020,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-9-note",
+      "type": "file",
+      "file": "04-机构与运动/汽车安全带带扣：锁钩卡入锁舌孔，按钮解锁后顶出弹簧弹出锁舌.md",
+      "x": 1640,
+      "y": 24280,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-10-img",
+      "type": "file",
+      "file": "附件/haori-cn203142611-exploded.jpg",
+      "x": 40,
+      "y": 24720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-10-note",
+      "type": "file",
+      "file": "04-机构与运动/汽车引擎盖双级锁：主锁棘轮棘爪与二次安全钩，必须两次操作才能全开.md",
+      "x": 40,
+      "y": 24980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-11-img",
+      "type": "file",
+      "file": "附件/kuriyama-qf-flat-face-pair.jpg",
+      "x": 440,
+      "y": 24720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-11-note",
+      "type": "file",
+      "file": "04-机构与运动/液压平面阀快速接头（ISO 16028）：双向截止阀与套筒钢球锁，区别于气管快插.md",
+      "x": 440,
+      "y": 24980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-12-img",
+      "type": "file",
+      "file": "附件/emka-heavy-rod-lock-exploded.jpg",
+      "x": 840,
+      "y": 24720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-12-note",
+      "type": "file",
+      "file": "04-机构与运动/电柜三点连杆锁：一点把手驱动上下连杆把柜门多点锁在框上.md",
+      "x": 840,
+      "y": 24980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-13-img",
+      "type": "file",
+      "file": "附件/southco-e3-vise-action-section.jpg",
+      "x": 1240,
+      "y": 24720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-13-note",
+      "type": "file",
+      "file": "04-机构与运动/电柜压缩式门锁（Southco E3 与 EMKA 1022）：先转舌再轴向压缩密封条.md",
+      "x": 1240,
+      "y": 24980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-14-img",
+      "type": "file",
+      "file": "附件/campagnolo-qr-dropout-thickness.jpg",
+      "x": 1640,
+      "y": 24720,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-14-note",
+      "type": "file",
+      "file": "04-机构与运动/自行车花鼓快拆杆：空心轴、调节螺母与偏心凸轮过中心夹紧.md",
+      "x": 1640,
+      "y": 24980,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-15-img",
+      "type": "file",
+      "file": "附件/southco-97-overcenter-latch.jpg",
+      "x": 40,
+      "y": 25420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-15-note",
+      "type": "file",
+      "file": "04-机构与运动/过中心拉伸搭扣（Southco 97）：杠杆过死点自锁，把箱盖拉向箱体.md",
+      "x": 40,
+      "y": 25680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t6-04-16-img",
+      "type": "file",
+      "file": "附件/penn-elcom-l925-recessed-butterfly.jpg",
+      "x": 440,
+      "y": 25420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t6-04-16-note",
+      "type": "file",
+      "file": "04-机构与运动/飞行箱嵌入式蝴蝶锁：旋转翼板 180° 钩住保持器（对照直线拉扣）.md",
+      "x": 440,
+      "y": 25680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t7-04-12-img",
+      "type": "file",
+      "file": "附件/bosch-flexiclick-adapter-family.jpg",
+      "x": 840,
+      "y": 25420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t7-04-12-note",
+      "type": "file",
+      "file": "04-机构与运动/博世 FlexiClick 机头快换：插入夹持座后转动锁环至咔哒，轴向拉出约 5 mm 转到 16 个位置.md",
+      "x": 840,
+      "y": 25680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-01-img",
+      "type": "file",
+      "file": "附件/ati-rcc-center-of-compliance.jpg",
+      "x": 1240,
+      "y": 25420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-01-note",
+      "type": "file",
+      "file": "04-机构与运动/RCC 远程柔顺手腕：把柔顺中心配置到装配孔口附近实现倒角自动对中.md",
+      "x": 1240,
+      "y": 25680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-02-img",
+      "type": "file",
+      "file": "附件/bridge-cn-mechanism-fig1.jpg",
+      "x": 1640,
+      "y": 25420,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-02-note",
+      "type": "file",
+      "file": "04-机构与运动/压电驱动桥式柔性铰链位移放大机构：理想放大比与铰链柔度造成的折减.md",
+      "x": 1640,
+      "y": 25680,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-03-img",
+      "type": "file",
+      "file": "附件/thu-parallelogram-vs-double.jpg",
+      "x": 40,
+      "y": 26120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-03-note",
+      "type": "file",
+      "file": "04-机构与运动/平行板簧直线导轨与双平行四边形：对称构型抵消寄生横向位移.md",
+      "x": 40,
+      "y": 26380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-04-img",
+      "type": "file",
+      "file": "附件/zolix-ob200-flexure-stage.jpg",
+      "x": 440,
+      "y": 26120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-04-note",
+      "type": "file",
+      "file": "04-机构与运动/商品柔性导向微位移台：无摩擦柔顺结构导向，行程与分辨率来自弹性导轨而不是滚动导轨.md",
+      "x": 440,
+      "y": 26380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-05-img",
+      "type": "file",
+      "file": "附件/cstam-parallel-beam-fig1.jpg",
+      "x": 840,
+      "y": 26120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-05-note",
+      "type": "file",
+      "file": "04-机构与运动/平行梁式称重传感器弹性体：双孔平行梁把载荷变成孔壁最薄处的弯曲应变，并用修锉调整四角误差.md",
+      "x": 840,
+      "y": 26380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-06-img",
+      "type": "file",
+      "file": "附件/witzenmann-diaphragm-bellows.jpg",
+      "x": 1240,
+      "y": 26120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-06-note",
+      "type": "file",
+      "file": "04-机构与运动/膜盒与焊接膜片波纹管：波纹膜片成对对焊，形成可轴向伸缩的密封弹性盒.md",
+      "x": 1240,
+      "y": 26380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-07-img",
+      "type": "file",
+      "file": "附件/pzjsj-axial-expansion-joint.jpg",
+      "x": 1640,
+      "y": 26120,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-07-note",
+      "type": "file",
+      "file": "04-机构与运动/金属波纹管轴向补偿器（膨胀节）：单式波纹管吸收管道轴向热位移，刚度由单波刚度除以波数得到.md",
+      "x": 1640,
+      "y": 26380,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-08-img",
+      "type": "file",
+      "file": "附件/bistable-fcbm-geometry.jpg",
+      "x": 40,
+      "y": 26820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-08-note",
+      "type": "file",
+      "file": "04-机构与运动/双稳态柔顺机构：完全柔性屈曲梁与Young型跳转的几何稳态.md",
+      "x": 40,
+      "y": 27080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-09-img",
+      "type": "file",
+      "file": "附件/tape-spring-deployment-modes.jpg",
+      "x": 440,
+      "y": 26820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-09-note",
+      "type": "file",
+      "file": "04-机构与运动/复合材料带簧双稳态：开口圆柱壳在伸直与盘卷构型间跳转.md",
+      "x": 440,
+      "y": 27080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-10-img",
+      "type": "file",
+      "file": "附件/let-joint-outside-inside.jpg",
+      "x": 840,
+      "y": 26820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-10-note",
+      "type": "file",
+      "file": "04-机构与运动/层合弹出扭转铰（LET Joint）：薄板窄梁扭转提供面外转动.md",
+      "x": 840,
+      "y": 27080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-11-img",
+      "type": "file",
+      "file": "附件/cfm-corrugated-bistable-config.jpg",
+      "x": 1240,
+      "y": 26820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-11-note",
+      "type": "file",
+      "file": "04-机构与运动/恒力柔顺机构：半圆波纹正刚度梁与双稳态负刚度梁并联抵消.md",
+      "x": 1240,
+      "y": 27080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-12-img",
+      "type": "file",
+      "file": "附件/cafp-contact-member-geometry.jpg",
+      "x": 1640,
+      "y": 26820,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-12-note",
+      "type": "file",
+      "file": "04-机构与运动/接触辅助十字簧片柔性铰（CAFP）：接触缩短簧片自由长度以改变单向刚度.md",
+      "x": 1640,
+      "y": 27080,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t8-04-13-img",
+      "type": "file",
+      "file": "附件/festo-dhas-finger-mounting.jpg",
+      "x": 40,
+      "y": 27520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t8-04-13-note",
+      "type": "file",
+      "file": "04-机构与运动/鳍条效应自适应夹指：Festo DHAS 斜肋梯形桁架包络抓取.md",
+      "x": 40,
+      "y": 27780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-158",
+      "type": "file",
+      "file": "附件/fidlock-snap-female-m-top.jpg",
+      "x": 440,
+      "y": 27520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-159",
+      "type": "file",
+      "file": "04-机构与运动/FIDLOCK SNAP：圆形磁吸按扣侧向滑开（对照 V-BUCKLE 上掀）.md",
+      "x": 440,
+      "y": 27780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-160",
+      "type": "file",
+      "file": "附件/insta360-archisite-1.jpg",
+      "x": 840,
+      "y": 27520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-161",
+      "type": "file",
+      "file": "04-机构与运动/Insta360 磁吸快拆配件 2.0：磁铁对中后由滑动锁承力.md",
+      "x": 840,
+      "y": 27780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-162",
+      "type": "file",
+      "file": "附件/pd-adapter-face.jpg",
+      "x": 1240,
+      "y": 27520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-163",
+      "type": "file",
+      "file": "04-机构与运动/Peak Design SlimLink：方形陶瓷凹槽磁吸预定位与弹簧卡舌硬锁.md",
+      "x": 1240,
+      "y": 27780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-164",
+      "type": "file",
+      "file": "附件/microsensor-md-principle.png",
+      "x": 1640,
+      "y": 27520,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-165",
+      "type": "file",
+      "file": "04-机构与运动/磁浮子液位开关：浮子内磁铁与管内簧管磁耦合.md",
+      "x": 1640,
+      "y": 27780,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "img-166",
+      "type": "file",
+      "file": "附件/yeti-magslider-lid-top.jpg",
+      "x": 40,
+      "y": 28220,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-167",
+      "type": "file",
+      "file": "04-机构与运动/YETI MagSlider 杯盖磁吸滑盖：滑块与盖内磁铁夹持，开闭两端保持.md",
+      "x": 40,
+      "y": 28480,
       "width": 360,
       "height": 400,
       "color": "4"
@@ -1591,10 +3510,10 @@
       "id": "group-4",
       "type": "group",
       "x": 0,
-      "y": 22680,
+      "y": 30440,
       "width": 2040,
       "height": 2240,
-      "label": "05-密封与防护（12）",
+      "label": "05-密封与防护（14）",
       "color": "5"
     },
     {
@@ -1602,7 +3521,7 @@
       "type": "file",
       "file": "05-密封与防护/05-密封与防护 索引.md",
       "x": 40,
-      "y": 22720,
+      "y": 30480,
       "width": 360,
       "height": 60
     },
@@ -1611,7 +3530,7 @@
       "type": "file",
       "file": "附件/gore-adhesive-vent-mounting.png",
       "x": 40,
-      "y": 22820,
+      "y": 30580,
       "width": 360,
       "height": 240
     },
@@ -1620,7 +3539,7 @@
       "type": "file",
       "file": "05-密封与防护/GORE 防水透气膜：压力平衡与粘贴式透气阀的安装参数.md",
       "x": 40,
-      "y": 23080,
+      "y": 30840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1630,7 +3549,7 @@
       "type": "file",
       "file": "附件/garmin-fenix7x-gasket.jpg",
       "x": 440,
-      "y": 22820,
+      "y": 30580,
       "width": 360,
       "height": 240
     },
@@ -1639,7 +3558,7 @@
       "type": "file",
       "file": "05-密封与防护/Garmin fēnix 7X 可复用橡胶密封圈.md",
       "x": 440,
-      "y": 23080,
+      "y": 30840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1649,7 +3568,7 @@
       "type": "file",
       "file": "附件/gopro-session-oring.jpg",
       "x": 840,
-      "y": 22820,
+      "y": 30580,
       "width": 360,
       "height": 240
     },
@@ -1658,7 +3577,7 @@
       "type": "file",
       "file": "05-密封与防护/GoPro Hero4 Session 免外壳防水机身.md",
       "x": 840,
-      "y": 23080,
+      "y": 30840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1668,7 +3587,7 @@
       "type": "file",
       "file": "附件/oring-gland-fill.jpg",
       "x": 1240,
-      "y": 22820,
+      "y": 30580,
       "width": 360,
       "height": 240
     },
@@ -1677,7 +3596,7 @@
       "type": "file",
       "file": "05-密封与防护/O 形圈密封槽设计：填充率、压缩率与挤出间隙的五个数.md",
       "x": 1240,
-      "y": 23080,
+      "y": 30840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1687,7 +3606,7 @@
       "type": "file",
       "file": "附件/tpu-airbag-corner-cn204707366.jpg",
       "x": 1640,
-      "y": 22820,
+      "y": 30580,
       "width": 360,
       "height": 240
     },
@@ -1696,7 +3615,7 @@
       "type": "file",
       "file": "05-密封与防护/TPU 包胶气囊角：拐角外凸空腔缓冲跌落冲击.md",
       "x": 1640,
-      "y": 23080,
+      "y": 30840,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1706,7 +3625,7 @@
       "type": "file",
       "file": "附件/galaxy-z-fold3-teardown-ifixit.jpg",
       "x": 40,
-      "y": 23520,
+      "y": 31280,
       "width": 360,
       "height": 240
     },
@@ -1715,7 +3634,7 @@
       "type": "file",
       "file": "05-密封与防护/三星 Galaxy Z Fold3 折叠屏防水结构.md",
       "x": 40,
-      "y": 23780,
+      "y": 31540,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1725,7 +3644,7 @@
       "type": "file",
       "file": "附件/rugged-phone-housing-gasket.jpg",
       "x": 440,
-      "y": 23520,
+      "y": 31280,
       "width": 360,
       "height": 240
     },
@@ -1734,7 +3653,7 @@
       "type": "file",
       "file": "05-密封与防护/三防手机整机防水结构：上下壳胶圈、电池盖、按键与开孔的参数清单.md",
       "x": 440,
-      "y": 23780,
+      "y": 31540,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1744,7 +3663,7 @@
       "type": "file",
       "file": "附件/acoustic-membrane-oval-sheet.jpg",
       "x": 840,
-      "y": 23520,
+      "y": 31280,
       "width": 360,
       "height": 240
     },
@@ -1753,7 +3672,7 @@
       "type": "file",
       "file": "05-密封与防护/喇叭防尘网与防水透声膜叠层：声学孔与结构孔不要混用.md",
       "x": 840,
-      "y": 23780,
+      "y": 31540,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1763,7 +3682,7 @@
       "type": "file",
       "file": "附件/epp-helmet-shell-liner-section.jpg",
       "x": 1240,
-      "y": 23520,
+      "y": 31280,
       "width": 360,
       "height": 240
     },
@@ -1772,7 +3691,7 @@
       "type": "file",
       "file": "05-密封与防护/安全帽 EPS 与 EPP 缓冲内衬：珠粒模压与硬壳堆叠.md",
       "x": 1240,
-      "y": 23780,
+      "y": 31540,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1782,7 +3701,7 @@
       "type": "file",
       "file": "附件/iphone7-volume-button-gaskets.jpg",
       "x": 1640,
-      "y": 23520,
+      "y": 31280,
       "width": 360,
       "height": 240
     },
@@ -1791,7 +3710,7 @@
       "type": "file",
       "file": "05-密封与防护/苹果 iPhone 7 首代 IP67：逐个开口封堵与气压平衡阀.md",
       "x": 1640,
-      "y": 23780,
+      "y": 31540,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1801,7 +3720,7 @@
       "type": "text",
       "text": "来源无结构配图",
       "x": 40,
-      "y": 24220,
+      "y": 31980,
       "width": 360,
       "height": 240
     },
@@ -1810,7 +3729,64 @@
       "type": "file",
       "file": "05-密封与防护/跌落测试结构加固：六面四角、外圆角与局部 TPU 缓冲.md",
       "x": 40,
-      "y": 24480,
+      "y": 32240,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "button-watch-img",
+      "type": "file",
+      "file": "附件/button-watch-pusher.jpg",
+      "x": 440,
+      "y": 31980,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "button-watch-note",
+      "type": "file",
+      "file": "05-密封与防护/手表防水推杆：套管导向、轴向回位与径向滑动密封.md",
+      "x": 440,
+      "y": 32240,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-168",
+      "type": "file",
+      "file": "附件/fridge-gasket-cn203771883u-figs.png",
+      "x": 840,
+      "y": 31980,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-169",
+      "type": "file",
+      "file": "05-密封与防护/冰箱门磁封条：挤出胶套内嵌磁条闭环吸合，兼作闭合与密封（对照橱柜门吸）.md",
+      "x": 840,
+      "y": 32240,
+      "width": 360,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "img-170",
+      "type": "file",
+      "file": "附件/shower-magnetic-seal-s008a1w-photo.jpg",
+      "x": 1240,
+      "y": 31980,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-171",
+      "type": "file",
+      "file": "05-密封与防护/淋浴房对开门磁吸密封条：两扇门边磁条互吸并兼密封（对照冰箱门封）.md",
+      "x": 1240,
+      "y": 32240,
       "width": 360,
       "height": 400,
       "color": "5"
@@ -1819,7 +3795,7 @@
       "id": "group-5",
       "type": "group",
       "x": 0,
-      "y": 25040,
+      "y": 32800,
       "width": 2040,
       "height": 3640,
       "label": "06-拆解与可维修（23）",
@@ -1830,7 +3806,7 @@
       "type": "file",
       "file": "06-拆解与可维修/06-拆解与可维修 索引.md",
       "x": 40,
-      "y": 25080,
+      "y": 32840,
       "width": 360,
       "height": 60
     },
@@ -1839,7 +3815,7 @@
       "type": "file",
       "file": "附件/fairphone5-back-cover-clips.jpg",
       "x": 40,
-      "y": 25180,
+      "y": 32940,
       "width": 360,
       "height": 240
     },
@@ -1848,7 +3824,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Fairphone 5 卡扣后盖与免胶可换电池.md",
       "x": 40,
-      "y": 25440,
+      "y": 33200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1858,7 +3834,7 @@
       "type": "file",
       "file": "附件/fairphone6-teardown-layout.jpg",
       "x": 440,
-      "y": 25180,
+      "y": 32940,
       "width": 360,
       "height": 240
     },
@@ -1867,7 +3843,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Fairphone 6 螺丝模块化（屏、电池、摄像头、USB-C）.md",
       "x": 440,
-      "y": 25440,
+      "y": 33200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1877,7 +3853,7 @@
       "type": "file",
       "file": "附件/framework-desktop-teardown-overview.jpg",
       "x": 840,
-      "y": 25180,
+      "y": 32940,
       "width": 360,
       "height": 240
     },
@@ -1886,7 +3862,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Framework Desktop 免工具面板与标准件模块化.md",
       "x": 840,
-      "y": 25440,
+      "y": 33200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1896,7 +3872,7 @@
       "type": "file",
       "file": "附件/framework16-expansion-bay-slide.jpg",
       "x": 1240,
-      "y": 25180,
+      "y": 32940,
       "width": 360,
       "height": 240
     },
@@ -1905,7 +3881,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Framework Laptop 16 Expansion Bay 滑出式显卡模块.md",
       "x": 1240,
-      "y": 25440,
+      "y": 33200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1915,7 +3891,7 @@
       "type": "file",
       "file": "附件/framework-laptop-ifixit.jpg",
       "x": 1640,
-      "y": 25180,
+      "y": 32940,
       "width": 360,
       "height": 240
     },
@@ -1924,7 +3900,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Framework 笔记本模块化扩展卡与磁吸边框.md",
       "x": 1640,
-      "y": 25440,
+      "y": 33200,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1934,7 +3910,7 @@
       "type": "file",
       "file": "附件/sdoled-interconnect-cable-3gen.jpg",
       "x": 40,
-      "y": 25880,
+      "y": 33640,
       "width": 360,
       "height": 240
     },
@@ -1943,7 +3919,7 @@
       "type": "file",
       "file": "06-拆解与可维修/Valve Steam Deck OLED 可维修改版：金属螺纹柱、T6 Torx 与电池撬卡槽.md",
       "x": 40,
-      "y": 26140,
+      "y": 33900,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1953,7 +3929,7 @@
       "type": "file",
       "file": "附件/airpods-pro-glue.jpg",
       "x": 440,
-      "y": 25880,
+      "y": 33640,
       "width": 360,
       "height": 240
     },
@@ -1962,7 +3938,7 @@
       "type": "file",
       "file": "06-拆解与可维修/苹果 AirPods Pro 全胶粘封装（反面案例）.md",
       "x": 440,
-      "y": 26140,
+      "y": 33900,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1972,7 +3948,7 @@
       "type": "file",
       "file": "附件/iphone14-midframe-front-open.jpg",
       "x": 840,
-      "y": 25880,
+      "y": 33640,
       "width": 360,
       "height": 240
     },
@@ -1981,7 +3957,7 @@
       "type": "file",
       "file": "06-拆解与可维修/苹果 iPhone 14 双面可开：中框承力与前后两道密封.md",
       "x": 840,
-      "y": 26140,
+      "y": 33900,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -1991,7 +3967,7 @@
       "type": "file",
       "file": "附件/iphone16-battery-9v-debond.jpg",
       "x": 1240,
-      "y": 25880,
+      "y": 33640,
       "width": 360,
       "height": 240
     },
@@ -2000,1062 +3976,17 @@
       "type": "file",
       "file": "06-拆解与可维修/苹果 iPhone 16 电解脱粘电池胶.md",
       "x": 1240,
-      "y": 26140,
+      "y": 33900,
       "width": 360,
       "height": 400,
       "color": "6"
-    },
-    {
-      "id": "group-6",
-      "type": "group",
-      "x": 0,
-      "y": 28800,
-      "width": 2040,
-      "height": 2240,
-      "label": "07-材料与工艺（12）",
-      "color": "1"
-    },
-    {
-      "id": "idx-6",
-      "type": "file",
-      "file": "07-材料与工艺/07-材料与工艺 索引.md",
-      "x": 40,
-      "y": 28840,
-      "width": 360,
-      "height": 60
-    },
-    {
-      "id": "img-58",
-      "type": "file",
-      "file": "附件/pip-hinge-concept-drvax.jpg",
-      "x": 40,
-      "y": 28940,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-58",
-      "type": "file",
-      "file": "07-材料与工艺/FDM 一体打印活动件（Print-in-Place）：XY 每边 0.3 mm、Z 两整层的间隙规则.md",
-      "x": 40,
-      "y": 29200,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-59",
-      "type": "file",
-      "file": "附件/spray-free-weldline-mechanism.jpg",
-      "x": 440,
-      "y": 28940,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-59",
-      "type": "file",
-      "file": "07-材料与工艺/免喷涂材料 vs 喷涂：成本、良率与三条硬边界.md",
-      "x": 440,
-      "y": 29200,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-60",
-      "type": "file",
-      "file": "附件/two-shot-molding-process.jpg",
-      "x": 840,
-      "y": 28940,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-60",
-      "type": "file",
-      "file": "07-材料与工艺/双色注塑：硬胶先射、软胶后射的结构拆件规则.md",
-      "x": 840,
-      "y": 29200,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-61",
-      "type": "file",
-      "file": "附件/foam-mucell-process-sequence.jpg",
-      "x": 1240,
-      "y": 28940,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-61",
-      "type": "file",
-      "file": "07-材料与工艺/发泡件缩水：模温、排气与保压和实心件相反.md",
-      "x": 1240,
-      "y": 29200,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-62",
-      "type": "file",
-      "file": "附件/shrink-mismatch-assembly-gap.jpg",
-      "x": 1640,
-      "y": 28940,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-62",
-      "type": "file",
-      "file": "07-材料与工艺/换料收缩率：同一张图换料就裂，图纸必须按新缩水放缩.md",
-      "x": 1640,
-      "y": 29200,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-63",
-      "type": "file",
-      "file": "附件/gaim-four-process-stages.jpg",
-      "x": 40,
-      "y": 29640,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-63",
-      "type": "file",
-      "file": "07-材料与工艺/气体辅助注塑（GAIM）：用气道掏空厚筋消缩痕.md",
-      "x": 40,
-      "y": 29900,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-64",
-      "type": "text",
-      "text": "来源无结构配图",
-      "x": 440,
-      "y": 29640,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-64",
-      "type": "file",
-      "file": "07-材料与工艺/注塑倒扣脱模：强脱、斜顶还是滑块.md",
-      "x": 440,
-      "y": 29900,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-65",
-      "type": "file",
-      "file": "附件/giga-casting-tesla-frame.jpg",
-      "x": 840,
-      "y": 29640,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-65",
-      "type": "file",
-      "file": "07-材料与工艺/特斯拉 Giga Press 一体化压铸车身件.md",
-      "x": 840,
-      "y": 29900,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-66",
-      "type": "file",
-      "file": "附件/honor-3dp-hinge-base-swingarm.png",
-      "x": 1240,
-      "y": 29640,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-66",
-      "type": "file",
-      "file": "07-材料与工艺/荣耀金属 3D 打印免组装转轴专利：连接余料与垂直打印方向的切割面.md",
-      "x": 1240,
-      "y": 29900,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-67",
-      "type": "file",
-      "file": "附件/mimplus-sintering-support.png",
-      "x": 1640,
-      "y": 29640,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-67",
-      "type": "file",
-      "file": "07-材料与工艺/金属注射成型（MIM）：均匀壁厚、烧结支撑面与 5000 件成本拐点.md",
-      "x": 1640,
-      "y": 29900,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-68",
-      "type": "file",
-      "file": "附件/sheet-metal-min-bend-radius.png",
-      "x": 40,
-      "y": 30340,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-68",
-      "type": "file",
-      "file": "07-材料与工艺/钣金折弯件设计规则：最小弯曲半径与预留切口.md",
-      "x": 40,
-      "y": 30600,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "img-69",
-      "type": "file",
-      "file": "附件/anodize-size-growth.png",
-      "x": 440,
-      "y": 30340,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "case-69",
-      "type": "file",
-      "file": "07-材料与工艺/铝件阳极氧化的尺寸链：膜厚一半向外、遮蔽螺纹与挂点.md",
-      "x": 440,
-      "y": 30600,
-      "width": 360,
-      "height": 400,
-      "color": "1"
-    },
-    {
-      "id": "button-stabilizer-img",
-      "type": "file",
-      "file": "附件/button-stabilizer-wire.jpg",
-      "x": 440,
-      "y": 14880,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-stabilizer-note",
-      "type": "file",
-      "file": "04-机构与运动/长键卫星轴：双滑块与弯钢丝同步，偏心按压不再单端下沉.md",
-      "x": 440,
-      "y": 15140,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-dpad-img",
-      "type": "file",
-      "file": "附件/button-dpad-patent.jpg",
-      "x": 840,
-      "y": 14880,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-dpad-note",
-      "type": "file",
-      "file": "04-机构与运动/手柄十字键：中央半球支点与四向弹性触点的倾转选择.md",
-      "x": 840,
-      "y": 15140,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-joystick-img",
-      "type": "file",
-      "file": "附件/button-joystick-centering.jpg",
-      "x": 1240,
-      "y": 14880,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-joystick-note",
-      "type": "file",
-      "file": "04-机构与运动/拇指摇杆万向导向：正交转动框与中央弹簧回中.md",
-      "x": 1240,
-      "y": 15140,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-mouse-img",
-      "type": "file",
-      "file": "附件/button-mouse-preload.jpg",
-      "x": 1640,
-      "y": 14880,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-mouse-note",
-      "type": "file",
-      "file": "04-机构与运动/鼠标分体主键预压：独立键板、金属枢轴与弹簧张紧.md",
-      "x": 1640,
-      "y": 15140,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-double-img",
-      "type": "file",
-      "file": "附件/button-double-stack.jpg",
-      "x": 40,
-      "y": 15580,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-double-note",
-      "type": "file",
-      "file": "04-机构与运动/相机两段按键：上下金属动触点与分级力行程，不把两路电信号当两级手感.md",
-      "x": 40,
-      "y": 15840,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-estop-img",
-      "type": "file",
-      "file": "附件/button-estop-assembly.jpg",
-      "x": 440,
-      "y": 15580,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-estop-note",
-      "type": "file",
-      "file": "04-机构与运动/急停蘑菇头：机械保持、刻意复位与触点脱落向安全侧断开.md",
-      "x": 440,
-      "y": 15840,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-gang-img",
-      "type": "file",
-      "file": "附件/button-gang-latch.jpg",
-      "x": 840,
-      "y": 15580,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-gang-note",
-      "type": "file",
-      "file": "04-机构与运动/联排按钮共享闩条：按新键释放旧键，互锁不自动等于禁止双按.md",
-      "x": 840,
-      "y": 15840,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-guard-img",
-      "type": "file",
-      "file": "附件/button-guard-nkk.jpg",
-      "x": 1240,
-      "y": 15580,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-guard-note",
-      "type": "file",
-      "file": "04-机构与运动/翻盖式按键防误触：铰链、自动回盖弹簧与独立按钮.md",
-      "x": 1240,
-      "y": 15840,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-rocker-img",
-      "type": "file",
-      "file": "附件/button-rocker-plunger.jpg",
-      "x": 1640,
-      "y": 15580,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-rocker-note",
-      "type": "file",
-      "file": "04-机构与运动/跷板开关的弹簧柱塞：滑动压点、摇动触桥与中位自定心.md",
-      "x": 1640,
-      "y": 15840,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-air-img",
-      "type": "file",
-      "file": "附件/button-air-transmitter.jpg",
-      "x": 40,
-      "y": 16280,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-air-note",
-      "type": "file",
-      "file": "04-机构与运动/气动远置按钮：压缩气腔、软管与隔离的电气开关.md",
-      "x": 40,
-      "y": 16540,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-enable-img",
-      "type": "file",
-      "file": "附件/button-enable-sequence.jpg",
-      "x": 440,
-      "y": 16280,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-enable-note",
-      "type": "file",
-      "file": "04-机构与运动/三位置使能握持键：松手OFF、轻握ON、过握OFF且回程不再导通.md",
-      "x": 440,
-      "y": 16540,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-foot-img",
-      "type": "file",
-      "file": "附件/button-foot-hercules.jpg",
-      "x": 840,
-      "y": 16280,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-foot-note",
-      "type": "file",
-      "file": "04-机构与运动/脚踏开关：后铰轴踏板、独立防护罩与多级操作边界.md",
-      "x": 840,
-      "y": 16540,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-buckle-img",
-      "type": "file",
-      "file": "附件/button-buckle-patent.jpg",
-      "x": 1240,
-      "y": 16280,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-buckle-note",
-      "type": "file",
-      "file": "04-机构与运动/IBM屈曲弹簧键：螺旋簧失稳产生力矩，驱动翻转锤.md",
-      "x": 1240,
-      "y": 16540,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-beam-img",
-      "type": "file",
-      "file": "附件/button-beam-spring.jpg",
-      "x": 1640,
-      "y": 16280,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-beam-note",
-      "type": "file",
-      "file": "04-机构与运动/IBM Beam Spring键：片簧越中反转并向上提起飞板.md",
-      "x": 1640,
-      "y": 16540,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-piezo-img",
-      "type": "file",
-      "file": "附件/button-piezo-pse.jpg",
-      "x": 40,
-      "y": 16980,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-piezo-note",
-      "type": "file",
-      "file": "04-机构与运动/金属压电按钮：连续金属面微挠曲，无可见滑动键程的扩展案例.md",
-      "x": 40,
-      "y": 17240,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-gasket-img",
-      "type": "file",
-      "file": "附件/button-gasket-mount.jpg",
-      "x": 440,
-      "y": 16980,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-gasket-note",
-      "type": "file",
-      "file": "04-机构与运动/键盘内胆Gasket悬置：把按键触底载荷从刚性螺柱改经弹性垫传到壳体.md",
-      "x": 440,
-      "y": 17240,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-point-img",
-      "type": "file",
-      "file": "附件/button-point-patent.jpg",
-      "x": 840,
-      "y": 16980,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-point-note",
-      "type": "file",
-      "file": "04-机构与运动/应变式指点杆：十字薄片根部弯曲，将侧向按力变成二维输入.md",
-      "x": 840,
-      "y": 17240,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-gas-img",
-      "type": "file",
-      "file": "附件/button-gas-knob.jpg",
-      "x": 1240,
-      "y": 16980,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-gas-note",
-      "type": "file",
-      "file": "04-机构与运动/灶具旋钮轴向解锁：先推或拉解除转动约束，阀芯压紧与解锁分工.md",
-      "x": 1240,
-      "y": 17240,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-cable-img",
-      "type": "file",
-      "file": "附件/button-cable-release.jpg",
-      "x": 1640,
-      "y": 16980,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-cable-note",
-      "type": "file",
-      "file": "04-机构与运动/机械快门线：柔性芯与固定外套的反力闭环，远置按钮不传手部晃动.md",
-      "x": 1640,
-      "y": 17240,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "button-watch-img",
-      "type": "file",
-      "file": "附件/button-watch-pusher.jpg",
-      "x": 440,
-      "y": 24220,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "button-watch-note",
-      "type": "file",
-      "file": "05-密封与防护/手表防水推杆：套管导向、轴向回位与径向滑动密封.md",
-      "x": 440,
-      "y": 24480,
-      "width": 360,
-      "height": 400,
-      "color": "5"
-    },
-    {
-      "id": "t6-02-0-img",
-      "type": "file",
-      "file": "附件/hafele-minifix-principle.jpg",
-      "x": 840,
-      "y": 6000,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-02-0-note",
-      "type": "file",
-      "file": "02-连接与紧固/Häfele Minifix 15 柜体连接件：半球头对中拉入杯形凹槽（对照 Hettich Rastex）.md",
-      "x": 840,
-      "y": 6260,
-      "width": 360,
-      "height": 400,
-      "color": "2"
-    },
-    {
-      "id": "t6-02-1-img",
-      "type": "file",
-      "file": "附件/sugatsune-mc-sp-magnetic-catch.jpg",
-      "x": 1240,
-      "y": 6000,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-02-1-note",
-      "type": "file",
-      "file": "02-连接与紧固/橱柜磁吸门吸：只有磁力保持、没有机械锁死（对照 FIDLOCK）.md",
-      "x": 1240,
-      "y": 6260,
-      "width": 360,
-      "height": 400,
-      "color": "2"
-    },
-    {
-      "id": "t6-02-2-img",
-      "type": "file",
-      "file": "附件/foreach-luer-lock-cutaway.jpg",
-      "x": 1640,
-      "y": 6000,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-02-2-note",
-      "type": "file",
-      "file": "02-连接与紧固/鲁尔锁定接头：6% 锥面负责密封，螺纹与锁耳只负责保持.md",
-      "x": 1640,
-      "y": 6260,
-      "width": 360,
-      "height": 400,
-      "color": "2"
-    },
-    {
-      "id": "t6-03-0-img",
-      "type": "file",
-      "file": "附件/blum-clip-top-assembly.jpg",
-      "x": 440,
-      "y": 9740,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-03-0-note",
-      "type": "file",
-      "file": "03-转轴与铰链/Blum CLIP top BLUMOTION 杯型铰链：35 mm 杯孔、免工具卡底板与杯内集成阻尼.md",
-      "x": 440,
-      "y": 10000,
-      "width": 360,
-      "height": 400,
-      "color": "3"
-    },
-    {
-      "id": "t6-04-0-img",
-      "type": "file",
-      "file": "附件/hz-twistlock-and-corner-castings.jpg",
-      "x": 40,
-      "y": 17680,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-0-note",
-      "type": "file",
-      "file": "04-机构与运动/ISO 集装箱角件扭锁：锁头插入椭圆孔后旋转约 90° 卡住.md",
-      "x": 40,
-      "y": 17940,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-1-img",
-      "type": "file",
-      "file": "附件/heinlein-crc-push-turn-caps.jpg",
-      "x": 440,
-      "y": 17680,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-1-note",
-      "type": "file",
-      "file": "04-机构与运动/儿童安全瓶盖压旋锁：外盖与内芯齿平时不啮合，按下后啮合再旋转.md",
-      "x": 440,
-      "y": 17940,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-2-img",
-      "type": "file",
-      "file": "附件/halder-4212a20-product.jpg",
-      "x": 840,
-      "y": 17680,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-2-note",
-      "type": "file",
-      "file": "04-机构与运动/单动式球头快卸销：按按钮收钢珠，松手后钢珠弹出锁紧.md",
-      "x": 840,
-      "y": 17940,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-3-img",
-      "type": "file",
-      "file": "附件/winco-gn413-indexing-plunger.jpg",
-      "x": 1240,
-      "y": 17680,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-3-note",
-      "type": "file",
-      "file": "04-机构与运动/带拉环弹簧分度销：弹簧保持插入，拉出后转 90° 停在槽上.md",
-      "x": 1240,
-      "y": 17940,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-4-img",
-      "type": "file",
-      "file": "附件/popup-socket-lockbar-patent.jpg",
-      "x": 1640,
-      "y": 17680,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-4-note",
-      "type": "file",
-      "file": "04-机构与运动/弹出式地面插座：按压锁条解锁后面板弹起（对照 TIP-ON 与心形槽）.md",
-      "x": 1640,
-      "y": 17940,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-5-img",
-      "type": "file",
-      "file": "附件/cn-patent-dual-push-butterfly-clasp.jpg",
-      "x": 40,
-      "y": 18380,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-5-note",
-      "type": "file",
-      "file": "04-机构与运动/手表折叠扣与蝴蝶扣：双按或掀盖释放，表带折叠后由卡舌锁住.md",
-      "x": 40,
-      "y": 18640,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-6-img",
-      "type": "file",
-      "file": "附件/omr-cam-lock-components.jpg",
-      "x": 440,
-      "y": 18380,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-6-note",
-      "type": "file",
-      "file": "04-机构与运动/柜用凸轮转舌锁：钥匙带动锁舌转过门框挡边（不是板式偏心轮）.md",
-      "x": 440,
-      "y": 18640,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-7-img",
-      "type": "file",
-      "file": "附件/hager-1446-ball-catch-install.jpg",
-      "x": 840,
-      "y": 18380,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-7-note",
-      "type": "file",
-      "file": "04-机构与运动/橱柜弹簧碰珠（Hager、Brusso）：弹簧把钢珠顶入锁片凹坑.md",
-      "x": 840,
-      "y": 18640,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-8-img",
-      "type": "file",
-      "file": "附件/smc-kq2-cutaway.jpg",
-      "x": 1240,
-      "y": 18380,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-8-note",
-      "type": "file",
-      "file": "04-机构与运动/气动快插接头（SMC KQ2 一类）：卡爪咬管、密封圈密封，按解锁套后拔出.md",
-      "x": 1240,
-      "y": 18640,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-9-img",
-      "type": "file",
-      "file": "附件/songyuan-cn207136399-fig2-exploded.jpg",
-      "x": 1640,
-      "y": 18380,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-9-note",
-      "type": "file",
-      "file": "04-机构与运动/汽车安全带带扣：锁钩卡入锁舌孔，按钮解锁后顶出弹簧弹出锁舌.md",
-      "x": 1640,
-      "y": 18640,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-10-img",
-      "type": "file",
-      "file": "附件/haori-cn203142611-exploded.jpg",
-      "x": 40,
-      "y": 19080,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-10-note",
-      "type": "file",
-      "file": "04-机构与运动/汽车引擎盖双级锁：主锁棘轮棘爪与二次安全钩，必须两次操作才能全开.md",
-      "x": 40,
-      "y": 19340,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-11-img",
-      "type": "file",
-      "file": "附件/kuriyama-qf-flat-face-pair.jpg",
-      "x": 440,
-      "y": 19080,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-11-note",
-      "type": "file",
-      "file": "04-机构与运动/液压平面阀快速接头（ISO 16028）：双向截止阀与套筒钢球锁，区别于气管快插.md",
-      "x": 440,
-      "y": 19340,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-12-img",
-      "type": "file",
-      "file": "附件/emka-heavy-rod-lock-exploded.jpg",
-      "x": 840,
-      "y": 19080,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-12-note",
-      "type": "file",
-      "file": "04-机构与运动/电柜三点连杆锁：一点把手驱动上下连杆把柜门多点锁在框上.md",
-      "x": 840,
-      "y": 19340,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-13-img",
-      "type": "file",
-      "file": "附件/southco-e3-vise-action-section.jpg",
-      "x": 1240,
-      "y": 19080,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-13-note",
-      "type": "file",
-      "file": "04-机构与运动/电柜压缩式门锁（Southco E3 与 EMKA 1022）：先转舌再轴向压缩密封条.md",
-      "x": 1240,
-      "y": 19340,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-14-img",
-      "type": "file",
-      "file": "附件/campagnolo-qr-dropout-thickness.jpg",
-      "x": 1640,
-      "y": 19080,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-14-note",
-      "type": "file",
-      "file": "04-机构与运动/自行车花鼓快拆杆：空心轴、调节螺母与偏心凸轮过中心夹紧.md",
-      "x": 1640,
-      "y": 19340,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-15-img",
-      "type": "file",
-      "file": "附件/southco-97-overcenter-latch.jpg",
-      "x": 40,
-      "y": 19780,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-15-note",
-      "type": "file",
-      "file": "04-机构与运动/过中心拉伸搭扣（Southco 97）：杠杆过死点自锁，把箱盖拉向箱体.md",
-      "x": 40,
-      "y": 20040,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t6-04-16-img",
-      "type": "file",
-      "file": "附件/penn-elcom-l925-recessed-butterfly.jpg",
-      "x": 440,
-      "y": 19780,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t6-04-16-note",
-      "type": "file",
-      "file": "04-机构与运动/飞行箱嵌入式蝴蝶锁：旋转翼板 180° 钩住保持器（对照直线拉扣）.md",
-      "x": 440,
-      "y": 20040,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t7-02-01-img",
-      "type": "file",
-      "file": "附件/micron-csn23-sodimm-angle-insert.jpg",
-      "x": 40,
-      "y": 6700,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t7-02-01-note",
-      "type": "file",
-      "file": "02-连接与紧固/SODIMM 双侧释放卡扣：斜插入槽后下压锁止（对照焊接 LPDDR）.md",
-      "x": 40,
-      "y": 6960,
-      "width": 360,
-      "height": 400,
-      "color": "2"
     },
     {
       "id": "t7-06-02-img",
       "type": "file",
       "file": "附件/lenovo-sr630v4-toolless-rail-rear.jpg",
       "x": 1640,
-      "y": 25880,
+      "y": 33640,
       "width": 360,
       "height": 240
     },
@@ -3064,7 +3995,7 @@
       "type": "file",
       "file": "06-拆解与可维修/服务器免工具机柜滑轨：方孔卡入导轨与解锁拉片后整机抽出.md",
       "x": 1640,
-      "y": 26140,
+      "y": 33900,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3074,7 +4005,7 @@
       "type": "file",
       "file": "附件/lenovo-sr250v3-hotswap-psu-remove.jpg",
       "x": 40,
-      "y": 26580,
+      "y": 34340,
       "width": 360,
       "height": 240
     },
@@ -3083,7 +4014,7 @@
       "type": "file",
       "file": "06-拆解与可维修/热插拔服务器电源：释放闩锁加手柄抽出、盲插连接器对接.md",
       "x": 40,
-      "y": 26840,
+      "y": 34600,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3093,7 +4024,7 @@
       "type": "file",
       "file": "附件/synology-ds925-hdd-tray-handle.jpg",
       "x": 440,
-      "y": 26580,
+      "y": 34340,
       "width": 360,
       "height": 240
     },
@@ -3102,7 +4033,7 @@
       "type": "file",
       "file": "06-拆解与可维修/热插拔硬盘托架：前手柄锁止、托盘滑入并把接口盲插到背板.md",
       "x": 440,
-      "y": 26840,
+      "y": 34600,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3112,7 +4043,7 @@
       "type": "file",
       "file": "附件/lenovo-sr950-hotswap-fan-remove.jpg",
       "x": 840,
-      "y": 26580,
+      "y": 34340,
       "width": 360,
       "height": 240
     },
@@ -3121,36 +4052,17 @@
       "type": "file",
       "file": "06-拆解与可维修/热插拔风扇模块：快拆手柄或凸轮把手与运行中更换.md",
       "x": 840,
-      "y": 26840,
+      "y": 34600,
       "width": 360,
       "height": 400,
       "color": "6"
-    },
-    {
-      "id": "t7-02-06-img",
-      "type": "file",
-      "file": "附件/hirose-fh12-flip-lock-photo.jpg",
-      "x": 440,
-      "y": 6700,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t7-02-06-note",
-      "type": "file",
-      "file": "02-连接与紧固/FPC 翻盖锁扣连接器：IRISO 三类锁与 Hirose FH12 前翻盖 ZIF.md",
-      "x": 440,
-      "y": 6960,
-      "width": 360,
-      "height": 400,
-      "color": "2"
     },
     {
       "id": "t7-06-07-img",
       "type": "file",
       "file": "附件/hmd-skyline-cam-pop.jpg",
       "x": 1240,
-      "y": 26580,
+      "y": 34340,
       "width": 360,
       "height": 240
     },
@@ -3159,36 +4071,17 @@
       "type": "file",
       "file": "06-拆解与可维修/HMD Skyline 螺杆凸轮顶开后盖与塑料衬膜取电池.md",
       "x": 1240,
-      "y": 26840,
+      "y": 34600,
       "width": 360,
       "height": 400,
       "color": "6"
-    },
-    {
-      "id": "t7-02-08-img",
-      "type": "file",
-      "file": "附件/pem-pf11-captive-section.jpg",
-      "x": 840,
-      "y": 6700,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t7-02-08-note",
-      "type": "file",
-      "file": "02-连接与紧固/PEM 与 Southco 防脱落面板螺丝：拧松后留在盖上，HP EliteBook 845 G8 五颗底盖钉.md",
-      "x": 840,
-      "y": 6960,
-      "width": 360,
-      "height": 400,
-      "color": "2"
     },
     {
       "id": "t7-06-09-img",
       "type": "file",
       "file": "附件/thinkpad-t480-ug-keyboard-steps.jpg",
       "x": 1640,
-      "y": 26580,
+      "y": 34340,
       "width": 360,
       "height": 240
     },
@@ -3197,7 +4090,7 @@
       "type": "file",
       "file": "06-拆解与可维修/ThinkPad T480 整张键盘作为可选服务 CRU：两颗螺丝滑出后拔排线.md",
       "x": 1640,
-      "y": 26840,
+      "y": 34600,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3207,7 +4100,7 @@
       "type": "file",
       "file": "附件/iphone13-stretch-release-tabs.jpg",
       "x": 40,
-      "y": 27280,
+      "y": 35040,
       "width": 360,
       "height": 240
     },
@@ -3216,55 +4109,17 @@
       "type": "file",
       "file": "06-拆解与可维修/拉伸释放电池胶：沿长度方向拉出颈缩失粘，避免弯折电芯.md",
       "x": 40,
-      "y": 27540,
+      "y": 35300,
       "width": 360,
       "height": 400,
       "color": "6"
-    },
-    {
-      "id": "t7-02-11-img",
-      "type": "file",
-      "file": "附件/zlg-din-rail-clip-install.jpg",
-      "x": 1240,
-      "y": 6700,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t7-02-11-note",
-      "type": "file",
-      "file": "02-连接与紧固/DIN 导轨卡装模块（IEC 60715 TH35）：卡钩挂住 35 mm 顶帽轨，弹簧卡脚锁紧，拆时拨开卡脚.md",
-      "x": 1240,
-      "y": 6960,
-      "width": 360,
-      "height": 400,
-      "color": "2"
-    },
-    {
-      "id": "t7-04-12-img",
-      "type": "file",
-      "file": "附件/bosch-flexiclick-adapter-family.jpg",
-      "x": 840,
-      "y": 19780,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t7-04-12-note",
-      "type": "file",
-      "file": "04-机构与运动/博世 FlexiClick 机头快换：插入夹持座后转动锁环至咔哒，轴向拉出约 5 mm 转到 16 个位置.md",
-      "x": 840,
-      "y": 20040,
-      "width": 360,
-      "height": 400,
-      "color": "4"
     },
     {
       "id": "t7-06-13-img",
       "type": "file",
       "file": "附件/bosch-powertube-pivot-in-frame.jpg",
       "x": 440,
-      "y": 27280,
+      "y": 35040,
       "width": 360,
       "height": 240
     },
@@ -3273,7 +4128,7 @@
       "type": "file",
       "file": "06-拆解与可维修/博世 PowerTube 可抽电池：钥匙锁与安全托两级保持，轴向型沿导轨插入并由安全钩钩住.md",
       "x": 440,
-      "y": 27540,
+      "y": 35300,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3283,7 +4138,7 @@
       "type": "file",
       "file": "附件/dyson-v11-emptying-clear-bin.jpg",
       "x": 840,
-      "y": 27280,
+      "y": 35040,
       "width": 360,
       "height": 240
     },
@@ -3292,7 +4147,7 @@
       "type": "file",
       "file": "06-拆解与可维修/戴森 V11 集尘筒红色释放钮与可拆滤网：按下后尘筒沿滑轨下滑并打开底座，滤网逆时针旋出.md",
       "x": 840,
-      "y": 27540,
+      "y": 35300,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3302,7 +4157,7 @@
       "type": "file",
       "file": "附件/dremel-catalog-4000-brush-cap.jpg",
       "x": 1240,
-      "y": 27280,
+      "y": 35040,
       "width": 360,
       "height": 240
     },
@@ -3311,7 +4166,7 @@
       "type": "file",
       "file": "06-拆解与可维修/琢美 Dremel 4000 碳刷窗：两侧旋下刷盖，弹簧把碳刷压向换向器，不必拆电机.md",
       "x": 1240,
-      "y": 27540,
+      "y": 35300,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3321,7 +4176,7 @@
       "type": "file",
       "file": "附件/bambu-dual-pei-plate.jpg",
       "x": 1640,
-      "y": 27280,
+      "y": 35040,
       "width": 360,
       "height": 240
     },
@@ -3330,7 +4185,7 @@
       "type": "file",
       "file": "06-拆解与可维修/3D 打印磁吸弹簧钢构建板：热床磁吸固定，取下弯曲脱件（对照橱柜磁吸门吸）.md",
       "x": 1640,
-      "y": 27540,
+      "y": 35300,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3340,7 +4195,7 @@
       "type": "file",
       "file": "附件/canon-mc-g02-terminals.jpg",
       "x": 40,
-      "y": 27980,
+      "y": 35740,
       "width": 360,
       "height": 240
     },
@@ -3349,7 +4204,7 @@
       "type": "file",
       "file": "06-拆解与可维修/喷墨用户可更换维护箱：抽换定位、端子禁触与盖板锁紧.md",
       "x": 40,
-      "y": 28240,
+      "y": 36000,
       "width": 360,
       "height": 400,
       "color": "6"
@@ -3359,7 +4214,7 @@
       "type": "file",
       "file": "附件/delonghi-ecam22-parts-infuser.jpg",
       "x": 440,
-      "y": 27980,
+      "y": 35740,
       "width": 360,
       "height": 240
     },
@@ -3368,36 +4223,17 @@
       "type": "file",
       "file": "06-拆解与可维修/德龙全自动咖啡机可拆冲煮器：侧门抽出、彩色释放钮与 PUSH 锁紧.md",
       "x": 440,
-      "y": 28240,
+      "y": 36000,
       "width": 360,
       "height": 400,
       "color": "6"
-    },
-    {
-      "id": "t7-02-19-img",
-      "type": "file",
-      "file": "附件/gateron-hotswap-2-socket.jpg",
-      "x": 1640,
-      "y": 6700,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t7-02-19-note",
-      "type": "file",
-      "file": "02-连接与紧固/机械键盘热插拔轴座：PCB 插座夹住轴针脚，换轴不必焊接（对照 Cherry MX 轴内部）.md",
-      "x": 1640,
-      "y": 6960,
-      "width": 360,
-      "height": 400,
-      "color": "2"
     },
     {
       "id": "t7-06-20-img",
       "type": "file",
       "file": "附件/pconline-brother-tn-b020-drum-assembly.jpg",
       "x": 840,
-      "y": 27980,
+      "y": 35740,
       "width": 360,
       "height": 240
     },
@@ -3406,390 +4242,834 @@
       "type": "file",
       "file": "06-拆解与可维修/鼓粉分离：感光鼓与碳粉仓分件更换（对照传统鼓粉一体）.md",
       "x": 840,
-      "y": 28240,
+      "y": 36000,
       "width": 360,
       "height": 400,
       "color": "6"
     },
     {
-      "id": "t8-02-01-img",
+      "id": "group-6",
+      "type": "group",
+      "x": 0,
+      "y": 36560,
+      "width": 2040,
+      "height": 4340,
+      "label": "07-材料与工艺（30）",
+      "color": "1"
+    },
+    {
+      "id": "idx-6",
       "type": "file",
-      "file": "附件/misumi-scpw-structure.jpg",
+      "file": "07-材料与工艺/07-材料与工艺 索引.md",
       "x": 40,
-      "y": 7400,
+      "y": 36600,
+      "width": 360,
+      "height": 60
+    },
+    {
+      "id": "img-58",
+      "type": "file",
+      "file": "附件/pip-hinge-concept-drvax.jpg",
+      "x": 40,
+      "y": 36700,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-02-01-note",
+      "id": "case-58",
       "type": "file",
-      "file": "02-连接与紧固/膜片（膜盘）式弹性联轴器：扭矩走膜片平面，两半轴毂夹住金属膜片组来补偿不对中.md",
+      "file": "07-材料与工艺/FDM 一体打印活动件（Print-in-Place）：XY 每边 0.3 mm、Z 两整层的间隙规则.md",
       "x": 40,
-      "y": 7660,
+      "y": 36960,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-59",
+      "type": "file",
+      "file": "附件/spray-free-weldline-mechanism.jpg",
+      "x": 440,
+      "y": 36700,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-59",
+      "type": "file",
+      "file": "07-材料与工艺/免喷涂材料 vs 喷涂：成本、良率与三条硬边界.md",
+      "x": 440,
+      "y": 36960,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-60",
+      "type": "file",
+      "file": "附件/two-shot-molding-process.jpg",
+      "x": 840,
+      "y": 36700,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-60",
+      "type": "file",
+      "file": "07-材料与工艺/双色注塑：硬胶先射、软胶后射的结构拆件规则.md",
+      "x": 840,
+      "y": 36960,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-61",
+      "type": "file",
+      "file": "附件/foam-mucell-process-sequence.jpg",
+      "x": 1240,
+      "y": 36700,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-61",
+      "type": "file",
+      "file": "07-材料与工艺/发泡件缩水：模温、排气与保压和实心件相反.md",
+      "x": 1240,
+      "y": 36960,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-62",
+      "type": "file",
+      "file": "附件/shrink-mismatch-assembly-gap.jpg",
+      "x": 1640,
+      "y": 36700,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-62",
+      "type": "file",
+      "file": "07-材料与工艺/换料收缩率：同一张图换料就裂，图纸必须按新缩水放缩.md",
+      "x": 1640,
+      "y": 36960,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-63",
+      "type": "file",
+      "file": "附件/gaim-four-process-stages.jpg",
+      "x": 40,
+      "y": 37400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-63",
+      "type": "file",
+      "file": "07-材料与工艺/气体辅助注塑（GAIM）：用气道掏空厚筋消缩痕.md",
+      "x": 40,
+      "y": 37660,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-64",
+      "type": "text",
+      "text": "来源无结构配图",
+      "x": 440,
+      "y": 37400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-64",
+      "type": "file",
+      "file": "07-材料与工艺/注塑倒扣脱模：强脱、斜顶还是滑块.md",
+      "x": 440,
+      "y": 37660,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-65",
+      "type": "file",
+      "file": "附件/giga-casting-tesla-frame.jpg",
+      "x": 840,
+      "y": 37400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-65",
+      "type": "file",
+      "file": "07-材料与工艺/特斯拉 Giga Press 一体化压铸车身件.md",
+      "x": 840,
+      "y": 37660,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-66",
+      "type": "file",
+      "file": "附件/honor-3dp-hinge-base-swingarm.png",
+      "x": 1240,
+      "y": 37400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-66",
+      "type": "file",
+      "file": "07-材料与工艺/荣耀金属 3D 打印免组装转轴专利：连接余料与垂直打印方向的切割面.md",
+      "x": 1240,
+      "y": 37660,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-67",
+      "type": "file",
+      "file": "附件/mimplus-sintering-support.png",
+      "x": 1640,
+      "y": 37400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-67",
+      "type": "file",
+      "file": "07-材料与工艺/金属注射成型（MIM）：均匀壁厚、烧结支撑面与 5000 件成本拐点.md",
+      "x": 1640,
+      "y": 37660,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-68",
+      "type": "file",
+      "file": "附件/sheet-metal-min-bend-radius.png",
+      "x": 40,
+      "y": 38100,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-68",
+      "type": "file",
+      "file": "07-材料与工艺/钣金折弯件设计规则：最小弯曲半径与预留切口.md",
+      "x": 40,
+      "y": 38360,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "img-69",
+      "type": "file",
+      "file": "附件/anodize-size-growth.png",
+      "x": 440,
+      "y": 38100,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "case-69",
+      "type": "file",
+      "file": "07-材料与工艺/铝件阳极氧化的尺寸链：膜厚一半向外、遮蔽螺纹与挂点.md",
+      "x": 440,
+      "y": 38360,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-07-421-img",
+      "type": "file",
+      "file": "附件/jhmim-diecast-rib-draft.jpg",
+      "x": 840,
+      "y": 38100,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-07-421-note",
+      "type": "file",
+      "file": "07-材料与工艺/压铸壳体：壁厚、拔模与加强筋设计规则.md",
+      "x": 840,
+      "y": 38360,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-07-425-img",
+      "type": "file",
+      "file": "附件/cwthomas-draw-ratio.jpg",
+      "x": 1240,
+      "y": 38100,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-07-425-note",
+      "type": "file",
+      "file": "07-材料与工艺/真空吸塑与压力成型外壳：拔模、圆角与拉伸减薄.md",
+      "x": 1240,
+      "y": 38360,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t9-07-437-img",
+      "type": "file",
+      "file": "附件/trexel-rib-wall-ratio.jpg",
+      "x": 1640,
+      "y": 38100,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t9-07-437-note",
+      "type": "file",
+      "file": "07-材料与工艺/MuCell微发泡：气泡生长代替保压，筋壁比可以做到1比1.md",
+      "x": 1640,
+      "y": 38360,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t11-04-1",
+      "type": "file",
+      "file": "04-机构与运动/轻触开关壳体封装金属弹片：盖板、推杆与锅仔片反转导通（以 Omron B3F 为例）.md",
+      "x": 440,
+      "y": 28480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-2",
+      "type": "file",
+      "file": "04-机构与运动/钮子拨杆开关：手柄过中后压缩弹簧把动触点快速切换到另一侧静触点.md",
+      "x": 840,
+      "y": 28480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-3",
+      "type": "file",
+      "file": "04-机构与运动/DIP 滑动拨码开关：挡块推动 V 形滑块，使一对镀金固定触点接通或断开.md",
+      "x": 1240,
+      "y": 28480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-4",
+      "type": "file",
+      "file": "04-机构与运动/旋转BCD编码开关：编码转子把档位编成4位代码（对照 Nidec SC 与 Omron A6A）.md",
+      "x": 1640,
+      "y": 28480,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-5",
+      "type": "file",
+      "file": "04-机构与运动/工业限位开关：在微动开关外面加防护壳和滚轮杠杆等致动器.md",
+      "x": 40,
+      "y": 29180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-6",
+      "type": "file",
+      "file": "04-机构与运动/KSD301 突跳式温控器：蝶形双金属片到位后瞬间切换触点.md",
+      "x": 440,
+      "y": 29180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-7",
+      "type": "file",
+      "file": "04-机构与运动/机械式膜片与活塞压力开关：预紧弹簧设定动作点并触发微动开关.md",
+      "x": 840,
+      "y": 29180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-8",
+      "type": "file",
+      "file": "04-机构与运动/安全门舌片联锁：专用执行器转动内凸轮，以直接断开动作打开 NC 触点.md",
+      "x": 1240,
+      "y": 29180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-9",
+      "type": "file",
+      "file": "04-机构与运动/旋转凸轮开关：每一级最多两个触点，由凸轮按档位独立通断.md",
+      "x": 1640,
+      "y": 29180,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-10",
+      "type": "file",
+      "file": "04-机构与运动/热磁脱扣断路器：双金属片过载延时、电磁铁短路瞬时，经自由脱扣机构分断触头.md",
+      "x": 40,
+      "y": 29880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-11",
+      "type": "file",
+      "file": "04-机构与运动/滚珠倾斜开关：导电滚珠在重力下滚离凹槽，与导电凸点接触导通.md",
+      "x": 440,
+      "y": 29880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-12",
+      "type": "file",
+      "file": "04-机构与运动/鼠标滚轮编码器：机械触点码盘与光栅遮光两种取信号方式.md",
+      "x": 840,
+      "y": 29880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-13",
+      "type": "file",
+      "file": "04-机构与运动/微波炉门三联联锁：第一、第二联锁断开供电，监控开关在门开时短接熔断保护.md",
+      "x": 1240,
+      "y": 29880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t11-04-14",
+      "type": "file",
+      "file": "04-机构与运动/PCB功率继电器：线圈吸合衔铁带动触点，线圈与触点高压隔离（以 Omron G2R 为例）.md",
+      "x": 1640,
+      "y": 29880,
+      "width": 360,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "t12-img-500",
+      "type": "file",
+      "file": "附件/sheet-weldnut-sanjun.jpg",
+      "x": 440,
+      "y": 12300,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t12-case-501",
+      "type": "file",
+      "file": "02-连接与紧固/凸焊螺母：在薄板上投影焊接螺纹，对照压铆螺母与攻丝.md",
+      "x": 440,
+      "y": 12560,
       "width": 360,
       "height": 400,
       "color": "2"
     },
     {
-      "id": "t8-02-02-img",
+      "id": "t12-img-502",
       "type": "file",
-      "file": "附件/helical-acr100-drawing.jpg",
-      "x": 440,
-      "y": 7400,
+      "file": "附件/sheet-clinch-simitch-5steps.png",
+      "x": 840,
+      "y": 12300,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-02-02-note",
+      "id": "t12-case-503",
       "type": "file",
-      "file": "02-连接与紧固/螺旋切口弹性联轴器（Helical beam coupling）：圆棒上切连续螺旋槽，一体梁弯曲补偿轴偏差.md",
-      "x": 440,
-      "y": 7660,
+      "file": "02-连接与紧固/无铆连接（Clinching、TOX）：冲头与凹模把两层板挤压成机械互锁.md",
+      "x": 840,
+      "y": 12560,
       "width": 360,
       "height": 400,
       "color": "2"
     },
     {
-      "id": "t8-03-01-img",
+      "id": "t12-img-504",
       "type": "file",
-      "file": "附件/cflex-pivot-cutaway.jpg",
-      "x": 840,
-      "y": 9740,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t8-03-01-note",
-      "type": "file",
-      "file": "03-转轴与铰链/十字交叉簧片枢轴（Cross-spring pivot）：交叉位置对寄生位移的影响与 C-Flex I-10 实例.md",
-      "x": 840,
-      "y": 10000,
-      "width": 360,
-      "height": 400,
-      "color": "3"
-    },
-    {
-      "id": "t8-03-02-img",
-      "type": "file",
-      "file": "附件/cartwheel-flexure-geometry.jpg",
+      "file": "附件/sheet-spotweld-mechtool.png",
       "x": 1240,
-      "y": 9740,
+      "y": 12300,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-03-02-note",
+      "id": "t12-case-505",
       "type": "file",
-      "file": "03-转轴与铰链/卡特轮柔性铰链（Cartwheel flexure）：中心交叉梁转动副，对照切口短铰与十字簧片.md",
+      "file": "02-连接与紧固/电阻点焊：按薄件厚度选熔核直径、搭边宽度与最小点距.md",
       "x": 1240,
-      "y": 10000,
+      "y": 12560,
       "width": 360,
       "height": 400,
-      "color": "3"
+      "color": "2"
     },
     {
-      "id": "t8-03-03-img",
+      "id": "t12-img-506",
       "type": "file",
-      "file": "附件/corner-filleted-vs-circular-ellipse.jpg",
+      "file": "附件/sheet-spr-bsl.png",
       "x": 1640,
-      "y": 9740,
+      "y": 12300,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-03-03-note",
+      "id": "t12-case-507",
       "type": "file",
-      "file": "03-转轴与铰链/圆角直梁柔性铰链（Corner-filleted flexure hinge）：等厚直梁加两端圆角 r，对照直圆切口铰.md",
+      "file": "02-连接与紧固/自冲铆（SPR）：半空心铆钉刺入上层并在下层张开互锁，不必预冲孔.md",
       "x": 1640,
-      "y": 10000,
+      "y": 12560,
       "width": 360,
       "height": 400,
-      "color": "3"
+      "color": "2"
     },
     {
-      "id": "t8-03-04-img",
+      "id": "t12-img-508",
       "type": "file",
-      "file": "附件/right-circular-yong-fig1.jpg",
+      "file": "附件/sheet-tab-slot-mentored.png",
       "x": 40,
-      "y": 10440,
+      "y": 13000,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-03-04-note",
+      "id": "t12-case-509",
       "type": "file",
-      "file": "03-转轴与铰链/直圆切口柔性铰链（Right circular flexure hinge）：最薄处厚度 t、切口半径 R 与公式适用范围.md",
+      "file": "02-连接与紧固/钣金插舌与槽（Tab and Slot）：自定位拼装并避开尖角应力集中.md",
       "x": 40,
-      "y": 10700,
+      "y": 13260,
       "width": 360,
       "height": 400,
-      "color": "3"
+      "color": "2"
     },
     {
-      "id": "t8-03-05-img",
+      "id": "t12-img-510",
       "type": "file",
-      "file": "附件/husky-tethered-slit-vs-bridge.jpg",
+      "file": "附件/diecast-jhmim-core-pull.png",
+      "x": 40,
+      "y": 38800,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t12-case-511",
+      "type": "file",
+      "file": "07-材料与工艺/压铸侧抽芯：侧孔或倒扣不能沿主开模方向退出时才加滑块.md",
+      "x": 40,
+      "y": 39060,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t12-img-512",
+      "type": "file",
+      "file": "附件/diecast-gating-dcm3626-01.jpg",
       "x": 440,
-      "y": 10440,
+      "y": 38800,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-03-05-note",
+      "id": "t12-case-513",
       "type": "file",
-      "file": "03-转轴与铰链/系带式连体瓶盖（Tethered cap）：防丢系带或模压桥把盖留在瓶口，并用开启后的停留几何区别于短薄膜活铰.md",
+      "file": "07-材料与工艺/压铸内浇口与横浇道：先定位置和截面积，再保证横浇道向内浇口收缩.md",
       "x": 440,
-      "y": 10700,
+      "y": 39060,
       "width": 360,
       "height": 400,
-      "color": "3"
+      "color": "1"
     },
     {
-      "id": "t8-04-01-img",
+      "id": "t12-img-514",
       "type": "file",
-      "file": "附件/ati-rcc-center-of-compliance.jpg",
-      "x": 1240,
-      "y": 19780,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t8-04-01-note",
-      "type": "file",
-      "file": "04-机构与运动/RCC 远程柔顺手腕：把柔顺中心配置到装配孔口附近实现倒角自动对中.md",
-      "x": 1240,
-      "y": 20040,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t8-04-02-img",
-      "type": "file",
-      "file": "附件/bridge-cn-mechanism-fig1.jpg",
-      "x": 1640,
-      "y": 19780,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t8-04-02-note",
-      "type": "file",
-      "file": "04-机构与运动/压电驱动桥式柔性铰链位移放大机构：理想放大比与铰链柔度造成的折减.md",
-      "x": 1640,
-      "y": 20040,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t8-04-03-img",
-      "type": "file",
-      "file": "附件/thu-parallelogram-vs-double.jpg",
-      "x": 40,
-      "y": 20480,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t8-04-03-note",
-      "type": "file",
-      "file": "04-机构与运动/平行板簧直线导轨与双平行四边形：对称构型抵消寄生横向位移.md",
-      "x": 40,
-      "y": 20740,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t8-04-04-img",
-      "type": "file",
-      "file": "附件/zolix-ob200-flexure-stage.jpg",
-      "x": 440,
-      "y": 20480,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "t8-04-04-note",
-      "type": "file",
-      "file": "04-机构与运动/商品柔性导向微位移台：无摩擦柔顺结构导向，行程与分辨率来自弹性导轨而不是滚动导轨.md",
-      "x": 440,
-      "y": 20740,
-      "width": 360,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "t8-04-05-img",
-      "type": "file",
-      "file": "附件/cstam-parallel-beam-fig1.jpg",
+      "file": "附件/diecast-insert-dcm2170-01.png",
       "x": 840,
-      "y": 20480,
+      "y": 38800,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-05-note",
+      "id": "t12-case-515",
       "type": "file",
-      "file": "04-机构与运动/平行梁式称重传感器弹性体：双孔平行梁把载荷变成孔壁最薄处的弯曲应变，并用修锉调整四角误差.md",
+      "file": "07-材料与工艺/压铸螺纹嵌件：先旋入镶套再以弹珠限位，防止铝液进牙（嵌中嵌）.md",
       "x": 840,
-      "y": 20740,
+      "y": 39060,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-06-img",
+      "id": "t12-img-516",
       "type": "file",
-      "file": "附件/witzenmann-diaphragm-bellows.jpg",
+      "file": "附件/diecast-jhmim-hole-edge.png",
       "x": 1240,
-      "y": 20480,
+      "y": 38800,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-06-note",
+      "id": "t12-case-517",
       "type": "file",
-      "file": "04-机构与运动/膜盒与焊接膜片波纹管：波纹膜片成对对焊，形成可轴向伸缩的密封弹性盒.md",
+      "file": "07-材料与工艺/压铸铸孔与自攻底孔：细针易断，小于2mm宜先导后再加工.md",
       "x": 1240,
-      "y": 20740,
+      "y": 39060,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-07-img",
+      "id": "t12-img-518",
       "type": "file",
-      "file": "附件/pzjsj-axial-expansion-joint.jpg",
+      "file": "附件/diecast-jhmim-insert.png",
       "x": 1640,
-      "y": 20480,
+      "y": 38800,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-07-note",
+      "id": "t12-case-519",
       "type": "file",
-      "file": "04-机构与运动/金属波纹管轴向补偿器（膨胀节）：单式波纹管吸收管道轴向热位移，刚度由单波刚度除以波数得到.md",
+      "file": "07-材料与工艺/压铸铸态螺纹：外螺纹用对开牙或螺纹环，内螺纹芯需带轴向斜度.md",
       "x": 1640,
-      "y": 20740,
+      "y": 39060,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-08-img",
+      "id": "t12-img-520",
       "type": "file",
-      "file": "附件/bistable-fcbm-geometry.jpg",
+      "file": "附件/diecast-vacuum-dcm10590-01.jpg",
       "x": 40,
-      "y": 21180,
+      "y": 39500,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-08-note",
+      "id": "t12-case-521",
       "type": "file",
-      "file": "04-机构与运动/双稳态柔顺机构：完全柔性屈曲梁与Young型跳转的几何稳态.md",
+      "file": "07-材料与工艺/真空压铸：合模后抽出型腔气体，再在负压下充型以减少卷气.md",
       "x": 40,
-      "y": 21440,
+      "y": 39760,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-09-img",
+      "id": "t12-img-522",
       "type": "file",
-      "file": "附件/tape-spring-deployment-modes.jpg",
+      "file": "附件/sheet-aam-hole-expansion-p12.png",
       "x": 440,
-      "y": 21180,
+      "y": 39500,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-09-note",
+      "id": "t12-case-523",
       "type": "file",
-      "file": "04-机构与运动/复合材料带簧双稳态：开口圆柱壳在伸直与盘卷构型间跳转.md",
+      "file": "07-材料与工艺/薄板抽孔翻边攻牙：预冲孔翻起后再攻内螺纹（对照压铆螺母）.md",
       "x": 440,
-      "y": 21440,
+      "y": 39760,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-10-img",
+      "id": "t12-img-524",
       "type": "file",
-      "file": "附件/let-joint-outside-inside.jpg",
+      "file": "附件/sheet-kfactor-knowsteel.png",
       "x": 840,
-      "y": 21180,
+      "y": 39500,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-10-note",
+      "id": "t12-case-525",
       "type": "file",
-      "file": "04-机构与运动/层合弹出扭转铰（LET Joint）：薄板窄梁扭转提供面外转动.md",
+      "file": "07-材料与工艺/钣金K因子与展开长度：中性层位置决定下料尺寸.md",
       "x": 840,
-      "y": 21440,
+      "y": 39760,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-11-img",
+      "id": "t12-img-526",
       "type": "file",
-      "file": "附件/cfm-corrugated-bistable-config.jpg",
+      "file": "附件/sheet-louver-jeelix-punch.jpg",
       "x": 1240,
-      "y": 21180,
+      "y": 39500,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-11-note",
+      "id": "t12-case-527",
       "type": "file",
-      "file": "04-机构与运动/恒力柔顺机构：半圆波纹正刚度梁与双稳态负刚度梁并联抵消.md",
+      "file": "07-材料与工艺/钣金冲压百叶窗：先切开再顶起仍连在板上的通风罩.md",
       "x": 1240,
-      "y": 21440,
+      "y": 39760,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-12-img",
+      "id": "t12-img-528",
       "type": "file",
-      "file": "附件/cafp-contact-member-geometry.jpg",
+      "file": "附件/sheet-hem-rapiddirect.jpg",
       "x": 1640,
-      "y": 21180,
+      "y": 39500,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-12-note",
+      "id": "t12-case-529",
       "type": "file",
-      "file": "04-机构与运动/接触辅助十字簧片柔性铰（CAFP）：接触缩短簧片自由长度以改变单向刚度.md",
+      "file": "07-材料与工艺/钣金卷边（Hemming）：把板边折回自身，做成封闭、开口、泪滴或绳状包边.md",
       "x": 1640,
-      "y": 21440,
+      "y": 39760,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
     },
     {
-      "id": "t8-04-13-img",
+      "id": "t12-img-530",
       "type": "file",
-      "file": "附件/festo-dhas-finger-mounting.jpg",
+      "file": "附件/sheet-bead-mechtool.png",
       "x": 40,
-      "y": 21880,
+      "y": 40200,
       "width": 360,
       "height": 240
     },
     {
-      "id": "t8-04-13-note",
+      "id": "t12-case-531",
       "type": "file",
-      "file": "04-机构与运动/鳍条效应自适应夹指：Festo DHAS 斜肋梯形桁架包络抓取.md",
+      "file": "07-材料与工艺/钣金压筋（加强肋）：半圆筋与梯形筋用板料起伏补刚度.md",
       "x": 40,
-      "y": 22140,
+      "y": 40460,
       "width": 360,
       "height": 400,
-      "color": "4"
+      "color": "1"
+    },
+    {
+      "id": "t12-img-532",
+      "type": "file",
+      "file": "附件/sheet-springback-knowsteel.png",
+      "x": 440,
+      "y": 40200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t12-case-533",
+      "type": "file",
+      "file": "07-材料与工艺/钣金折弯回弹：先稳定工艺窗口再做角度补偿.md",
+      "x": 440,
+      "y": 40460,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t12-img-534",
+      "type": "file",
+      "file": "附件/sheet-deepdraw-balford.png",
+      "x": 840,
+      "y": 40200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t12-case-535",
+      "type": "file",
+      "file": "07-材料与工艺/钣金拉深：拉深比、压边力与起皱拉裂.md",
+      "x": 840,
+      "y": 40460,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t12-img-536",
+      "type": "file",
+      "file": "附件/sheet-aam-stretch-flange-p10.png",
+      "x": 1240,
+      "y": 40200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t12-case-537",
+      "type": "file",
+      "file": "07-材料与工艺/钣金曲线翻边：伸展翻边拉裂与压缩翻边起皱.md",
+      "x": 1240,
+      "y": 40460,
+      "width": 360,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "t12-img-538",
+      "type": "file",
+      "file": "附件/sheet-pittsburgh-tbf6-p1.png",
+      "x": 1640,
+      "y": 40200,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "t12-case-539",
+      "type": "file",
+      "file": "07-材料与工艺/风管 Pittsburgh 锁扣咬口：袋口钩住直角翻边后再把唇边压死（对照按扣咬口）.md",
+      "x": 1640,
+      "y": 40460,
+      "width": 360,
+      "height": 400,
+      "color": "1"
     }
   ],
   "edges": [

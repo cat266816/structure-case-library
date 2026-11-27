@@ -765,10 +765,18 @@ def list_or_dash(items):
     return "<ul>" + "".join(f"<li>{htmlmod.escape(x)}</li>" for x in items) + "</ul>"
 
 
+def is_web_url(href: str) -> bool:
+    return href.strip().startswith(("http://", "https://", "mailto:"))
+
+
 def ext_link(href, label=None):
     if not href:
         return "—"
+    href = href.strip()
     label = label or href
+    if not is_web_url(href):
+        # 文献题名等非 URL 来源只显示文本，避免生成站内死链
+        return htmlmod.escape(label)
     return (
         f'<a class="source-link" href="{htmlmod.escape(href, quote=True)}" '
         f'target="_blank" rel="noopener noreferrer">{htmlmod.escape(label)}</a>'
